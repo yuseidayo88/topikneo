@@ -17,12 +17,7 @@ import { useContentColumnWidth } from '@/src/hooks/useContentColumnWidth';
 import * as WebBrowser from 'expo-web-browser';
 import { ErrorBoundary } from '@/src/components/ErrorBoundary';
 import { APPLE_STANDARD_EULA_URL, PRIVACY_POLICY_URL, TERMS_URL } from '@/src/constants/legal';
-import {
-  getRevenueCatOffering,
-  getRevenueCatPackageForPlan,
-  isRevenueCatConfigured,
-  isRunningInExpoGo,
-} from '@/src/revenuecat/client';
+import { isRevenueCatConfigured, isRunningInExpoGo } from '@/src/revenuecat/config';
 import { triggerLightImpact } from '@/src/utils/haptics';
 import { useNetInfo } from '@/src/hooks/useNetInfo';
 
@@ -46,6 +41,39 @@ function trackPurchaseTap(plan: SubscriptionPlan) {
 
 function trackRestoreTap() {
   logEvent('subscription_restore_tap');
+}
+
+type RevenueCatStoreProduct = {
+  price?: number;
+  priceString?: string;
+  pricePerMonth?: number;
+  pricePerMonthString?: string;
+  introPrice?: {
+    price?: number | string | null;
+    priceAmountMicros?: number | string | null;
+    paymentMode?: string | number | null;
+    payment_mode?: string | number | null;
+  } | null;
+  introductoryPrice?: {
+    price?: number | string | null;
+    priceAmountMicros?: number | string | null;
+    paymentMode?: string | number | null;
+    payment_mode?: string | number | null;
+  } | null;
+};
+
+function hasFreeTrial(product: RevenueCatStoreProduct | null | undefined): boolean {
+  // react-native-purchases / RevenueCat の StoreProduct はプラットフォームによりフィールドが異なるため、
+  // 「無料トライアル」と断定できる強いシグナルのみ拾う（表示の不整合＝審査指摘を避ける）
+  const intro = product?.introPrice ?? product?.introductoryPrice ?? null;
+  const price = intro?.price ?? intro?.priceAmountMicros ?? null;
+  const paymentMode = intro?.paymentMode ?? intro?.payment_mode ?? null;
+  const hasTrialFlag =
+    paymentMode === 'FREE_TRIAL' ||
+    paymentMode === 'free_trial' ||
+    paymentMode === 2;
+  const isZeroPrice = price === 0 || price === '0';
+  return Boolean(hasTrialFlag || isZeroPrice);
 }
 
 function SubscriptionContent() {
@@ -414,15 +442,29 @@ function SubscriptionContent() {
 
   useEffect(() => {
     let active = true;
-    if (!isRevenueCatConfigured()) return () => { active = false; };
+    if (!isRevenueCatConfigured()) {
+      return () => {
+        active = false;
+      };
+    }
 
-    void getRevenueCatOffering()
-      .then((offering) => {
+    void import('@/src/revenuecat/client')
+      .then(async (client) => {
+        const offering = await client.getRevenueCatOffering();
         if (!active || !offering) return;
 
-        const monthly = getRevenueCatPackageForPlan(offering, 'monthly')?.product ?? null;
-        const yearly = getRevenueCatPackageForPlan(offering, 'yearly')?.product ?? null;
-        const lifetime = getRevenueCatPackageForPlan(offering, 'lifetime')?.product ?? null;
+        const monthly = (client.getRevenueCatPackageForPlan(
+          offering,
+          'monthly'
+        )?.product ?? null) as RevenueCatStoreProduct | null;
+        const yearly = (client.getRevenueCatPackageForPlan(
+          offering,
+          'yearly'
+        )?.product ?? null) as RevenueCatStoreProduct | null;
+        const lifetime = (client.getRevenueCatPackageForPlan(
+          offering,
+          'lifetime'
+        )?.product ?? null) as RevenueCatStoreProduct | null;
 
         setLivePrices({
           monthly: monthly?.priceString,
@@ -435,20 +477,6 @@ function SubscriptionContent() {
           yearly: yearly?.pricePerMonthString ?? undefined,
         });
 
-        const hasFreeTrial = (product: unknown): boolean => {
-          // react-native-purchases / RevenueCat の StoreProduct はプラットフォームによりフィールドが異なるため、
-          // 「無料トライアル」と断定できる強いシグナルのみ拾う（表示の不整合＝審査指摘を避ける）
-          const p = product as any;
-          const intro = p?.introPrice ?? p?.introductoryPrice ?? null;
-          const price = intro?.price ?? intro?.priceAmountMicros ?? null;
-          const paymentMode = intro?.paymentMode ?? intro?.payment_mode ?? null;
-          const hasTrialFlag =
-            paymentMode === 'FREE_TRIAL' ||
-            paymentMode === 'free_trial' ||
-            paymentMode === 2; // enum の可能性（実装差分に備える）
-          const isZeroPrice = price === 0 || price === '0';
-          return Boolean(hasTrialFlag || isZeroPrice);
-        };
         setYearlyHasFreeTrial(hasFreeTrial(yearly));
 
         if (monthly?.price && yearly?.pricePerMonth) {
@@ -491,7 +519,7 @@ function SubscriptionContent() {
     await WebBrowser.openBrowserAsync(url);
   };
 
-  const showPurchaseUnavailableAlert = (plan: SubscriptionPlan) => {
+  const showPurchaseUnavailableAlert = () => {
     if (isRunningInExpoGo()) {
       Alert.alert(t.purchaseFailed, t.purchaseExpoGoUnavailableBody);
       return;
@@ -513,7 +541,7 @@ function SubscriptionContent() {
     setLoading(true);
     try {
       if (!isRevenueCatConfigured()) {
-        showPurchaseUnavailableAlert(plan);
+        showPurchaseUnavailableAlert();
         return;
       }
       const result = await purchase(plan);
