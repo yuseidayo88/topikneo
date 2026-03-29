@@ -37,6 +37,9 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# エディタの無題ファイルなど（誤コミット防止）
+supabase/migrations/Untitled
+
 # Google TTS などローカル生成物（Supabase に上げたら再生成可）
 generated/
 
