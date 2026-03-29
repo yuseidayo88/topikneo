@@ -79,6 +79,13 @@ const SCROLL_TO_BOTTOM_SHOW_OFFSET = 50;
 const CHAT_TERMS_VERSION = '2026-03-26';
 // App Review 用: 既存ユーザーでもチャット入室時に規約同意モーダルを表示する
 const ALWAYS_SHOW_TERMS_GATE = true;
+const ROOM_DISPLAY_LABELS: Record<string, string> = {
+  日本語: 'JP🇯🇵',
+  英語: 'EN',
+  中国語: 'CN',
+  韓国語: 'KR',
+  ベトナム語: 'VI',
+};
 
 type GroupPos = 'single' | 'first' | 'middle' | 'last';
 
@@ -648,6 +655,14 @@ export default function ChatScreen() {
   const noMoreHistoryLabel = chatStr.noOlderMessages;
   const replyActionLabel = chatStr.replyAction;
   const unknownReplyLabel = chatStr.originalMessage;
+  const roomDisplayName = useCallback(
+    (name?: string | null) => {
+      const raw = (name ?? '').trim();
+      if (!raw) return DEFAULT_ROOM_NAME;
+      return ROOM_DISPLAY_LABELS[raw] ?? raw;
+    },
+    []
+  );
 
   const performScrollToBottom = useCallback((animated: boolean) => {
     if (preservingOlderPositionRef.current) return;
@@ -1572,7 +1587,7 @@ export default function ChatScreen() {
         <LinearGradient colors={gradientColors} style={StyleSheet.absoluteFill} start={{ x: 0.5, y: 0 }} end={{ x: 0.5, y: 1 }} />
         <TabHeader
           title={chatStr.title}
-          subtitle={room ? (room.name || DEFAULT_ROOM_NAME) : ''}
+          subtitle={room ? roomDisplayName(room.name) : ''}
           paddingTop={headerPaddingTop}
           contentWidth={contentW}
           theme={headerTheme}
@@ -1602,7 +1617,7 @@ export default function ChatScreen() {
         <LinearGradient colors={gradientColors} style={StyleSheet.absoluteFill} start={{ x: 0.5, y: 0 }} end={{ x: 0.5, y: 1 }} />
         <TabHeader
           title={chatStr.title}
-          subtitle={room ? (room.name || DEFAULT_ROOM_NAME) : ''}
+          subtitle={room ? roomDisplayName(room.name) : ''}
           paddingTop={headerPaddingTop}
           contentWidth={contentW}
           theme={headerTheme}
@@ -1628,7 +1643,7 @@ export default function ChatScreen() {
 
       <TabHeader
         title={chatStr.title}
-        subtitle={room ? (room.name || DEFAULT_ROOM_NAME) : ''}
+        subtitle={room ? roomDisplayName(room.name) : ''}
         paddingTop={headerPaddingTop}
         contentWidth={contentW}
         theme={headerTheme}
@@ -1658,10 +1673,10 @@ export default function ChatScreen() {
                   }}
                   accessibilityRole="button"
                   accessibilityState={{ selected: isActive }}
-                  accessibilityLabel={x.name || DEFAULT_ROOM_NAME}
+                  accessibilityLabel={roomDisplayName(x.name)}
                 >
                   <Text style={[s.roomChipText, isActive && s.roomChipTextActive]}>
-                    {x.name || DEFAULT_ROOM_NAME}
+                    {roomDisplayName(x.name)}
                   </Text>
                 </Pressable>
               );
