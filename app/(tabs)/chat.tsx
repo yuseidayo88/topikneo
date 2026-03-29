@@ -11,6 +11,7 @@ import {
   StyleSheet,
   Pressable,
   FlatList,
+  ScrollView,
   TextInput,
   ActivityIndicator,
   Modal,
@@ -35,7 +36,7 @@ import { triggerLightImpact } from '@/src/utils/haptics';
 import type { Colors } from '@/src/theme';
 import { typographyScale } from '@/src/theme';
 import {
-  getDefaultRoom,
+  fetchRooms,
   fetchMessagesLatest,
   fetchMessagesOlderThan,
   sendMessage,
@@ -273,6 +274,38 @@ export default function ChatScreen() {
           backgroundColor: colors.danger ?? '#B91C1C',
         },
         realtimeBannerText: { ...typographyScale.bodySmall, fontWeight: '600', color: colors.onPrimary },
+        roomTabsWrap: {
+          borderBottomWidth: StyleSheet.hairlineWidth,
+          borderBottomColor: colors.border,
+          backgroundColor: colors.background,
+        },
+        roomTabsContent: {
+          paddingHorizontal: 12,
+          paddingVertical: 8,
+          gap: 8,
+        },
+        roomChip: {
+          minHeight: 34,
+          borderRadius: 999,
+          borderWidth: 1,
+          borderColor: colors.border,
+          backgroundColor: colors.surface,
+          paddingHorizontal: 12,
+          alignItems: 'center',
+          justifyContent: 'center',
+        },
+        roomChipActive: {
+          borderColor: colors.accent,
+          backgroundColor: colors.accentSoft,
+        },
+        roomChipText: {
+          ...typographyScale.badge,
+          color: colors.textSecondary,
+        },
+        roomChipTextActive: {
+          color: colors.accent,
+          fontWeight: '700',
+        },
         body: { flex: 1 },
         listContent: { paddingHorizontal: 12, paddingTop: 12 },
         empty: { ...typographyScale.bodySmall, color: colors.textSecondary, textAlign: 'center', marginTop: PAD },
@@ -543,6 +576,7 @@ export default function ChatScreen() {
   );
 
   const [room, setRoom] = useState<ChatRoom | null>(null);
+  const [rooms, setRooms] = useState<ChatRoom[]>([]);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(true);
@@ -607,6 +641,7 @@ export default function ChatScreen() {
   const blockedUserIdsRef = useRef<string[]>([]);
   const reconnectTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const reconnectAttemptRef = useRef(0);
+  const selectedRoomIdRef = useRef<string | null>(null);
   const [atBottom, setAtBottom] = useState(true);
   const [hasMoreOlder, setHasMoreOlder] = useState(true);
   const [loadingOlder, setLoadingOlder] = useState(false);
@@ -654,21 +689,28 @@ export default function ChatScreen() {
       setIsBanned(status.isBanned);
       setBanReason(status.banReason);
       const blockedIds = status.blockedUserIds;
-      const [r, sid] = await Promise.all([getDefaultRoom(), getCurrentSenderId()]);
+      const [roomList, sid] = await Promise.all([fetchRooms(), getCurrentSenderId()]);
       setSenderId(sid);
-      setRoom(r);
-      if (r) {
-        const cached = await getCachedChatMessages(r.id);
+      setRooms(roomList);
+      const preferredRoomId = selectedRoomIdRef.current;
+      const nextRoom = roomList.find((x) => x.id === preferredRoomId) ?? roomList[0] ?? null;
+      selectedRoomIdRef.current = nextRoom?.id ?? null;
+      setRoom(nextRoom);
+      if (nextRoom) {
+        const cached = await getCachedChatMessages(nextRoom.id);
         if (cached && cached.length > 0) {
           setMessages(filterBlockedMessages(cached, blockedIds));
           setHasMoreOlder(cached.length >= MESSAGES_PAGE_SIZE);
           setLoading(false);
         }
-        const list = await fetchMessagesLatest(r.id, MESSAGES_PAGE_SIZE);
+        const list = await fetchMessagesLatest(nextRoom.id, MESSAGES_PAGE_SIZE);
         setMessages(filterBlockedMessages(list, blockedIds));
         setHasMoreOlder(list.length >= MESSAGES_PAGE_SIZE);
-        void setCachedChatMessages(r.id, list);
+        void setCachedChatMessages(nextRoom.id, list);
         triggerAutoScrollToBottom(800, false);
+      } else {
+        setMessages([]);
+        setHasMoreOlder(false);
       }
     } catch {
       setLoadError(true);
@@ -676,6 +718,46 @@ export default function ChatScreen() {
       setLoading(false);
     }
   }, [triggerAutoScrollToBottom, user]);
+
+  const onSelectRoom = useCallback(
+    async (nextRoom: ChatRoom) => {
+      if (room?.id === nextRoom.id) return;
+      selectedRoomIdRef.current = nextRoom.id;
+      setRoom(nextRoom);
+      setLoadError(false);
+      setLoading(true);
+      try {
+        const status = user
+          ? await getChatModerationStatus(CHAT_TERMS_VERSION)
+          : {
+              agreedTerms: false,
+              blockedUserIds: [] as string[],
+              isBanned: false,
+              banReason: null as string | null,
+            };
+        setBlockedUserIds(status.blockedUserIds);
+        const blockedIds = status.blockedUserIds;
+        const cached = await getCachedChatMessages(nextRoom.id);
+        if (cached && cached.length > 0) {
+          setMessages(filterBlockedMessages(cached, blockedIds));
+          setHasMoreOlder(cached.length >= MESSAGES_PAGE_SIZE);
+        } else {
+          setMessages([]);
+          setHasMoreOlder(true);
+        }
+        const list = await fetchMessagesLatest(nextRoom.id, MESSAGES_PAGE_SIZE);
+        setMessages(filterBlockedMessages(list, blockedIds));
+        setHasMoreOlder(list.length >= MESSAGES_PAGE_SIZE);
+        void setCachedChatMessages(nextRoom.id, list);
+        triggerAutoScrollToBottom(800, false);
+      } catch {
+        setLoadError(true);
+      } finally {
+        setLoading(false);
+      }
+    },
+    [room?.id, triggerAutoScrollToBottom, user]
+  );
 
   useFocusEffect(
     useCallback(() => {
@@ -1555,6 +1637,38 @@ export default function ChatScreen() {
         rightButtonA11y={chatStr.manageBlockedUsers}
         rightIconName="ellipsis-horizontal"
       />
+      {rooms.length > 0 && (
+        <View style={s.roomTabsWrap}>
+          <ScrollView
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            contentContainerStyle={s.roomTabsContent}
+          >
+            {rooms.map((x) => {
+              const isActive = x.id === room?.id;
+              return (
+                <Pressable
+                  key={x.id}
+                  style={[
+                    s.roomChip,
+                    isActive && s.roomChipActive,
+                  ]}
+                  onPress={() => {
+                    void onSelectRoom(x);
+                  }}
+                  accessibilityRole="button"
+                  accessibilityState={{ selected: isActive }}
+                  accessibilityLabel={x.name || DEFAULT_ROOM_NAME}
+                >
+                  <Text style={[s.roomChipText, isActive && s.roomChipTextActive]}>
+                    {x.name || DEFAULT_ROOM_NAME}
+                  </Text>
+                </Pressable>
+              );
+            })}
+          </ScrollView>
+        </View>
+      )}
 
       {realtimeError && (
         <Pressable

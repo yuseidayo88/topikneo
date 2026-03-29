@@ -3,6 +3,8 @@ import { logger } from '../utils/logger';
 
 /** ルーム名のデフォルト表示（ヘッダーサブタイトル等で使用） */
 export const DEFAULT_ROOM_NAME = '全体チャット';
+/** 言語別チャットルームの標準順 */
+export const LANGUAGE_CHAT_ROOM_NAMES = ['日本語', '英語', '中国語', '韓国語', 'ベトナム語'] as const;
 
 export type ChatRoom = {
   id: string;
@@ -46,6 +48,11 @@ export type SendMessageResult =
   | { ok: true; message: ChatMessage }
   | { ok: false; reason: 'blocked' | 'auth' | 'network' | 'unknown' };
 
+function roomPriority(name: string): number {
+  const idx = LANGUAGE_CHAT_ROOM_NAMES.indexOf(name as (typeof LANGUAGE_CHAT_ROOM_NAMES)[number]);
+  return idx === -1 ? Number.MAX_SAFE_INTEGER : idx;
+}
+
 export async function getCurrentSenderId(): Promise<string | null> {
   if (!isSupabaseConfigured()) return null;
   const { data, error } = await supabase.auth.getUser();
@@ -56,20 +63,30 @@ export async function getCurrentSenderId(): Promise<string | null> {
   return data.user?.id ?? null;
 }
 
-/** デフォルトルーム（1件目）を取得。複数ルーム対応時は room_id を引数で受け取る想定 */
-export async function getDefaultRoom(): Promise<ChatRoom | null> {
-  if (!isSupabaseConfigured()) return null;
+/** ルーム一覧を取得（言語ルームは固定順で先頭に並べる） */
+export async function fetchRooms(): Promise<ChatRoom[]> {
+  if (!isSupabaseConfigured()) return [];
   const { data, error } = await supabase
     .from('chat_rooms')
     .select('id, name, created_at')
-    .order('created_at', { ascending: true })
-    .limit(1)
-    .maybeSingle();
+    .order('created_at', { ascending: true });
   if (error) {
-    logger.warn('[chat] getDefaultRoom error', error);
-    return null;
+    logger.warn('[chat] fetchRooms error', error);
+    return [];
   }
-  return data;
+  const list = (data ?? []) as ChatRoom[];
+  return list.sort((a, b) => {
+    const pa = roomPriority(a.name);
+    const pb = roomPriority(b.name);
+    if (pa !== pb) return pa - pb;
+    return new Date(a.created_at).getTime() - new Date(b.created_at).getTime();
+  });
+}
+
+/** デフォルトルーム（先頭）を取得 */
+export async function getDefaultRoom(): Promise<ChatRoom | null> {
+  const rooms = await fetchRooms();
+  return rooms[0] ?? null;
 }
 
 const DEFAULT_PAGE_SIZE = 30;
