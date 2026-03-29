@@ -39,3 +39,10 @@
 
 4. **追加のセットアップ**  
    チャット・サブスク・ログイン連携などフル機能の手順は `docs/SETUP.md` の SQL 実行順と Replication 設定を参照してください。エージェント作業がスクリプトやクライアントのみの場合は、該当する `.env` 変数がなくてもテストや型チェックだけで足りることがあります。
+
+5. **Web 起動時の注意点**  
+   - `npx expo start --web` には `react-native-web` が必要です。未インストールの場合は `npm install react-native-web@^0.21.0 --legacy-peer-deps` で追加してください（`react-dom` との peer 競合があるため `--legacy-peer-deps` が必要）。  
+   - `expo-sqlite` は Web では `SharedArrayBuffer` を要求し、デフォルトのローカル dev サーバーでは COOP/COEP ヘッダー不足で失敗します。ローカルDB依存の機能（進捗保存等）は Web 上では動作しませんが、UI の確認には支障ありません。
+
+6. **TypeScript**  
+   `npx tsc --noEmit` を実行すると `scripts/` と `src/supabase/chat.ts` に既存エラーが数件あります。これらはリポジトリの既知問題であり、アプリ動作には影響しません。
