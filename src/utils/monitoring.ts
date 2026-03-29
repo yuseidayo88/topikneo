@@ -1,5 +1,4 @@
 import { logger } from './logger';
-import * as Sentry from '@sentry/react-native';
 
 type MonitorContext = Record<string, unknown>;
 
@@ -17,6 +16,16 @@ function toErrorLogValue(error: unknown): unknown {
   return error;
 }
 
+async function loadSentry() {
+  if (!hasSentryDsn) return null;
+  try {
+    return await import('@sentry/react-native');
+  } catch (error) {
+    logger.warn('[monitoring] Sentry import failed', error);
+    return null;
+  }
+}
+
 /**
  * 監視基盤の共通ラッパー。
  * Sentry DSN がある場合は送信し、開発中は logger にも出す。
@@ -31,8 +40,10 @@ export function captureException(error: unknown, context?: MonitorContext): void
     }
   }
   if (!hasSentryDsn) return;
-  Sentry.captureException(error, {
-    extra: context ?? {},
+  void loadSentry().then((Sentry) => {
+    Sentry?.captureException(error, {
+      extra: context ?? {},
+    });
   });
 }
 
@@ -41,9 +52,11 @@ export function captureMessage(message: string, context?: MonitorContext): void 
     logger.log('[monitoring][message]', message, context ?? {});
   }
   if (!hasSentryDsn) return;
-  Sentry.captureMessage(message, {
-    level: 'info',
-    extra: context ?? {},
+  void loadSentry().then((Sentry) => {
+    Sentry?.captureMessage(message, {
+      level: 'info',
+      extra: context ?? {},
+    });
   });
 }
 
@@ -52,10 +65,12 @@ export function addBreadcrumb(message: string, context?: MonitorContext): void {
     logger.log('[monitoring][breadcrumb]', message, context ?? {});
   }
   if (!hasSentryDsn) return;
-  Sentry.addBreadcrumb({
-    category: 'app',
-    message,
-    level: 'info',
-    data: context ?? {},
+  void loadSentry().then((Sentry) => {
+    Sentry?.addBreadcrumb({
+      category: 'app',
+      message,
+      level: 'info',
+      data: context ?? {},
+    });
   });
 }

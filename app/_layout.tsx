@@ -4,7 +4,6 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import * as SplashScreen from 'expo-splash-screen';
-import * as Sentry from '@sentry/react-native';
 import Constants from 'expo-constants';
 import { ErrorBoundary } from '@/src/components/ErrorBoundary';
 import { OfflineBanner } from '@/src/components/OfflineBanner';
@@ -37,16 +36,22 @@ const SPLASH_BG = '#001f5c';
 
 const sentryDsn = process.env.EXPO_PUBLIC_SENTRY_DSN;
 if (sentryDsn) {
-  const appVersion = Constants.expoConfig?.version ?? 'unknown';
-  const buildNumber = Constants.expoConfig?.ios?.buildNumber ?? 'dev';
-  Sentry.init({
-    dsn: sentryDsn,
-    debug: typeof __DEV__ !== 'undefined' && __DEV__,
-    environment: typeof __DEV__ !== 'undefined' && __DEV__ ? 'development' : 'production',
-    release: `kla@${appVersion}`,
-    dist: `${buildNumber}`,
-    tracesSampleRate: typeof __DEV__ !== 'undefined' && __DEV__ ? 1.0 : 0.2,
-  });
+  void import('@sentry/react-native')
+    .then((Sentry) => {
+      const appVersion = Constants.expoConfig?.version ?? 'unknown';
+      const buildNumber = Constants.expoConfig?.ios?.buildNumber ?? 'dev';
+      Sentry.init({
+        dsn: sentryDsn,
+        debug: typeof __DEV__ !== 'undefined' && __DEV__,
+        environment: typeof __DEV__ !== 'undefined' && __DEV__ ? 'development' : 'production',
+        release: `kla@${appVersion}`,
+        dist: `${buildNumber}`,
+        tracesSampleRate: typeof __DEV__ !== 'undefined' && __DEV__ ? 1.0 : 0.2,
+      });
+    })
+    .catch(() => {
+      logger.warn('[Sentry] init skipped');
+    });
 }
 
 function StatusBarStyle() {
