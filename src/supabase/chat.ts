@@ -56,20 +56,24 @@ export async function getCurrentSenderId(): Promise<string | null> {
   return data.user?.id ?? null;
 }
 
-/** デフォルトルーム（1件目）を取得。複数ルーム対応時は room_id を引数で受け取る想定 */
-export async function getDefaultRoom(): Promise<ChatRoom | null> {
-  if (!isSupabaseConfigured()) return null;
+/** 利用可能なチャットルーム一覧（作成日の古い順） */
+export async function listChatRooms(): Promise<ChatRoom[]> {
+  if (!isSupabaseConfigured()) return [];
   const { data, error } = await supabase
     .from('chat_rooms')
     .select('id, name, created_at')
-    .order('created_at', { ascending: true })
-    .limit(1)
-    .maybeSingle();
+    .order('created_at', { ascending: true });
   if (error) {
-    logger.warn('[chat] getDefaultRoom error', error);
-    return null;
+    logger.warn('[chat] listChatRooms error', error);
+    return [];
   }
-  return data;
+  return (data ?? []) as ChatRoom[];
+}
+
+/** デフォルトルーム（1件目）を取得 */
+export async function getDefaultRoom(): Promise<ChatRoom | null> {
+  const rooms = await listChatRooms();
+  return rooms[0] ?? null;
 }
 
 const DEFAULT_PAGE_SIZE = 30;
