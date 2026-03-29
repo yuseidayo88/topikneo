@@ -1,0 +1,7 @@
+# Maestro E2E 設定
+# 実行: maestro test .maestro/
+# Expo Go で試す場合: 先に npx expo start し、同じ端末で maestro run .maestro/flows/word_quiz.yaml
+# 実機/シミュレータでアプリを起動した状態で実行するか、launchApp でアプリを起動する
+appId: com.kla.app
+# 開発ビルドの場合は app.json の bundleIdentifier / package を appId に設定。
+# Expo Go の場合は手動でアプリを開いてから maestro run するか、openLink で exp:// を指定。

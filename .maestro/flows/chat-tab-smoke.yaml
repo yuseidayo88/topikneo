@@ -1,0 +1,13 @@
+# KLA E2E: 起動 → チャットタブへ（オンボーディング完了済みを推奨）
+# 実行: maestro test .maestro/flows/chat-tab-smoke.yaml
+appId: com.kla.app
+---
+- launchApp
+- assertVisible:
+    text: "ホーム"
+    timeout: 15000
+- tapOn:
+    text: "チャット"
+- assertVisible:
+    text: "チャット"
+    timeout: 8000

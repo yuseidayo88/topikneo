@@ -30,11 +30,15 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
+# local env files (keep .env.example committed)
+.env
 .env*.local
 
 # typescript
 *.tsbuildinfo
+
+# Google TTS などローカル生成物（Supabase に上げたら再生成可）
+generated/
 
 # generated native folders
 /ios

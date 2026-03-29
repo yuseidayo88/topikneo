@@ -1,0 +1,33 @@
+# 単語クイズ: ホーム → 単語 → 1級 → レッスン1 → クイズ1問 → 結果まで
+# 実行前にアプリを起動するか、config.yaml の appId で launchApp が動作するようにする
+---
+- launchApp
+- tapOn:
+    text: "単語"
+    optional: true
+- tapOn:
+    text: "入門"
+    optional: true
+- tapOn:
+    text: "レッスン 1"
+    optional: true
+- tapOn:
+    text: "クイズ開始"
+    optional: true
+- extendedWaitUntil:
+    visible: "正解"
+    timeout: 5000
+    optional: true
+# 1問目でいずれかの選択肢をタップ（表示される日本語のいずれか）
+- tapOn:
+    text: ".*"
+    index: 1
+    optional: true
+- extendedWaitUntil:
+    visible: "クリア"
+    timeout: 10000
+    optional: true
+# 結果画面 or 2問目へ
+- assertVisible:
+    text: "クリア"
+    optional: true

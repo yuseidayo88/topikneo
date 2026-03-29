@@ -1,0 +1,3966 @@
+{
+  "locale": "ko_es",
+  "items": [
+    {
+      "id": "g_001",
+      "lesson_id": "ko_G1_01",
+      "title": "에",
+      "structure": "에",
+      "explanation": "a",
+      "examples": [
+        {
+          "korean": "학교에 갑니다.",
+          "translation": "Voy a la escuela."
+        },
+        {
+          "korean": "친구에게 선물을 줍니다.",
+          "translation": "Le doy un regalo a mi amigo."
+        }
+      ]
+    },
+    {
+      "id": "g_002",
+      "lesson_id": "ko_G1_01",
+      "title": "은/는",
+      "structure": "은/는",
+      "explanation": "es",
+      "examples": [
+        {
+          "korean": "저는 학생입니다.",
+          "translation": "Soy un estudiante."
+        },
+        {
+          "korean": "이것은 책입니다.",
+          "translation": "Esto es un libro."
+        }
+      ]
+    },
+    {
+      "id": "g_003",
+      "lesson_id": "ko_G1_02",
+      "title": "을/를",
+      "structure": "을/를",
+      "explanation": "marcador de objeto",
+      "examples": [
+        {
+          "korean": "책을 읽습니다.",
+          "translation": "Leo un libro."
+        },
+        {
+          "korean": "음식을 먹습니다.",
+          "translation": "Como comida."
+        }
+      ]
+    },
+    {
+      "id": "g_004",
+      "lesson_id": "ko_G1_02",
+      "title": "의",
+      "structure": "의",
+      "explanation": "de",
+      "examples": [
+        {
+          "korean": "이것은 나의 책입니다.",
+          "translation": "Este es mi libro."
+        },
+        {
+          "korean": "그녀의 이름은 미나입니다.",
+          "translation": "Su nombre es Mina."
+        }
+      ]
+    },
+    {
+      "id": "g_005",
+      "lesson_id": "ko_G1_03",
+      "title": "이/가",
+      "structure": "이/가",
+      "explanation": "marcador de sujeto",
+      "examples": [
+        {
+          "korean": "고양이가 귀엽습니다.",
+          "translation": "El gato es lindo."
+        },
+        {
+          "korean": "바람이 붑니다.",
+          "translation": "El viento sopla."
+        }
+      ]
+    },
+    {
+      "id": "g_006",
+      "lesson_id": "ko_G1_03",
+      "title": "도",
+      "structure": "도",
+      "explanation": "también",
+      "examples": [
+        {
+          "korean": "저도 갑니다.",
+          "translation": "Yo también voy."
+        },
+        {
+          "korean": "그녀도 학생입니다.",
+          "translation": "Ella también es estudiante."
+        }
+      ]
+    },
+    {
+      "id": "g_007",
+      "lesson_id": "ko_G1_04",
+      "title": "～고",
+      "structure": "～고",
+      "explanation": "y",
+      "examples": [
+        {
+          "korean": "밥을 먹고 잤습니다.",
+          "translation": "Comí arroz y me fui a la cama."
+        },
+        {
+          "korean": "책을 읽고 공부합니다.",
+          "translation": "Leo un libro y estudio."
+        }
+      ]
+    },
+    {
+      "id": "g_008",
+      "lesson_id": "ko_G1_04",
+      "title": "～ㅂ/습니다",
+      "structure": "～ㅂ/습니다",
+      "explanation": "es",
+      "examples": [
+        {
+          "korean": "저는 학생입니다.",
+          "translation": "Soy un estudiante."
+        },
+        {
+          "korean": "여기는 도서관입니다.",
+          "translation": "Esto es una biblioteca."
+        }
+      ]
+    },
+    {
+      "id": "g_009",
+      "lesson_id": "ko_G1_05",
+      "title": "～아/어요",
+      "structure": "～아/어요",
+      "explanation": "es",
+      "examples": [
+        {
+          "korean": "오늘 날씨가 좋아요.",
+          "translation": "El clima es agradable hoy."
+        },
+        {
+          "korean": "저는 밥을 먹어요.",
+          "translation": "Como arroz."
+        }
+      ]
+    },
+    {
+      "id": "g_010",
+      "lesson_id": "ko_G1_05",
+      "title": "～지 않다",
+      "structure": "～지 않다",
+      "explanation": "no",
+      "examples": [
+        {
+          "korean": "저는 커피를 마시지 않습니다.",
+          "translation": "No bebo café."
+        },
+        {
+          "korean": "그는 학교에 가지 않습니다.",
+          "translation": "Él no va a la escuela."
+        }
+      ]
+    },
+    {
+      "id": "g_011",
+      "lesson_id": "ko_G1_06",
+      "title": "～지만",
+      "structure": "～지만",
+      "explanation": "pero",
+      "examples": [
+        {
+          "korean": "비가 오지만 춥지 않습니다.",
+          "translation": "Llueve, pero no hace frío."
+        },
+        {
+          "korean": "저는 학생이지만 일을 합니다.",
+          "translation": "Soy un estudiante, pero trabajo."
+        }
+      ]
+    },
+    {
+      "id": "g_012",
+      "lesson_id": "ko_G1_06",
+      "title": "까지",
+      "structure": "까지",
+      "explanation": "hasta",
+      "examples": [
+        {
+          "korean": "내일까지 기다립니다.",
+          "translation": "Esperaré hasta mañana."
+        },
+        {
+          "korean": "여기까지 오세요.",
+          "translation": "Por favor, venga aquí hasta este punto."
+        }
+      ]
+    },
+    {
+      "id": "g_013",
+      "lesson_id": "ko_G1_07",
+      "title": "만",
+      "structure": "만",
+      "explanation": "solo",
+      "examples": [
+        {
+          "korean": "저만 왔습니다.",
+          "translation": "Solo vine."
+        },
+        {
+          "korean": "이것만 필요합니다.",
+          "translation": "Solo necesito esto."
+        }
+      ]
+    },
+    {
+      "id": "g_014",
+      "lesson_id": "ko_G1_07",
+      "title": "보다",
+      "structure": "보다",
+      "explanation": "que",
+      "examples": [
+        {
+          "korean": "사과보다 바나나가 더 맛있습니다.",
+          "translation": "Los plátanos son más sabrosos que las manzanas."
+        },
+        {
+          "korean": "저는 형보다 키가 큽니다.",
+          "translation": "Soy más alto que mi hermano."
+        }
+      ]
+    },
+    {
+      "id": "g_015",
+      "lesson_id": "ko_G1_08",
+      "title": "부터",
+      "structure": "부터",
+      "explanation": "de",
+      "examples": [
+        {
+          "korean": "내일부터 시작합니다.",
+          "translation": "Comenzaré desde mañana."
+        },
+        {
+          "korean": "아침부터 저녁까지 일합니다.",
+          "translation": "Trabajo desde la mañana hasta la noche."
+        }
+      ]
+    },
+    {
+      "id": "g_016",
+      "lesson_id": "ko_G1_08",
+      "title": "에게",
+      "structure": "에게",
+      "explanation": "a",
+      "examples": [
+        {
+          "korean": "친구에게 편지를 씁니다.",
+          "translation": "Escribo una carta a mi amigo."
+        },
+        {
+          "korean": "선생님에게 질문합니다.",
+          "translation": "Hago una pregunta al profesor."
+        }
+      ]
+    },
+    {
+      "id": "g_017",
+      "lesson_id": "ko_G1_09",
+      "title": "에서",
+      "structure": "에서",
+      "explanation": "de",
+      "examples": [
+        {
+          "korean": "집에서 출발합니다.",
+          "translation": "Salgo de casa."
+        },
+        {
+          "korean": "학교에서 공부합니다.",
+          "translation": "Estudio en la escuela."
+        }
+      ]
+    },
+    {
+      "id": "g_018",
+      "lesson_id": "ko_G1_09",
+      "title": "와/과",
+      "structure": "와/과",
+      "explanation": "y",
+      "examples": [
+        {
+          "korean": "친구와 함께 갑니다.",
+          "translation": "Voy con mi amigo."
+        },
+        {
+          "korean": "책과 연필이 있습니다.",
+          "translation": "Hay un libro y un lápiz."
+        }
+      ]
+    },
+    {
+      "id": "g_019",
+      "lesson_id": "ko_G1_10",
+      "title": "하고",
+      "structure": "하고",
+      "explanation": "con, y",
+      "examples": [
+        {
+          "korean": "사과하고 바나나를 샀습니다.",
+          "translation": "Compré una manzana y un plátano."
+        },
+        {
+          "korean": "친구하고 놀았습니다.",
+          "translation": "Jugué con mi amigo."
+        }
+      ]
+    },
+    {
+      "id": "g_020",
+      "lesson_id": "ko_G1_10",
+      "title": "한테",
+      "structure": "한테",
+      "explanation": "a",
+      "examples": [
+        {
+          "korean": "동생한테 선물을 줍니다.",
+          "translation": "Le doy un regalo a mi hermano menor."
+        },
+        {
+          "korean": "친구한테 전화를 합니다.",
+          "translation": "Hago una llamada a mi amigo."
+        }
+      ]
+    },
+    {
+      "id": "g_021",
+      "lesson_id": "ko_G1_11",
+      "title": "～지 말다",
+      "structure": "～지 말다",
+      "explanation": "no",
+      "examples": [
+        {
+          "korean": "여기서 담배를 피우지 마세요.",
+          "translation": "Por favor, no fumes aquí."
+        },
+        {
+          "korean": "늦지 마세요.",
+          "translation": "Por favor, no llegues tarde."
+        }
+      ]
+    },
+    {
+      "id": "g_022",
+      "lesson_id": "ko_G1_11",
+      "title": "～지 못하다",
+      "structure": "～지 못하다",
+      "explanation": "no puedo",
+      "examples": [
+        {
+          "korean": "저는 수영을 하지 못합니다.",
+          "translation": "No puedo nadar."
+        },
+        {
+          "korean": "그는 노래를 잘하지 못합니다.",
+          "translation": "Él no puede cantar bien."
+        }
+      ]
+    },
+    {
+      "id": "g_023",
+      "lesson_id": "ko_G1_12",
+      "title": "( 이 ) 랑",
+      "structure": "( 이 ) 랑",
+      "explanation": "con",
+      "examples": [
+        {
+          "korean": "사과랑 바나나를 먹었습니다.",
+          "translation": "Comí una manzana y un plátano."
+        },
+        {
+          "korean": "친구랑 영화를 봤습니다.",
+          "translation": "Vi una película con mi amigo."
+        }
+      ]
+    },
+    {
+      "id": "g_024",
+      "lesson_id": "ko_G1_12",
+      "title": "～ ( 으 ) 로",
+      "structure": "～ ( 으 ) 로",
+      "explanation": "a",
+      "examples": [
+        {
+          "korean": "버스로 갑니다.",
+          "translation": "Voy en autobús."
+        },
+        {
+          "korean": "연필로 씁니다.",
+          "translation": "Escribo con un lápiz."
+        }
+      ]
+    },
+    {
+      "id": "g_025",
+      "lesson_id": "ko_G1_13",
+      "title": "～(으)면",
+      "structure": "～(으)면",
+      "explanation": "Si ~",
+      "examples": [
+        {
+          "korean": "비가 오면 집에 있습니다.",
+          "translation": "Si llueve, estaré en casa."
+        },
+        {
+          "korean": "시간이 있으면 만납시다.",
+          "translation": "Si tienes tiempo, encontremos."
+        }
+      ]
+    },
+    {
+      "id": "g_026",
+      "lesson_id": "ko_G1_13",
+      "title": "～(으)ㅂ시다",
+      "structure": "～(으)ㅂ시다",
+      "explanation": "Vamos a ~",
+      "examples": [
+        {
+          "korean": "같이 영화 보러 갑시다.",
+          "translation": "Vamos a ver una película juntos."
+        },
+        {
+          "korean": "내일 만나서 이야기합시다.",
+          "translation": "Vamos a encontrarnos y hablar mañana."
+        }
+      ]
+    },
+    {
+      "id": "g_027",
+      "lesson_id": "ko_G1_14",
+      "title": "～(으)세요",
+      "structure": "～(으)세요",
+      "explanation": "Por favor ~",
+      "examples": [
+        {
+          "korean": "문을 닫으세요.",
+          "translation": "Por favor, cierra la puerta."
+        },
+        {
+          "korean": "여기 앉으세요.",
+          "translation": "Por favor, siéntate aquí."
+        }
+      ]
+    },
+    {
+      "id": "g_028",
+      "lesson_id": "ko_G1_14",
+      "title": "～게",
+      "structure": "～게",
+      "explanation": "De una manera ~",
+      "examples": [
+        {
+          "korean": "조용하게 말해 주세요.",
+          "translation": "Por favor, habla en voz baja."
+        },
+        {
+          "korean": "깨끗하게 청소했어요.",
+          "translation": "Lo limpié de manera ordenada."
+        }
+      ]
+    },
+    {
+      "id": "g_029",
+      "lesson_id": "ko_G1_15",
+      "title": "～고 싶다",
+      "structure": "～고 싶다",
+      "explanation": "Quiero ~",
+      "examples": [
+        {
+          "korean": "한국에 가고 싶어요.",
+          "translation": "Quiero ir a Corea."
+        },
+        {
+          "korean": "새 차를 사고 싶습니다.",
+          "translation": "Quiero comprar un coche nuevo."
+        }
+      ]
+    },
+    {
+      "id": "g_030",
+      "lesson_id": "ko_G1_15",
+      "title": "～고 있다",
+      "structure": "～고 있다",
+      "explanation": "Estoy ~ando",
+      "examples": [
+        {
+          "korean": "지금 밥을 먹고 있어요.",
+          "translation": "Estoy comiendo arroz ahora."
+        },
+        {
+          "korean": "그는 책을 읽고 있습니다.",
+          "translation": "Él está leyendo un libro."
+        }
+      ]
+    },
+    {
+      "id": "g_031",
+      "lesson_id": "ko_G1_16",
+      "title": "Antes de ~",
+      "structure": "～기 전에",
+      "explanation": "Antes de ~",
+      "examples": [
+        {
+          "korean": "자기 전에 이를 닦아요.",
+          "translation": "Me cepillo los dientes antes de ir a la cama."
+        },
+        {
+          "korean": "출발하기 전에 준비하세요.",
+          "translation": "Por favor, prepárate antes de partir."
+        }
+      ]
+    },
+    {
+      "id": "g_032",
+      "lesson_id": "ko_G1_16",
+      "title": "¿Es ~?",
+      "structure": "～ ㅂ / 습니까 ?",
+      "explanation": "¿Es ~?",
+      "examples": [
+        {
+          "korean": "이 책이 재미있습니까?",
+          "translation": "¿Es interesante este libro?"
+        },
+        {
+          "korean": "오늘 날씨가 좋습니까?",
+          "translation": "¿Está bueno el clima hoy?"
+        }
+      ]
+    },
+    {
+      "id": "g_033",
+      "lesson_id": "ko_G1_17",
+      "title": "Yo ~",
+      "structure": "～ㄴ/는다",
+      "explanation": "Yo ~",
+      "examples": [
+        {
+          "korean": "나는 매일 운동한다.",
+          "translation": "Yo hago ejercicio todos los días."
+        },
+        {
+          "korean": "그는 학교에 간다.",
+          "translation": "Él va a la escuela."
+        }
+      ]
+    },
+    {
+      "id": "g_034",
+      "lesson_id": "ko_G1_17",
+      "title": "Él/Ella dice que ~",
+      "structure": "～ㄴ/는다고 하다",
+      "explanation": "Él/Ella dice que ~",
+      "examples": [
+        {
+          "korean": "그는 내일 온다고 했어요.",
+          "translation": "Él dijo que vendría mañana."
+        },
+        {
+          "korean": "친구가 이 영화가 재미있다고 해요.",
+          "translation": "Mi amigo dice que esta película es interesante."
+        }
+      ]
+    },
+    {
+      "id": "g_035",
+      "lesson_id": "ko_G1_18",
+      "title": "¿Es ~?",
+      "structure": "～나(요)?",
+      "explanation": "¿Es ~?",
+      "examples": [
+        {
+          "korean": "이게 맞나요?",
+          "translation": "¿Es correcto esto?"
+        },
+        {
+          "korean": "지금 가나요?",
+          "translation": "¿Vas ahora?"
+        }
+      ]
+    },
+    {
+      "id": "g_036",
+      "lesson_id": "ko_G1_18",
+      "title": "¿Eres ~?",
+      "structure": "～니/냐?",
+      "explanation": "¿Eres ~?",
+      "examples": [
+        {
+          "korean": "너는 어디 가니?",
+          "translation": "¿Dónde vas?"
+        },
+        {
+          "korean": "이 책 읽었니?",
+          "translation": "¿Leíste este libro?"
+        }
+      ]
+    },
+    {
+      "id": "g_037",
+      "lesson_id": "ko_G1_19",
+      "title": "～대로",
+      "structure": "～대로",
+      "explanation": "según",
+      "examples": [
+        {
+          "korean": "계획대로 진행합시다.",
+          "translation": "計画通りに進めましょう。"
+        },
+        {
+          "korean": "말한 대로 했어요.",
+          "translation": "言った通りにしました。"
+        }
+      ]
+    },
+    {
+      "id": "g_038",
+      "lesson_id": "ko_G1_19",
+      "title": "(이)라도",
+      "structure": "(이)라도",
+      "explanation": "incluso si",
+      "examples": [
+        {
+          "korean": "커피라도 마실래요?",
+          "translation": "コーヒーでも飲みますか？"
+        },
+        {
+          "korean": "시간이 없으면 차라도 타세요.",
+          "translation": "時間がないなら車でも乗ってください。"
+        }
+      ]
+    },
+    {
+      "id": "g_039",
+      "lesson_id": "ko_G2_01",
+      "title": "～아/어도",
+      "structure": "～아/어도",
+      "explanation": "incluso si",
+      "examples": [
+        {
+          "korean": "비가 와도 갈 거예요.",
+          "translation": "雨が降っても行きます。"
+        },
+        {
+          "korean": "늦어도 괜찮아요.",
+          "translation": "遅れても大丈夫です。"
+        }
+      ]
+    },
+    {
+      "id": "g_040",
+      "lesson_id": "ko_G2_01",
+      "title": "～아/어지다",
+      "structure": "～아/어지다",
+      "explanation": "convertirse en",
+      "examples": [
+        {
+          "korean": "날씨가 따뜻해졌어요.",
+          "translation": "天気が暖かくなりました。"
+        },
+        {
+          "korean": "기분이 좋아졌어요.",
+          "translation": "気分が良くなりました。"
+        }
+      ]
+    },
+    {
+      "id": "g_041",
+      "lesson_id": "ko_G2_02",
+      "title": "～에 관해(서)",
+      "structure": "～에 관해(서)",
+      "explanation": "acerca de",
+      "examples": [
+        {
+          "korean": "환경 문제에 관해서 이야기합시다.",
+          "translation": "環境問題について話しましょう。"
+        },
+        {
+          "korean": "그 책은 역사에 관해 쓴 것입니다.",
+          "translation": "その本は歴史について書かれたものです。"
+        }
+      ]
+    },
+    {
+      "id": "g_042",
+      "lesson_id": "ko_G2_02",
+      "title": "～에 대해(서)",
+      "structure": "～에 대해(서)",
+      "explanation": "en relación a",
+      "examples": [
+        {
+          "korean": "그는 정치에 대해 관심이 많아요.",
+          "translation": "彼は政治に対して関心が多いです。"
+        },
+        {
+          "korean": "이 문제에 대해 설명해 주세요.",
+          "translation": "この問題に対して説明してください。"
+        }
+      ]
+    },
+    {
+      "id": "g_043",
+      "lesson_id": "ko_G2_03",
+      "title": "～에다(가)",
+      "structure": "～에다(가)",
+      "explanation": "a",
+      "examples": [
+        {
+          "korean": "책상에다가 책을 놓으세요.",
+          "translation": "Por favor, pon el libro en el escritorio."
+        },
+        {
+          "korean": "편지를 봉투에다가 넣었어요.",
+          "translation": "Puse la carta en el sobre."
+        }
+      ]
+    },
+    {
+      "id": "g_044",
+      "lesson_id": "ko_G2_03",
+      "title": "～자",
+      "structure": "～자",
+      "explanation": "vamos a",
+      "examples": [
+        {
+          "korean": "빨리 가자.",
+          "translation": "Vamos rápido."
+        },
+        {
+          "korean": "같이 놀자.",
+          "translation": "Juguemos juntos."
+        }
+      ]
+    },
+    {
+      "id": "g_045",
+      "lesson_id": "ko_G2_04",
+      "title": "～잖아(요)",
+      "structure": "～잖아(요)",
+      "explanation": "sabes",
+      "examples": [
+        {
+          "korean": "그거 맞잖아요.",
+          "translation": "Eso es correcto, sabes."
+        },
+        {
+          "korean": "이미 말했잖아요.",
+          "translation": "Ya te lo dije, sabes."
+        }
+      ]
+    },
+    {
+      "id": "g_046",
+      "lesson_id": "ko_G2_04",
+      "title": "만큼",
+      "structure": "만큼",
+      "explanation": "tanto como",
+      "examples": [
+        {
+          "korean": "그는 나만큼 키가 커요.",
+          "translation": "Él es tan alto como yo."
+        },
+        {
+          "korean": "이만큼 주세요.",
+          "translation": "Por favor, dame esto."
+        }
+      ]
+    },
+    {
+      "id": "g_047",
+      "lesson_id": "ko_G2_05",
+      "title": "마다",
+      "structure": "마다",
+      "explanation": "cada",
+      "examples": [
+        {
+          "korean": "매일 아침마다 운동해요.",
+          "translation": "Hago ejercicio cada mañana."
+        },
+        {
+          "korean": "주말마다 영화를 봐요.",
+          "translation": "Veo una película cada fin de semana."
+        }
+      ]
+    },
+    {
+      "id": "g_048",
+      "lesson_id": "ko_G2_05",
+      "title": "밖에",
+      "structure": "밖에",
+      "explanation": "solo",
+      "examples": [
+        {
+          "korean": "물밖에 없어요.",
+          "translation": "Solo hay agua."
+        },
+        {
+          "korean": "그는 한국어밖에 몰라요.",
+          "translation": "Él solo sabe coreano."
+        }
+      ]
+    },
+    {
+      "id": "g_049",
+      "lesson_id": "ko_G2_06",
+      "title": "에게서",
+      "structure": "에게서",
+      "explanation": "de",
+      "examples": [
+        {
+          "korean": "친구에게서 편지를 받았어요.",
+          "translation": "Recibí una carta de mi amigo."
+        },
+        {
+          "korean": "선생님에게서 배웠어요.",
+          "translation": "Aprendí de mi maestro."
+        }
+      ]
+    },
+    {
+      "id": "g_050",
+      "lesson_id": "ko_G2_06",
+      "title": "이/가 아니다",
+      "structure": "이/가 아니다",
+      "explanation": "no",
+      "examples": [
+        {
+          "korean": "그 사람은 학생이 아니에요.",
+          "translation": "Esa persona no es un estudiante."
+        },
+        {
+          "korean": "이것은 내 것이 아니에요.",
+          "translation": "Esto no es mío."
+        }
+      ]
+    },
+    {
+      "id": "g_051",
+      "lesson_id": "ko_G2_07",
+      "title": "처럼",
+      "structure": "처럼",
+      "explanation": "como",
+      "examples": [
+        {
+          "korean": "그는 배우처럼 연기를 잘합니다.",
+          "translation": "Él actúa bien como un actor."
+        },
+        {
+          "korean": "아이처럼 웃고 싶어요.",
+          "translation": "Quiero reír como un niño."
+        }
+      ]
+    },
+    {
+      "id": "g_052",
+      "lesson_id": "ko_G2_07",
+      "title": "한테서",
+      "structure": "한테서",
+      "explanation": "de",
+      "examples": [
+        {
+          "korean": "친구한테서 편지를 받았습니다.",
+          "translation": "Recibí una carta de mi amigo."
+        },
+        {
+          "korean": "선생님한테서 책을 빌렸어요.",
+          "translation": "Pedí prestado un libro de mi maestro."
+        }
+      ]
+    },
+    {
+      "id": "g_053",
+      "lesson_id": "ko_G2_08",
+      "title": "～(으)십시오",
+      "structure": "～(으)십시오",
+      "explanation": "por favor haz",
+      "examples": [
+        {
+          "korean": "조용히 하십시오.",
+          "translation": "Por favor, guarda silencio."
+        },
+        {
+          "korean": "문을 닫으십시오.",
+          "translation": "Por favor, cierra la puerta."
+        }
+      ]
+    },
+    {
+      "id": "g_054",
+      "lesson_id": "ko_G2_08",
+      "title": "～네요",
+      "structure": "～네요",
+      "explanation": "¿no es así?",
+      "examples": [
+        {
+          "korean": "날씨가 좋네요.",
+          "translation": "El clima está agradable, ¿no es así?"
+        },
+        {
+          "korean": "음식이 맛있네요.",
+          "translation": "La comida está deliciosa, ¿no es así?"
+        }
+      ]
+    },
+    {
+      "id": "g_055",
+      "lesson_id": "ko_G2_09",
+      "title": "Espero que ~",
+      "structure": "～았/었/였으면 좋겠다",
+      "explanation": "Deseo que ~",
+      "examples": [
+        {
+          "korean": "내일 날씨가 좋았으면 좋겠다.",
+          "translation": "Espero que el clima sea agradable mañana."
+        },
+        {
+          "korean": "시험이 쉬웠으면 좋겠어요.",
+          "translation": "Espero que el examen sea fácil."
+        }
+      ]
+    },
+    {
+      "id": "g_056",
+      "lesson_id": "ko_G2_09",
+      "title": "Pero ~",
+      "structure": "～(으)ㄴ/는데(요)",
+      "explanation": "Pero ~",
+      "examples": [
+        {
+          "korean": "비가 오는데요.",
+          "translation": "Está lloviendo, ¿sabes?"
+        },
+        {
+          "korean": "시간이 없는데요.",
+          "translation": "No tengo tiempo, ¿sabes?"
+        }
+      ]
+    },
+    {
+      "id": "g_057",
+      "lesson_id": "ko_G2_10",
+      "title": "¿Es ~?",
+      "structure": "～(으)ㄴ가(요)?",
+      "explanation": "¿Es ~?",
+      "examples": [
+        {
+          "korean": "이 책이 재미있나요?",
+          "translation": "¿Es interesante este libro?"
+        },
+        {
+          "korean": "그 사람이 학생인가요?",
+          "translation": "¿Es esa persona un estudiante?"
+        }
+      ]
+    },
+    {
+      "id": "g_058",
+      "lesson_id": "ko_G2_10",
+      "title": "Porque ~",
+      "structure": "～(으)니까(요)",
+      "explanation": "Porque ~",
+      "examples": [
+        {
+          "korean": "늦었으니까 빨리 갑시다.",
+          "translation": "Vayamos rápido porque estamos tarde."
+        },
+        {
+          "korean": "피곤하니까 쉬세요.",
+          "translation": "Por favor, descanse porque está cansado."
+        }
+      ]
+    },
+    {
+      "id": "g_059",
+      "lesson_id": "ko_G2_11",
+      "title": "Es solo que ~",
+      "structure": "～(으)ㄹ 뿐이다",
+      "explanation": "Es solo que ~",
+      "examples": [
+        {
+          "korean": "그는 일만 할 뿐이다.",
+          "translation": "Él solo trabaja."
+        },
+        {
+          "korean": "나는 기다릴 뿐이다.",
+          "translation": "Solo espero."
+        }
+      ]
+    },
+    {
+      "id": "g_060",
+      "lesson_id": "ko_G2_11",
+      "title": "Cuanto más ~",
+      "structure": "～(으)ㄹ수록",
+      "explanation": "Cuanto más ~",
+      "examples": [
+        {
+          "korean": "공부할수록 똑똑해진다.",
+          "translation": "Cuanto más estudias, más inteligente te vuelves."
+        },
+        {
+          "korean": "연습할수록 실력이 늘어요.",
+          "translation": "Cuanto más practicas, mejor te vuelves."
+        }
+      ]
+    },
+    {
+      "id": "g_061",
+      "lesson_id": "ko_G2_12",
+      "title": "～(으)라고 하다",
+      "structure": "～(으)라고 하다",
+      "explanation": "decir que se haga algo",
+      "examples": [
+        {
+          "korean": "엄마가 방을 청소하라고 하셨어요.",
+          "translation": "Mi mamá dijo que limpiara la habitación."
+        },
+        {
+          "korean": "선생님이 숙제를 하라고 하셨습니다.",
+          "translation": "El profesor dijo que hiciera la tarea."
+        }
+      ]
+    },
+    {
+      "id": "g_062",
+      "lesson_id": "ko_G2_12",
+      "title": "～(으)려면",
+      "structure": "～(으)려면",
+      "explanation": "si quieres hacer",
+      "examples": [
+        {
+          "korean": "한국어를 배우려면 열심히 공부해야 해요.",
+          "translation": "Si quieres aprender coreano, debes estudiar mucho."
+        },
+        {
+          "korean": "시험에 합격하려면 준비가 필요해요.",
+          "translation": "Si quieres aprobar el examen, necesitas prepararte."
+        }
+      ]
+    },
+    {
+      "id": "g_063",
+      "lesson_id": "ko_G2_13",
+      "title": "～(으)며",
+      "structure": "～(으)며",
+      "explanation": "mientras haces",
+      "examples": [
+        {
+          "korean": "노래하며 춤을 춰요.",
+          "translation": "Bailo mientras canto."
+        },
+        {
+          "korean": "책을 읽으며 차를 마셔요.",
+          "translation": "Bebo té mientras leo un libro."
+        }
+      ]
+    },
+    {
+      "id": "g_064",
+      "lesson_id": "ko_G2_13",
+      "title": "～(으)면 되다",
+      "structure": "～(으)면 되다",
+      "explanation": "solo haz",
+      "examples": [
+        {
+          "korean": "이 버튼을 누르면 됩니다.",
+          "translation": "Solo necesitas presionar este botón."
+        },
+        {
+          "korean": "여기서 기다리면 돼요.",
+          "translation": "Puedes simplemente esperar aquí."
+        }
+      ]
+    },
+    {
+      "id": "g_065",
+      "lesson_id": "ko_G2_14",
+      "title": "～게 하다",
+      "structure": "～게 하다",
+      "explanation": "hacer que alguien haga",
+      "examples": [
+        {
+          "korean": "그는 나를 웃게 해요.",
+          "translation": "Él me hace reír."
+        },
+        {
+          "korean": "엄마가 아이를 울게 했어요.",
+          "translation": "Mamá hizo llorar al niño."
+        }
+      ]
+    },
+    {
+      "id": "g_066",
+      "lesson_id": "ko_G2_14",
+      "title": "～고 나니(까)",
+      "structure": "～고 나니(까)",
+      "explanation": "después de hacer",
+      "examples": [
+        {
+          "korean": "밥을 먹고 나니까 배가 불러요.",
+          "translation": "Después de comer, estoy lleno."
+        },
+        {
+          "korean": "일을 끝내고 나니 피곤해요.",
+          "translation": "Después de terminar el trabajo, estoy cansado."
+        }
+      ]
+    },
+    {
+      "id": "g_067",
+      "lesson_id": "ko_G2_15",
+      "title": "～고 나면",
+      "structure": "～고 나면",
+      "explanation": "Si haces ~",
+      "examples": [
+        {
+          "korean": "숙제를 하고 나면 놀 수 있어요.",
+          "translation": "Si haces tu tarea, puedes jugar."
+        },
+        {
+          "korean": "청소를 하고 나면 쉬세요.",
+          "translation": "Después de limpiar, por favor descansa."
+        }
+      ]
+    },
+    {
+      "id": "g_068",
+      "lesson_id": "ko_G2_15",
+      "title": "～고 나서",
+      "structure": "～고 나서",
+      "explanation": "Después de hacer ~",
+      "examples": [
+        {
+          "korean": "저녁을 먹고 나서 산책을 했어요.",
+          "translation": "Di un paseo después de cenar."
+        },
+        {
+          "korean": "영화를 보고 나서 커피를 마셨어요.",
+          "translation": "Bebí café después de ver la película."
+        }
+      ]
+    },
+    {
+      "id": "g_069",
+      "lesson_id": "ko_G2_16",
+      "title": "～기 쉽다",
+      "structure": "～기 쉽다",
+      "explanation": "Fácil de ~",
+      "examples": [
+        {
+          "korean": "이 문제는 풀기 쉬워요.",
+          "translation": "Este problema es fácil de resolver."
+        },
+        {
+          "korean": "그 책은 읽기 쉬워요.",
+          "translation": "Ese libro es fácil de leer."
+        }
+      ]
+    },
+    {
+      "id": "g_070",
+      "lesson_id": "ko_G2_16",
+      "title": "～기 위해(서)",
+      "structure": "～기 위해(서)",
+      "explanation": "Para ~",
+      "examples": [
+        {
+          "korean": "건강을 위해 운동을 해요.",
+          "translation": "Hago ejercicio por mi salud."
+        },
+        {
+          "korean": "시험에 합격하기 위해 열심히 공부해요.",
+          "translation": "Estudio duro para aprobar el examen."
+        }
+      ]
+    },
+    {
+      "id": "g_071",
+      "lesson_id": "ko_G2_17",
+      "title": "～기만 하면 (되다)",
+      "structure": "～기만 하면 (되다)",
+      "explanation": "Mientras ~",
+      "examples": [
+        {
+          "korean": "이 약을 먹기만 하면 나을 거예요.",
+          "translation": "Mientras tomes este medicamento, te sentirás mejor."
+        },
+        {
+          "korean": "열심히 일하기만 하면 성공할 수 있어요.",
+          "translation": "Mientras trabajes duro, puedes tener éxito."
+        }
+      ]
+    },
+    {
+      "id": "g_072",
+      "lesson_id": "ko_G2_17",
+      "title": "～나 보다",
+      "structure": "～나 보다",
+      "explanation": "Parece que ~",
+      "examples": [
+        {
+          "korean": "그는 집에 간 것 같아요.",
+          "translation": "Parece que él se fue a casa."
+        },
+        {
+          "korean": "비가 오는 것 같아요.",
+          "translation": "Parece que está lloviendo."
+        }
+      ]
+    },
+    {
+      "id": "g_073",
+      "lesson_id": "ko_G2_18",
+      "title": "～는 수(가) 있다",
+      "structure": "～는 수(가) 있다",
+      "explanation": "Hay momentos en los que algo sucede.",
+      "examples": [
+        {
+          "korean": "가끔 늦잠을 잘 때가 있어요.",
+          "translation": "Hay momentos en los que me quedo dormido."
+        },
+        {
+          "korean": "그는 가끔 노래를 부를 때가 있어요.",
+          "translation": "Hay momentos en los que él canta."
+        }
+      ]
+    },
+    {
+      "id": "g_074",
+      "lesson_id": "ko_G2_18",
+      "title": "～는 중이다",
+      "structure": "～는 중이다",
+      "explanation": "Estoy en el proceso de hacer algo.",
+      "examples": [
+        {
+          "korean": "지금 공부하는 중이에요.",
+          "translation": "Estoy en medio de estudiar ahora."
+        },
+        {
+          "korean": "회의 중이에요.",
+          "translation": "Estoy en medio de una reunión."
+        }
+      ]
+    },
+    {
+      "id": "g_075",
+      "lesson_id": "ko_G2_19",
+      "title": "～는구나",
+      "structure": "～는구나",
+      "explanation": "Oh, así es como es.",
+      "examples": [
+        {
+          "korean": "비가 오는구나.",
+          "translation": "Oh, está lloviendo."
+        },
+        {
+          "korean": "네가 정말 열심히 공부하는구나.",
+          "translation": "Oh, realmente estás estudiando mucho."
+        }
+      ]
+    },
+    {
+      "id": "g_076",
+      "lesson_id": "ko_G2_19",
+      "title": "～아/어라",
+      "structure": "～아/어라",
+      "explanation": "Haz algo (forma imperativa).",
+      "examples": [
+        {
+          "korean": "문을 닫아라.",
+          "translation": "Cierra la puerta."
+        },
+        {
+          "korean": "책을 읽어라.",
+          "translation": "Lee el libro."
+        }
+      ]
+    },
+    {
+      "id": "g_077",
+      "lesson_id": "ko_G3_01",
+      "title": "께",
+      "structure": "께",
+      "explanation": "A (forma educada).",
+      "examples": [
+        {
+          "korean": "할머니께 선물을 드렸습니다.",
+          "translation": "Le di un regalo a mi abuela."
+        },
+        {
+          "korean": "선생님께 질문을 했습니다.",
+          "translation": "Hice una pregunta al profesor."
+        }
+      ]
+    },
+    {
+      "id": "g_078",
+      "lesson_id": "ko_G3_01",
+      "title": "께서",
+      "structure": "께서",
+      "explanation": "Marcador de sujeto (forma educada).",
+      "examples": [
+        {
+          "korean": "사장님께서 오셨습니다.",
+          "translation": "El presidente ha venido."
+        },
+        {
+          "korean": "어머님께서 말씀하셨습니다.",
+          "translation": "Mi madre habló."
+        }
+      ]
+    },
+    {
+      "id": "g_079",
+      "lesson_id": "ko_G3_02",
+      "title": "～기 어렵다",
+      "structure": "～기 어렵다",
+      "explanation": "Es difícil ~",
+      "examples": [
+        {
+          "korean": "이 문제는 풀기 어렵다.",
+          "translation": "Este problema es difícil de resolver."
+        },
+        {
+          "korean": "그 책은 읽기 어렵다.",
+          "translation": "Ese libro es difícil de leer."
+        }
+      ]
+    },
+    {
+      "id": "g_080",
+      "lesson_id": "ko_G3_02",
+      "title": "～(으)ㄹ 때",
+      "structure": "～(으)ㄹ 때",
+      "explanation": "Cuando ~",
+      "examples": [
+        {
+          "korean": "밥을 먹을 때 음악을 듣습니다.",
+          "translation": "Escucho música cuando como."
+        },
+        {
+          "korean": "공부할 때 조용히 해 주세요.",
+          "translation": "Por favor, mantén silencio cuando estudio."
+        }
+      ]
+    },
+    {
+      "id": "g_081",
+      "lesson_id": "ko_G3_03",
+      "title": "～(으)ㄹ 수 없다",
+      "structure": "～(으)ㄹ 수 없다",
+      "explanation": "No puedo ~",
+      "examples": [
+        {
+          "korean": "오늘은 시간이 없어서 갈 수 없다.",
+          "translation": "No puedo ir hoy porque no tengo tiempo."
+        },
+        {
+          "korean": "너무 어려워서 이해할 수 없다.",
+          "translation": "Es demasiado difícil, así que no puedo entender."
+        }
+      ]
+    },
+    {
+      "id": "g_082",
+      "lesson_id": "ko_G3_03",
+      "title": "～(으)ㄹ 수 있다",
+      "structure": "～(으)ㄹ 수 있다",
+      "explanation": "Puedo ~",
+      "examples": [
+        {
+          "korean": "내일은 시간이 있어서 갈 수 있다.",
+          "translation": "Puedo ir mañana porque tengo tiempo."
+        },
+        {
+          "korean": "이 책은 쉽게 읽을 수 있다.",
+          "translation": "Este libro se puede leer fácilmente."
+        }
+      ]
+    },
+    {
+      "id": "g_083",
+      "lesson_id": "ko_G3_04",
+      "title": "～(으)ㄹ까요",
+      "structure": "～(으)ㄹ까요",
+      "explanation": "¿Vamos a ~?",
+      "examples": [
+        {
+          "korean": "같이 영화 볼까요?",
+          "translation": "¿Vamos a ver una película juntos?"
+        },
+        {
+          "korean": "저녁 먹을까요?",
+          "translation": "¿Vamos a cenar?"
+        }
+      ]
+    },
+    {
+      "id": "g_084",
+      "lesson_id": "ko_G3_04",
+      "title": "～( 으 ) ㄹ까요 ?",
+      "structure": "～( 으 ) ㄹ까요 ?",
+      "explanation": "¿Lloverá ~?",
+      "examples": [
+        {
+          "korean": "내일 비가 올까요?",
+          "translation": "¿Lloverá mañana?"
+        },
+        {
+          "korean": "그가 올까요?",
+          "translation": "¿Vendrá él?"
+        }
+      ]
+    },
+    {
+      "id": "g_085",
+      "lesson_id": "ko_G3_05",
+      "title": "( 이 ) 나",
+      "structure": "( 이 ) 나",
+      "explanation": "pero",
+      "examples": [
+        {
+          "korean": "커피나 차를 마실래요?",
+          "translation": "¿Te gustaría beber café o té?"
+        },
+        {
+          "korean": "책이나 잡지를 읽어요.",
+          "translation": "Leo libros o revistas."
+        }
+      ]
+    },
+    {
+      "id": "g_086",
+      "lesson_id": "ko_G3_05",
+      "title": "( 이 ) 나",
+      "structure": "( 이 ) 나",
+      "explanation": "o",
+      "examples": [
+        {
+          "korean": "커피나 차를 마실래요?",
+          "translation": "¿Te gustaría beber café o té?"
+        },
+        {
+          "korean": "사과나 배를 먹고 싶어요.",
+          "translation": "Quiero comer una manzana o una pera."
+        }
+      ]
+    },
+    {
+      "id": "g_087",
+      "lesson_id": "ko_G3_06",
+      "title": "( 이 ) 나",
+      "structure": "( 이 ) 나",
+      "explanation": "también",
+      "examples": [
+        {
+          "korean": "사과나 배를 많이 먹었어요.",
+          "translation": "Comí muchas manzanas y peras."
+        },
+        {
+          "korean": "친구나 가족도 초대했어요.",
+          "translation": "También invité a amigos y familiares."
+        }
+      ]
+    },
+    {
+      "id": "g_088",
+      "lesson_id": "ko_G3_06",
+      "title": "～(으)ㄴ 지",
+      "structure": "～(으)ㄴ 지",
+      "explanation": "desde",
+      "examples": [
+        {
+          "korean": "한국에 온 지 1년이 되었습니다.",
+          "translation": "Ha pasado un año desde que vine a Corea."
+        },
+        {
+          "korean": "그 영화를 본 지 오래되었어요.",
+          "translation": "Ha pasado mucho tiempo desde que vi esa película."
+        }
+      ]
+    },
+    {
+      "id": "g_089",
+      "lesson_id": "ko_G3_07",
+      "title": "～(으)ㄴ 지",
+      "structure": "～(으)ㄴ 지",
+      "explanation": "después",
+      "examples": [
+        {
+          "korean": "문을 연 지 10분이 지났습니다.",
+          "translation": "Han pasado 10 minutos desde que abrí la puerta."
+        },
+        {
+          "korean": "그 책을 읽은 지 오래되었어요.",
+          "translation": "Ha pasado mucho tiempo desde que leí ese libro."
+        }
+      ]
+    },
+    {
+      "id": "g_090",
+      "lesson_id": "ko_G3_07",
+      "title": "～(으)ㄴ 후에",
+      "structure": "～(으)ㄴ 후에",
+      "explanation": "después",
+      "examples": [
+        {
+          "korean": "식사를 한 후에 커피를 마셨습니다.",
+          "translation": "Bebí café después de haber comido."
+        },
+        {
+          "korean": "일을 끝낸 후에 영화를 봤습니다.",
+          "translation": "Vi una película después de terminar el trabajo."
+        }
+      ]
+    },
+    {
+      "id": "g_091",
+      "lesson_id": "ko_G3_08",
+      "title": "～(으)니까",
+      "structure": "～(으)니까",
+      "explanation": "Porque ~",
+      "examples": [
+        {
+          "korean": "비가 오니까 우산을 가져가세요.",
+          "translation": "Porque está lloviendo, por favor lleva un paraguas."
+        },
+        {
+          "korean": "피곤하니까 일찍 자야 해요.",
+          "translation": "Porque estoy cansado, tengo que dormir temprano."
+        }
+      ]
+    },
+    {
+      "id": "g_092",
+      "lesson_id": "ko_G3_08",
+      "title": "～(으)ㄹ게요",
+      "structure": "～(으)ㄹ게요",
+      "explanation": "Voy a ~",
+      "examples": [
+        {
+          "korean": "내일 다시 올게요.",
+          "translation": "Voy a venir de nuevo mañana."
+        },
+        {
+          "korean": "제가 도와줄게요.",
+          "translation": "Te ayudaré."
+        }
+      ]
+    },
+    {
+      "id": "g_093",
+      "lesson_id": "ko_G3_09",
+      "title": "～(으)ㄹ래요",
+      "structure": "～(으)ㄹ래요",
+      "explanation": "Voy a ~",
+      "examples": [
+        {
+          "korean": "저는 집에 갈래요.",
+          "translation": "Voy a ir a casa."
+        },
+        {
+          "korean": "오늘은 쉬고 싶어서 안 갈래요.",
+          "translation": "No quiero ir hoy porque quiero descansar."
+        }
+      ]
+    },
+    {
+      "id": "g_094",
+      "lesson_id": "ko_G3_09",
+      "title": "～( 으 ) ㄹ래요 ?",
+      "structure": "～( 으 ) ㄹ래요 ?",
+      "explanation": "¿Quieres ~?",
+      "examples": [
+        {
+          "korean": "같이 영화 볼래요?",
+          "translation": "¿Quieres ver una película juntos?"
+        },
+        {
+          "korean": "저녁 먹을래요?",
+          "translation": "¿Quieres cenar?"
+        }
+      ]
+    },
+    {
+      "id": "g_095",
+      "lesson_id": "ko_G3_10",
+      "title": "～(으)러 가다",
+      "structure": "～(으)러 가다",
+      "explanation": "Ir a ~",
+      "examples": [
+        {
+          "korean": "친구를 만나러 갑니다.",
+          "translation": "Voy a encontrarme con un amigo."
+        },
+        {
+          "korean": "책을 사러 서점에 갔어요.",
+          "translation": "Fui a la librería a comprar un libro."
+        }
+      ]
+    },
+    {
+      "id": "g_096",
+      "lesson_id": "ko_G3_10",
+      "title": "～(으)러 오다",
+      "structure": "～(으)러 오다",
+      "explanation": "Venir a ~",
+      "examples": [
+        {
+          "korean": "놀러 오세요.",
+          "translation": "Por favor ven a jugar."
+        },
+        {
+          "korean": "친구가 저를 보러 왔어요.",
+          "translation": "Un amigo vino a verme."
+        }
+      ]
+    },
+    {
+      "id": "g_097",
+      "lesson_id": "ko_G3_11",
+      "title": "～(으)려고",
+      "structure": "～(으)려고",
+      "explanation": "intentar hacer",
+      "examples": [
+        {
+          "korean": "한국어를 배우려고 합니다.",
+          "translation": "Estoy intentando aprender coreano."
+        },
+        {
+          "korean": "운동을 하려고 일찍 일어났어요.",
+          "translation": "Me desperté temprano para intentar hacer ejercicio."
+        }
+      ]
+    },
+    {
+      "id": "g_098",
+      "lesson_id": "ko_G3_11",
+      "title": "～(으)면서",
+      "structure": "～(으)면서",
+      "explanation": "mientras hago",
+      "examples": [
+        {
+          "korean": "음악을 들으면서 공부해요.",
+          "translation": "Estudio mientras escucho música."
+        },
+        {
+          "korean": "텔레비전을 보면서 저녁을 먹습니다.",
+          "translation": "Ceno mientras veo televisión."
+        }
+      ]
+    },
+    {
+      "id": "g_099",
+      "lesson_id": "ko_G3_12",
+      "title": "～(이)지요?",
+      "structure": "～(이)지요?",
+      "explanation": "¿no es así?",
+      "examples": [
+        {
+          "korean": "이것이 당신의 책이지요?",
+          "translation": "Este es tu libro, ¿no es así?"
+        },
+        {
+          "korean": "오늘 날씨가 좋지요?",
+          "translation": "El clima está bonito hoy, ¿no es así?"
+        }
+      ]
+    },
+    {
+      "id": "g_100",
+      "lesson_id": "ko_G3_12",
+      "title": "～거나",
+      "structure": "～거나",
+      "explanation": "o (haciendo)",
+      "examples": [
+        {
+          "korean": "책을 읽거나 음악을 들어요.",
+          "translation": "Leo libros o escucho música."
+        },
+        {
+          "korean": "주말에는 영화를 보거나 산책을 합니다.",
+          "translation": "Los fines de semana, veo películas o doy paseos."
+        }
+      ]
+    },
+    {
+      "id": "g_101",
+      "lesson_id": "ko_G3_13",
+      "title": "～게 되다",
+      "structure": "～게 되다",
+      "explanation": "convertirse en",
+      "examples": [
+        {
+          "korean": "그는 의사가 되게 되었습니다.",
+          "translation": "Él se ha convertido en doctor."
+        },
+        {
+          "korean": "이제는 혼자 살게 되었어요.",
+          "translation": "Ahora he llegado a vivir solo."
+        }
+      ]
+    },
+    {
+      "id": "g_102",
+      "lesson_id": "ko_G3_13",
+      "title": "～기 때문에",
+      "structure": "～기 때문에",
+      "explanation": "debido a",
+      "examples": [
+        {
+          "korean": "비가 많이 오기 때문에 행사가 취소되었습니다.",
+          "translation": "El evento fue cancelado porque llovió mucho."
+        },
+        {
+          "korean": "그는 늦게 일어났기 때문에 지각했습니다.",
+          "translation": "Él llegó tarde porque se despertó tarde."
+        }
+      ]
+    },
+    {
+      "id": "g_103",
+      "lesson_id": "ko_G3_14",
+      "title": "～기로 하다",
+      "structure": "～기로 하다",
+      "explanation": "decidir hacer",
+      "examples": [
+        {
+          "korean": "우리는 내일 만나기로 했습니다.",
+          "translation": "Decidimos encontrarnos mañana."
+        },
+        {
+          "korean": "저녁에 영화를 보기로 했어요.",
+          "translation": "Decidí ver una película por la tarde."
+        }
+      ]
+    },
+    {
+      "id": "g_104",
+      "lesson_id": "ko_G3_14",
+      "title": "～는데",
+      "structure": "～는데",
+      "explanation": "aunque / a pesar de que",
+      "examples": [
+        {
+          "korean": "비가 오는데 산책을 갔어요.",
+          "translation": "Fui a dar un paseo a pesar de que estaba lloviendo."
+        },
+        {
+          "korean": "시간이 없는데도 도와주었습니다.",
+          "translation": "Me ayudaron a pesar de que no tenía tiempo."
+        }
+      ]
+    },
+    {
+      "id": "g_105",
+      "lesson_id": "ko_G3_15",
+      "title": "～아/어/여 보다",
+      "structure": "～아/어/여 보다",
+      "explanation": "intentar hacer",
+      "examples": [
+        {
+          "korean": "이 책을 한번 읽어 보세요.",
+          "translation": "Por favor, intenta leer este libro una vez."
+        },
+        {
+          "korean": "새로운 음식을 먹어 봤어요.",
+          "translation": "Intenté comer comida nueva."
+        }
+      ]
+    },
+    {
+      "id": "g_106",
+      "lesson_id": "ko_G3_15",
+      "title": "～아/어/여 주다",
+      "structure": "～아/어/여 주다",
+      "explanation": "hacer algo por alguien",
+      "examples": [
+        {
+          "korean": "친구가 숙제를 도와주었어요.",
+          "translation": "Mi amigo me ayudó con mi tarea."
+        },
+        {
+          "korean": "엄마가 저녁을 준비해 주셨어요.",
+          "translation": "Mi mamá preparó la cena para mí."
+        }
+      ]
+    },
+    {
+      "id": "g_107",
+      "lesson_id": "ko_G3_16",
+      "title": "～ㄴ/는다면",
+      "structure": "～ㄴ/는다면",
+      "explanation": "si",
+      "examples": [
+        {
+          "korean": "시간이 있다면 같이 가자.",
+          "translation": "Si tienes tiempo, vamos juntos."
+        },
+        {
+          "korean": "돈이 많다면 여행을 가고 싶어요.",
+          "translation": "Si tuviera mucho dinero, querría viajar."
+        }
+      ]
+    },
+    {
+      "id": "g_108",
+      "lesson_id": "ko_G3_16",
+      "title": "～는 대로",
+      "structure": "～는 대로",
+      "explanation": "como (alguien) dice",
+      "examples": [
+        {
+          "korean": "말하는 대로 했어요.",
+          "translation": "Hice como me dijeron."
+        },
+        {
+          "korean": "계획한 대로 진행합시다.",
+          "translation": "Procedamos como estaba planeado."
+        }
+      ]
+    },
+    {
+      "id": "g_109",
+      "lesson_id": "ko_G3_17",
+      "title": "En lugar de ～",
+      "structure": "～는 대신(에)",
+      "explanation": "En lugar de hacer ~",
+      "examples": [
+        {
+          "korean": "커피를 마시는 대신에 차를 마셨어요.",
+          "translation": "Bebí té en lugar de café."
+        },
+        {
+          "korean": "산책하는 대신에 집에서 쉬었어요.",
+          "translation": "Descansé en casa en lugar de salir a caminar."
+        }
+      ]
+    },
+    {
+      "id": "g_110",
+      "lesson_id": "ko_G3_17",
+      "title": "Gracias a ～",
+      "structure": "～는 덕분에",
+      "explanation": "Gracias a ~",
+      "examples": [
+        {
+          "korean": "친구 덕분에 문제를 해결했어요.",
+          "translation": "Resolví el problema gracias a mi amigo."
+        },
+        {
+          "korean": "선생님 덕분에 많이 배웠습니다.",
+          "translation": "Aprendí mucho gracias a mi maestro."
+        }
+      ]
+    },
+    {
+      "id": "g_111",
+      "lesson_id": "ko_G3_18",
+      "title": "Tiende a ～",
+      "structure": "～는 편이다",
+      "explanation": "Tiende a hacer ~",
+      "examples": [
+        {
+          "korean": "저는 매운 음식을 잘 먹는 편이에요.",
+          "translation": "Tiende a comer bien comida picante."
+        },
+        {
+          "korean": "그는 운동을 자주 하는 편입니다.",
+          "translation": "Él tiende a hacer ejercicio a menudo."
+        }
+      ]
+    },
+    {
+      "id": "g_112",
+      "lesson_id": "ko_G3_18",
+      "title": "Mientras ～",
+      "structure": "～다가",
+      "explanation": "Mientras hago ~",
+      "examples": [
+        {
+          "korean": "책을 읽다가 잠이 들었어요.",
+          "translation": "Me quedé dormido mientras leía un libro."
+        },
+        {
+          "korean": "운동을 하다가 다쳤어요.",
+          "translation": "Me lesioné mientras hacía ejercicio."
+        }
+      ]
+    },
+    {
+      "id": "g_113",
+      "lesson_id": "ko_G3_19",
+      "title": "Descubrí que ～",
+      "structure": "～더라",
+      "explanation": "Descubrí que ~",
+      "examples": [
+        {
+          "korean": "그 영화 정말 재미있더라.",
+          "translation": "Descubrí que esa película era realmente interesante."
+        },
+        {
+          "korean": "그 사람 친절하더라.",
+          "translation": "Descubrí que esa persona era amable."
+        }
+      ]
+    },
+    {
+      "id": "g_114",
+      "lesson_id": "ko_G3_19",
+      "title": "Vi que ～",
+      "structure": "～더라고(요)",
+      "explanation": "Vi que ~",
+      "examples": [
+        {
+          "korean": "어제 본 영화 정말 좋더라고요.",
+          "translation": "Vi que la película que vi ayer era realmente buena."
+        },
+        {
+          "korean": "그 식당 음식이 맛있더라고요.",
+          "translation": "Vi que la comida en ese restaurante era deliciosa."
+        }
+      ]
+    },
+    {
+      "id": "g_115",
+      "lesson_id": "ko_G4_01",
+      "title": "～던",
+      "structure": "～던",
+      "explanation": "solía",
+      "examples": [
+        {
+          "korean": "어렸을 때 자주 가던 곳이에요.",
+          "translation": "Este es un lugar al que solía ir a menudo cuando era niño."
+        },
+        {
+          "korean": "그때 먹던 음식이 생각나요.",
+          "translation": "Recuerdo la comida que solía comer en ese entonces."
+        }
+      ]
+    },
+    {
+      "id": "g_116",
+      "lesson_id": "ko_G4_01",
+      "title": "～도록",
+      "structure": "～도록",
+      "explanation": "para que",
+      "examples": [
+        {
+          "korean": "늦지 않도록 서두르세요.",
+          "translation": "Por favor, apúrate para que no llegues tarde."
+        },
+        {
+          "korean": "건강을 위해 운동하도록 하세요.",
+          "translation": "Por favor, haz ejercicio para tu salud."
+        }
+      ]
+    },
+    {
+      "id": "g_117",
+      "lesson_id": "ko_G4_02",
+      "title": "～듯이",
+      "structure": "～듯이",
+      "explanation": "como",
+      "examples": [
+        {
+          "korean": "꿈을 꾸듯이 행복했어요.",
+          "translation": "Estaba feliz como si estuviera soñando."
+        },
+        {
+          "korean": "바람이 불듯이 시원했어요.",
+          "translation": "Estaba fresco como si el viento estuviera soplando."
+        }
+      ]
+    },
+    {
+      "id": "g_118",
+      "lesson_id": "ko_G4_02",
+      "title": "～아/어/여 보이다",
+      "structure": "～아/어/여 보이다",
+      "explanation": "parece",
+      "examples": [
+        {
+          "korean": "그녀는 항상 행복해 보여요.",
+          "translation": "Ella siempre parece feliz."
+        },
+        {
+          "korean": "날씨가 좋아 보여요.",
+          "translation": "El clima parece agradable."
+        }
+      ]
+    },
+    {
+      "id": "g_119",
+      "lesson_id": "ko_G4_03",
+      "title": "～아/어야",
+      "structure": "～아/어야",
+      "explanation": "solo si",
+      "examples": [
+        {
+          "korean": "열심히 해야 성공할 수 있어요.",
+          "translation": "Puedes tener éxito solo si trabajas duro."
+        },
+        {
+          "korean": "노력해야 결과가 좋아요.",
+          "translation": "Los resultados son buenos solo si te esfuerzas."
+        }
+      ]
+    },
+    {
+      "id": "g_120",
+      "lesson_id": "ko_G4_03",
+      "title": "～아/어야지",
+      "structure": "～아/어야지",
+      "explanation": "debes",
+      "examples": [
+        {
+          "korean": "이제 공부해야지.",
+          "translation": "Debo estudiar ahora."
+        },
+        {
+          "korean": "약속을 지켜야지.",
+          "translation": "Debo cumplir mi promesa."
+        }
+      ]
+    },
+    {
+      "id": "g_121",
+      "lesson_id": "ko_G4_04",
+      "title": "～았/었으면 하다",
+      "structure": "～았/었으면 하다",
+      "explanation": "Espero que sea ~",
+      "examples": [
+        {
+          "korean": "이번 시험에 합격했으면 해요.",
+          "translation": "Espero pasar este examen."
+        },
+        {
+          "korean": "그가 행복했으면 합니다.",
+          "translation": "Espero que él sea feliz."
+        }
+      ]
+    },
+    {
+      "id": "g_122",
+      "lesson_id": "ko_G4_04",
+      "title": "～에 따라(서)",
+      "structure": "～에 따라(서)",
+      "explanation": "de acuerdo con ~",
+      "examples": [
+        {
+          "korean": "계획에 따라서 진행하세요.",
+          "translation": "Por favor, proceda de acuerdo con el plan."
+        },
+        {
+          "korean": "규칙에 따라 행동해야 합니다.",
+          "translation": "Debes actuar de acuerdo con las reglas."
+        }
+      ]
+    },
+    {
+      "id": "g_123",
+      "lesson_id": "ko_G4_05",
+      "title": "～에 의해(서)",
+      "structure": "～에 의해(서)",
+      "explanation": "por ~",
+      "examples": [
+        {
+          "korean": "법에 의해 처벌받습니다.",
+          "translation": "Serás castigado por la ley."
+        },
+        {
+          "korean": "결과는 규칙에 의해 결정됩니다.",
+          "translation": "El resultado se determina por las reglas."
+        }
+      ]
+    },
+    {
+      "id": "g_124",
+      "lesson_id": "ko_G4_05",
+      "title": "～을/를 통해(서)",
+      "structure": "～을/를 통해(서)",
+      "explanation": "a través de ~",
+      "examples": [
+        {
+          "korean": "인터넷을 통해 정보를 얻었어요.",
+          "translation": "Obtuve información a través de internet."
+        },
+        {
+          "korean": "친구를 통해 소식을 들었어요.",
+          "translation": "Escuché la noticia a través de un amigo."
+        }
+      ]
+    },
+    {
+      "id": "g_125",
+      "lesson_id": "ko_G4_06",
+      "title": "～자고 하다",
+      "structure": "～자고 하다",
+      "explanation": "sugerir hacer ~",
+      "examples": [
+        {
+          "korean": "내일 만나자고 했어요.",
+          "translation": "Sugerí que nos encontráramos mañana."
+        },
+        {
+          "korean": "같이 영화 보자고 했어요.",
+          "translation": "Sugerí que viéramos una película juntos."
+        }
+      ]
+    },
+    {
+      "id": "g_126",
+      "lesson_id": "ko_G4_06",
+      "title": "～자마자",
+      "structure": "～자마자",
+      "explanation": "tan pronto como ~",
+      "examples": [
+        {
+          "korean": "수업이 끝나자마자 집에 갔습니다.",
+          "translation": "Fui a casa tan pronto como terminó la clase."
+        },
+        {
+          "korean": "비가 오자마자 우산을 폈습니다.",
+          "translation": "Abrí mi paraguas tan pronto como empezó a llover."
+        }
+      ]
+    },
+    {
+      "id": "g_127",
+      "lesson_id": "ko_G4_07",
+      "title": "마저",
+      "structure": "마저",
+      "explanation": "incluso",
+      "examples": [
+        {
+          "korean": "그는 밥 마저 먹었습니다.",
+          "translation": "Él incluso comió arroz."
+        },
+        {
+          "korean": "시간 마저 없었습니다.",
+          "translation": "Incluso no había tiempo."
+        }
+      ]
+    },
+    {
+      "id": "g_128",
+      "lesson_id": "ko_G4_07",
+      "title": "아무 ～(이)나",
+      "structure": "아무 ～(이)나",
+      "explanation": "cualquier",
+      "examples": [
+        {
+          "korean": "아무 책이나 읽어도 됩니다.",
+          "translation": "Puedes leer cualquier libro."
+        },
+        {
+          "korean": "아무 음식이나 먹을 수 있습니다.",
+          "translation": "Puedes comer cualquier comida."
+        }
+      ]
+    },
+    {
+      "id": "g_129",
+      "lesson_id": "ko_G4_08",
+      "title": "아무 ～도",
+      "structure": "아무 ～도",
+      "explanation": "ninguno",
+      "examples": [
+        {
+          "korean": "아무도 오지 않았습니다.",
+          "translation": "Nadie vino."
+        },
+        {
+          "korean": "아무것도 필요 없습니다.",
+          "translation": "No necesito nada."
+        }
+      ]
+    },
+    {
+      "id": "g_130",
+      "lesson_id": "ko_G4_08",
+      "title": "조차",
+      "structure": "조차",
+      "explanation": "incluso",
+      "examples": [
+        {
+          "korean": "시간조차 없었습니다.",
+          "translation": "Incluso no había tiempo."
+        },
+        {
+          "korean": "그는 물조차 마시지 않았습니다.",
+          "translation": "Él ni siquiera bebió agua."
+        }
+      ]
+    },
+    {
+      "id": "g_131",
+      "lesson_id": "ko_G4_09",
+      "title": "～군요",
+      "structure": "～군요",
+      "explanation": "¿verdad?",
+      "examples": [
+        {
+          "korean": "날씨가 정말 좋군요.",
+          "translation": "El clima es realmente agradable, ¿verdad?"
+        },
+        {
+          "korean": "여기가 유명한 식당이군요.",
+          "translation": "Este es un restaurante famoso, ¿verdad?"
+        }
+      ]
+    },
+    {
+      "id": "g_132",
+      "lesson_id": "ko_G4_09",
+      "title": "～(으)ㄴ/는 만큼",
+      "structure": "～(으)ㄴ/는 만큼",
+      "explanation": "tanto como",
+      "examples": [
+        {
+          "korean": "노력한 만큼 결과가 좋았습니다.",
+          "translation": "Los resultados fueron buenos tanto como trabajé duro."
+        },
+        {
+          "korean": "일한 만큼 돈을 받았습니다.",
+          "translation": "Recibí dinero tanto como trabajé."
+        }
+      ]
+    },
+    {
+      "id": "g_133",
+      "lesson_id": "ko_G4_10",
+      "title": "～(으)ㄴ/는/(으)ㄹ지",
+      "structure": "～(으)ㄴ/는/(으)ㄹ지",
+      "explanation": "Me pregunto si...",
+      "examples": [
+        {
+          "korean": "그가 어디에 있는지 모르겠습니다.",
+          "translation": "No sé dónde está."
+        },
+        {
+          "korean": "무엇을 먹을지 고민 중입니다.",
+          "translation": "Me pregunto qué comer."
+        }
+      ]
+    },
+    {
+      "id": "g_134",
+      "lesson_id": "ko_G4_10",
+      "title": "～(으)ㄴ가 보다",
+      "structure": "～(으)ㄴ가 보다",
+      "explanation": "Parece que...",
+      "examples": [
+        {
+          "korean": "비가 오는가 봐요.",
+          "translation": "Parece que está lloviendo."
+        },
+        {
+          "korean": "그가 바쁜가 봅니다.",
+          "translation": "Parece que él está ocupado."
+        }
+      ]
+    },
+    {
+      "id": "g_135",
+      "lesson_id": "ko_G4_11",
+      "title": "～(으)ㄹ 리가 없다",
+      "structure": "～(으)ㄹ 리가 없다",
+      "explanation": "No hay forma de que...",
+      "examples": [
+        {
+          "korean": "그럴 리가 없습니다.",
+          "translation": "No hay forma de que eso suceda."
+        },
+        {
+          "korean": "그가 거짓말을 할 리가 없습니다.",
+          "translation": "No hay forma de que él mienta."
+        }
+      ]
+    },
+    {
+      "id": "g_136",
+      "lesson_id": "ko_G4_11",
+      "title": "～(으)ㄹ 만하다",
+      "structure": "～(으)ㄹ 만하다",
+      "explanation": "Vale la pena...",
+      "examples": [
+        {
+          "korean": "이 영화는 볼 만합니다.",
+          "translation": "Esta película vale la pena ver."
+        },
+        {
+          "korean": "그 책은 읽을 만해요.",
+          "translation": "Ese libro vale la pena leer."
+        }
+      ]
+    },
+    {
+      "id": "g_137",
+      "lesson_id": "ko_G4_12",
+      "title": "～(으)ㄹ 뿐만 아니라",
+      "structure": "～(으)ㄹ 뿐만 아니라",
+      "explanation": "No solo... sino también...",
+      "examples": [
+        {
+          "korean": "그는 똑똑할 뿐만 아니라 친절합니다.",
+          "translation": "Él no solo es inteligente, sino también amable."
+        },
+        {
+          "korean": "이 음식은 맛있을 뿐만 아니라 건강에도 좋습니다.",
+          "translation": "Esta comida no solo es deliciosa, sino también buena para la salud."
+        }
+      ]
+    },
+    {
+      "id": "g_138",
+      "lesson_id": "ko_G4_12",
+      "title": "～(으)ㄹ 수밖에 (없다)",
+      "structure": "～(으)ㄹ 수밖에 (없다)",
+      "explanation": "No tengo más remedio que...",
+      "examples": [
+        {
+          "korean": "이 일을 할 수밖에 없습니다.",
+          "translation": "No tengo más remedio que hacer este trabajo."
+        },
+        {
+          "korean": "그렇게 결정할 수밖에 없었습니다.",
+          "translation": "No tuve más remedio que decidir de esa manera."
+        }
+      ]
+    },
+    {
+      "id": "g_139",
+      "lesson_id": "ko_G4_13",
+      "title": "Hasta el punto de que (～(으)ㄹ 정도(로))",
+      "structure": "～(으)ㄹ 정도(로)",
+      "explanation": "Hasta el punto de que ~",
+      "examples": [
+        {
+          "korean": "너무 아파서 울 정도로 아팠습니다.",
+          "translation": "Me dolió tanto que lloré."
+        },
+        {
+          "korean": "배가 터질 정도로 많이 먹었습니다.",
+          "translation": "Comí tanto que mi estómago podría estallar."
+        }
+      ]
+    },
+    {
+      "id": "g_140",
+      "lesson_id": "ko_G4_13",
+      "title": "Porque (～(으)ㄹ 테니(까))",
+      "structure": "～(으)ㄹ 테니(까)",
+      "explanation": "Porque ~",
+      "examples": [
+        {
+          "korean": "제가 갈 테니까 걱정하지 마세요.",
+          "translation": "Voy a ir, así que no te preocupes."
+        },
+        {
+          "korean": "내일 일찍 일어날 테니 준비하세요.",
+          "translation": "Me despertaré temprano mañana, así que por favor prepárate."
+        }
+      ]
+    },
+    {
+      "id": "g_141",
+      "lesson_id": "ko_G4_14",
+      "title": "Debería ser (～(으)ㄹ 텐데)",
+      "structure": "～(으)ㄹ 텐데",
+      "explanation": "Debería ser ~",
+      "examples": [
+        {
+          "korean": "비가 올 텐데 우산을 가져가세요.",
+          "translation": "Debería llover, así que por favor lleva un paraguas."
+        },
+        {
+          "korean": "그는 바쁠 텐데 나중에 연락하세요.",
+          "translation": "Él debería estar ocupado, así que por favor contáctalo más tarde."
+        }
+      ]
+    },
+    {
+      "id": "g_142",
+      "lesson_id": "ko_G4_14",
+      "title": "No sé si (～(으)ㄹ지(도) 모르다)",
+      "structure": "～(으)ㄹ지(도) 모르다",
+      "explanation": "No sé si ~",
+      "examples": [
+        {
+          "korean": "그가 올지 모르겠습니다.",
+          "translation": "No sé si él vendrá."
+        },
+        {
+          "korean": "내일 비가 올지도 몰라요.",
+          "translation": "Puede que llueva mañana."
+        }
+      ]
+    },
+    {
+      "id": "g_143",
+      "lesson_id": "ko_G4_15",
+      "title": "Debido a (～(으)로 인해(서))",
+      "structure": "～(으)로 인해(서)",
+      "explanation": "Debido a ~",
+      "examples": [
+        {
+          "korean": "교통사고로 인해서 길이 막혔습니다.",
+          "translation": "La carretera estaba bloqueada debido a un accidente de tráfico."
+        },
+        {
+          "korean": "그의 노력으로 인해 성공했습니다.",
+          "translation": "Tuve éxito debido a sus esfuerzos."
+        }
+      ]
+    },
+    {
+      "id": "g_144",
+      "lesson_id": "ko_G4_15",
+      "title": "Como (～(으)로서)",
+      "structure": "～(으)로서",
+      "explanation": "Como ~",
+      "examples": [
+        {
+          "korean": "선생님으로서 학생들을 가르칩니다.",
+          "translation": "Enseño a los estudiantes como profesor."
+        },
+        {
+          "korean": "부모로서 책임을 다합니다.",
+          "translation": "Cumplo con mis responsabilidades como padre."
+        }
+      ]
+    },
+    {
+      "id": "g_145",
+      "lesson_id": "ko_G4_16",
+      "title": "～(으)므로",
+      "structure": "～(으)므로",
+      "explanation": "porque",
+      "examples": [
+        {
+          "korean": "날씨가 추우므로 옷을 따뜻하게 입으세요.",
+          "translation": "Porque el clima es frío, por favor usa ropa abrigada."
+        },
+        {
+          "korean": "시간이 없으므로 빨리 가야 합니다.",
+          "translation": "Porque no hay tiempo, debemos ir rápido."
+        }
+      ]
+    },
+    {
+      "id": "g_146",
+      "lesson_id": "ko_G4_16",
+      "title": "～고 말다",
+      "structure": "～고 말다",
+      "explanation": "terminar haciendo",
+      "examples": [
+        {
+          "korean": "결국 그 일을 하고 말았습니다.",
+          "translation": "Terminé haciendo ese trabajo después de todo."
+        },
+        {
+          "korean": "그는 끝내 울고 말았습니다.",
+          "translation": "Él terminó llorando al final."
+        }
+      ]
+    },
+    {
+      "id": "g_147",
+      "lesson_id": "ko_G4_17",
+      "title": "～기/게 마련이다",
+      "structure": "～기/게 마련이다",
+      "explanation": "es natural hacer",
+      "examples": [
+        {
+          "korean": "사람은 실수하기 마련입니다.",
+          "translation": "Es natural que las personas cometan errores."
+        },
+        {
+          "korean": "시간이 지나면 잊혀지기 마련입니다.",
+          "translation": "Es natural olvidar a medida que pasa el tiempo."
+        }
+      ]
+    },
+    {
+      "id": "g_148",
+      "lesson_id": "ko_G4_17",
+      "title": "～기는 하지만",
+      "structure": "～기는 하지만",
+      "explanation": "aunque",
+      "examples": [
+        {
+          "korean": "비싸기는 하지만 품질이 좋습니다.",
+          "translation": "Aunque es caro, la calidad es buena."
+        },
+        {
+          "korean": "바쁘기는 하지만 도와줄 수 있습니다.",
+          "translation": "Aunque estoy ocupado, puedo ayudar."
+        }
+      ]
+    },
+    {
+      "id": "g_149",
+      "lesson_id": "ko_G4_18",
+      "title": "～기에(는)",
+      "structure": "～기에(는)",
+      "explanation": "para hacer",
+      "examples": [
+        {
+          "korean": "이 책은 읽기에 재미있습니다.",
+          "translation": "Este libro es interesante para leer."
+        },
+        {
+          "korean": "이 음식은 먹기에는 너무 매워요.",
+          "translation": "Esta comida es demasiado picante para comer."
+        }
+      ]
+    },
+    {
+      "id": "g_150",
+      "lesson_id": "ko_G4_18",
+      "title": "～ㄴ/는 척하다",
+      "structure": "～ㄴ/는 척하다",
+      "explanation": "fingir hacer",
+      "examples": [
+        {
+          "korean": "그는 아픈 척했습니다.",
+          "translation": "Él fingió estar enfermo."
+        },
+        {
+          "korean": "그녀는 모르는 척했어요.",
+          "translation": "Ella fingió no saber."
+        }
+      ]
+    },
+    {
+      "id": "g_151",
+      "lesson_id": "ko_G4_19",
+      "title": "～ㄴ/는다고 해도",
+      "structure": "～ㄴ/는다고 해도",
+      "explanation": "Incluso si (alguien dice) ~",
+      "examples": [
+        {
+          "korean": "비가 온다고 해도 소풍을 갈 거예요.",
+          "translation": "Incluso si llueve, iremos de picnic."
+        },
+        {
+          "korean": "그가 유명하다고 해도 저는 관심 없어요.",
+          "translation": "Incluso si es famoso, no estoy interesado."
+        }
+      ]
+    },
+    {
+      "id": "g_152",
+      "lesson_id": "ko_G4_19",
+      "title": "～ㄴ/는다고(요)",
+      "structure": "～ㄴ/는다고(요)",
+      "explanation": "Escuché que ~",
+      "examples": [
+        {
+          "korean": "그 사람이 내일 온다고요.",
+          "translation": "Escuché que esa persona viene mañana."
+        },
+        {
+          "korean": "그녀가 결혼한다고요.",
+          "translation": "Escuché que ella se va a casar."
+        }
+      ]
+    },
+    {
+      "id": "g_153",
+      "lesson_id": "ko_G5_01",
+      "title": "～는 (도)중에",
+      "structure": "～는 (도)중에",
+      "explanation": "Mientras (hago) ~",
+      "examples": [
+        {
+          "korean": "책을 읽는 도중에 전화를 받았어요.",
+          "translation": "Recibí una llamada mientras leía un libro."
+        },
+        {
+          "korean": "영화를 보는 도중에 불이 났어요.",
+          "translation": "Se produjo un incendio mientras veía una película."
+        }
+      ]
+    },
+    {
+      "id": "g_154",
+      "lesson_id": "ko_G5_01",
+      "title": "～는 길에",
+      "structure": "～는 길에",
+      "explanation": "En el camino a ~",
+      "examples": [
+        {
+          "korean": "학교 가는 길에 친구를 만났어요.",
+          "translation": "Conocí a un amigo en el camino a la escuela."
+        },
+        {
+          "korean": "집에 오는 길에 장을 봤어요.",
+          "translation": "Hice algunas compras en el camino a casa."
+        }
+      ]
+    },
+    {
+      "id": "g_155",
+      "lesson_id": "ko_G5_02",
+      "title": "～는 사이에",
+      "structure": "～는 사이에",
+      "explanation": "Mientras ~",
+      "examples": [
+        {
+          "korean": "제가 없는 사이에 무슨 일이 있었어요?",
+          "translation": "¿Qué pasó mientras estuve ausente?"
+        },
+        {
+          "korean": "잠깐 사이에 날씨가 변했어요.",
+          "translation": "El clima cambió en poco tiempo."
+        }
+      ]
+    },
+    {
+      "id": "g_156",
+      "lesson_id": "ko_G5_02",
+      "title": "～는 한",
+      "structure": "～는 한",
+      "explanation": "Mientras ~",
+      "examples": [
+        {
+          "korean": "노력하는 한 포기하지 않을 거예요.",
+          "translation": "Mientras me esfuerce, no me rendiré."
+        },
+        {
+          "korean": "건강한 한 행복할 수 있어요.",
+          "translation": "Mientras esté sano, puedo ser feliz."
+        }
+      ]
+    },
+    {
+      "id": "g_157",
+      "lesson_id": "ko_G5_03",
+      "title": "(이)야말로",
+      "structure": "(이)야말로",
+      "explanation": "enfatiza el sujeto",
+      "examples": [
+        {
+          "korean": "이것이야말로 진정한 사랑이에요.",
+          "translation": "Esto es verdadero amor."
+        },
+        {
+          "korean": "당신이야말로 최고의 친구예요.",
+          "translation": "Tú eres el mejor amigo."
+        }
+      ]
+    },
+    {
+      "id": "g_158",
+      "lesson_id": "ko_G5_03",
+      "title": "～(으)ㄴ 채(로)",
+      "structure": "～(으)ㄴ 채(로)",
+      "explanation": "mientras está en un cierto estado",
+      "examples": [
+        {
+          "korean": "신발을 신은 채로 들어오지 마세요.",
+          "translation": "Por favor, no entres mientras lleves zapatos."
+        },
+        {
+          "korean": "안경을 쓴 채로 잠들었어요.",
+          "translation": "Me quedé dormido mientras llevaba mis gafas."
+        }
+      ]
+    },
+    {
+      "id": "g_159",
+      "lesson_id": "ko_G5_04",
+      "title": "～(으)ㄴ/는 김에",
+      "structure": "～(으)ㄴ/는 김에",
+      "explanation": "mientras haces otra cosa",
+      "examples": [
+        {
+          "korean": "도서관에 가는 김에 책을 빌렸어요.",
+          "translation": "Saqué un libro mientras iba a la biblioteca."
+        },
+        {
+          "korean": "산책하는 김에 사진을 찍었어요.",
+          "translation": "Tomé una foto mientras paseaba."
+        }
+      ]
+    },
+    {
+      "id": "g_160",
+      "lesson_id": "ko_G5_04",
+      "title": "～(으)ㄴ/는 법이다",
+      "structure": "～(으)ㄴ/는 법이다",
+      "explanation": "es una verdad común",
+      "examples": [
+        {
+          "korean": "노력하면 성공하는 법이에요.",
+          "translation": "Si pones esfuerzo, tendrás éxito."
+        },
+        {
+          "korean": "시간이 지나면 잊혀지는 법이에요.",
+          "translation": "Con el tiempo, las cosas se olvidarán."
+        }
+      ]
+    },
+    {
+      "id": "g_161",
+      "lesson_id": "ko_G5_05",
+      "title": "～(으)ㄴ/는 탓에",
+      "structure": "～(으)ㄴ/는 탓에",
+      "explanation": "debido a algo",
+      "examples": [
+        {
+          "korean": "비가 오는 탓에 길이 미끄러워요.",
+          "translation": "La carretera está resbaladiza debido a la lluvia."
+        },
+        {
+          "korean": "감기에 걸린 탓에 학교에 못 갔어요.",
+          "translation": "No pude ir a la escuela debido a que me resfrié."
+        }
+      ]
+    },
+    {
+      "id": "g_162",
+      "lesson_id": "ko_G5_05",
+      "title": "～(으)ㄴ/는걸(요)",
+      "structure": "～(으)ㄴ/는걸(요)",
+      "explanation": "ya sabes",
+      "examples": [
+        {
+          "korean": "그 영화 정말 재미있는걸요.",
+          "translation": "Esa película es realmente interesante, ya sabes."
+        },
+        {
+          "korean": "그 사람 친절한걸요.",
+          "translation": "Esa persona es amable, ya sabes."
+        }
+      ]
+    },
+    {
+      "id": "g_163",
+      "lesson_id": "ko_G5_06",
+      "title": "～(으)ㄹ 뻔하다",
+      "structure": "～(으)ㄹ 뻔하다",
+      "explanation": "Casi hice ~",
+      "examples": [
+        {
+          "korean": "넘어질 뻔했어요.",
+          "translation": "Casi me caí."
+        },
+        {
+          "korean": "늦을 뻔했어요.",
+          "translation": "Casi llegué tarde."
+        }
+      ]
+    },
+    {
+      "id": "g_164",
+      "lesson_id": "ko_G5_06",
+      "title": "～거든",
+      "structure": "～거든",
+      "explanation": "Sabes ~",
+      "examples": [
+        {
+          "korean": "오늘 날씨가 좋거든.",
+          "translation": "El clima está bonito hoy, sabes."
+        },
+        {
+          "korean": "그 사람은 친절하거든.",
+          "translation": "Esa persona es amable, sabes."
+        }
+      ]
+    },
+    {
+      "id": "g_165",
+      "lesson_id": "ko_G5_07",
+      "title": "～고 말고(요)",
+      "structure": "～고 말고(요)",
+      "explanation": "Por supuesto ~",
+      "examples": [
+        {
+          "korean": "당연히 갈 거고 말고요.",
+          "translation": "Por supuesto que voy."
+        },
+        {
+          "korean": "그 책은 재미있고 말고요.",
+          "translation": "Ese libro es definitivamente interesante."
+        }
+      ]
+    },
+    {
+      "id": "g_166",
+      "lesson_id": "ko_G5_07",
+      "title": "～고 보면",
+      "structure": "～고 보면",
+      "explanation": "Cuando intentas ~",
+      "examples": [
+        {
+          "korean": "해 보고 나면 알게 될 거예요.",
+          "translation": "Entenderás cuando lo intentes."
+        },
+        {
+          "korean": "직접 만나고 보면 다를 거예요.",
+          "translation": "Será diferente cuando te encuentres en persona."
+        }
+      ]
+    },
+    {
+      "id": "g_167",
+      "lesson_id": "ko_G5_08",
+      "title": "～곤 하다",
+      "structure": "～곤 하다",
+      "explanation": "A veces ~",
+      "examples": [
+        {
+          "korean": "주말에는 영화를 보곤 해요.",
+          "translation": "A veces veo películas los fines de semana."
+        },
+        {
+          "korean": "아침마다 운동을 하곤 해요.",
+          "translation": "A veces hago ejercicio cada mañana."
+        }
+      ]
+    },
+    {
+      "id": "g_168",
+      "lesson_id": "ko_G5_08",
+      "title": "～기는(요)",
+      "structure": "～기는(요)",
+      "explanation": "No lo menciones ~",
+      "examples": [
+        {
+          "korean": "고맙기는요, 제가 더 고맙죠.",
+          "translation": "No lo menciones, yo estoy más agradecido."
+        },
+        {
+          "korean": "잘하기는요, 아직 멀었어요.",
+          "translation": "No lo menciones, todavía estoy lejos de ser bueno en eso."
+        }
+      ]
+    },
+    {
+      "id": "g_169",
+      "lesson_id": "ko_G5_09",
+      "title": "～길래",
+      "structure": "～길래",
+      "explanation": "Porque ~",
+      "examples": [
+        {
+          "korean": "비가 오길래 우산을 챙겼어요.",
+          "translation": "Traje un paraguas porque estaba lloviendo."
+        },
+        {
+          "korean": "배가 고프길래 밥을 먹었어요.",
+          "translation": "Comí porque tenía hambre."
+        }
+      ]
+    },
+    {
+      "id": "g_170",
+      "lesson_id": "ko_G5_09",
+      "title": "～ㄴ/는다니",
+      "structure": "～ㄴ/는다니",
+      "explanation": "No puedo creer que ~",
+      "examples": [
+        {
+          "korean": "그가 이겼다니 믿을 수 없어요.",
+          "translation": "No puedo creer que él ganó."
+        },
+        {
+          "korean": "그녀가 결혼한다니 놀랐어요.",
+          "translation": "Me sorprendió que ella se case."
+        }
+      ]
+    },
+    {
+      "id": "g_171",
+      "lesson_id": "ko_G5_10",
+      "title": "～ㄴ/는다니까",
+      "structure": "～ㄴ/는다니까",
+      "explanation": "Te estoy diciendo que ~",
+      "examples": [
+        {
+          "korean": "비가 온다니까 우산 가져가세요.",
+          "translation": "Te estoy diciendo que va a llover, así que por favor lleva un paraguas."
+        },
+        {
+          "korean": "늦는다니까 서두르세요.",
+          "translation": "Te estoy diciendo que voy a llegar tarde, así que apúrate."
+        }
+      ]
+    },
+    {
+      "id": "g_172",
+      "lesson_id": "ko_G5_10",
+      "title": "～(으)ㄴ 것 같다",
+      "structure": "～(으)ㄴ 것 같다",
+      "explanation": "Parece que ~",
+      "examples": [
+        {
+          "korean": "그 영화는 재미있는 것 같아요.",
+          "translation": "Parece que esa película es interesante."
+        },
+        {
+          "korean": "그녀가 행복한 것 같아요.",
+          "translation": "Parece que ella es feliz."
+        }
+      ]
+    },
+    {
+      "id": "g_173",
+      "lesson_id": "ko_G5_11",
+      "title": "～( 으 ) ㄹ 것 같다",
+      "structure": "～( 으 ) ㄹ 것 같다",
+      "explanation": "Parece que ~ va a suceder",
+      "examples": [
+        {
+          "korean": "비가 올 것 같아요.",
+          "translation": "Parece que va a llover."
+        },
+        {
+          "korean": "그가 올 것 같아요.",
+          "translation": "Parece que él vendrá."
+        }
+      ]
+    },
+    {
+      "id": "g_174",
+      "lesson_id": "ko_G5_11",
+      "title": "～(으)ㄴ데(요)",
+      "structure": "～(으)ㄴ데(요)",
+      "explanation": "Pero ~",
+      "examples": [
+        {
+          "korean": "저는 괜찮은데요.",
+          "translation": "Estoy bien, pero..."
+        },
+        {
+          "korean": "시간이 없는데요.",
+          "translation": "No tengo tiempo, pero..."
+        }
+      ]
+    },
+    {
+      "id": "g_175",
+      "lesson_id": "ko_G5_12",
+      "title": "～(으)ㄴ데(요)",
+      "structure": "～(으)ㄴ데(요)",
+      "explanation": "Significa que algo es el caso, pero hay un matiz adicional.",
+      "examples": [
+        {
+          "korean": "그는 친절한데요.",
+          "translation": "Él es amable, ¿sabes?"
+        },
+        {
+          "korean": "이 음식은 맛있는데요.",
+          "translation": "Esta comida es deliciosa, ¿sabes?"
+        }
+      ]
+    },
+    {
+      "id": "g_176",
+      "lesson_id": "ko_G5_12",
+      "title": "～(으)ㄹ 것이다",
+      "structure": "～(으)ㄹ 것이다",
+      "explanation": "Indica una acción futura o una suposición.",
+      "examples": [
+        {
+          "korean": "내일 비가 올 것이다.",
+          "translation": "Lloverá mañana."
+        },
+        {
+          "korean": "그는 곧 도착할 것이다.",
+          "translation": "Él llegará pronto."
+        }
+      ]
+    },
+    {
+      "id": "g_177",
+      "lesson_id": "ko_G5_13",
+      "title": "～(으)려고 하다",
+      "structure": "～(으)려고 하다",
+      "explanation": "Expresa una intención de hacer algo.",
+      "examples": [
+        {
+          "korean": "나는 내일 여행을 가려고 한다.",
+          "translation": "Tengo la intención de ir de viaje mañana."
+        },
+        {
+          "korean": "그녀는 한국어를 배우려고 한다.",
+          "translation": "Ella tiene la intención de aprender coreano."
+        }
+      ]
+    },
+    {
+      "id": "g_178",
+      "lesson_id": "ko_G5_13",
+      "title": "～아/어/여야 되다",
+      "structure": "～아/어/여야 되다",
+      "explanation": "Indica algo que debe hacerse.",
+      "examples": [
+        {
+          "korean": "지금 출발해야 된다.",
+          "translation": "Debo irme ahora."
+        },
+        {
+          "korean": "숙제를 끝내야 된다.",
+          "translation": "Debo terminar mi tarea."
+        }
+      ]
+    },
+    {
+      "id": "g_179",
+      "lesson_id": "ko_G5_14",
+      "title": "～아/어/여야 하다",
+      "structure": "～아/어/여야 하다",
+      "explanation": "Indica una obligación o necesidad.",
+      "examples": [
+        {
+          "korean": "약속을 지켜야 한다.",
+          "translation": "Debo cumplir mi promesa."
+        },
+        {
+          "korean": "건강을 위해 운동해야 한다.",
+          "translation": "Debo hacer ejercicio por mi salud."
+        }
+      ]
+    },
+    {
+      "id": "g_180",
+      "lesson_id": "ko_G5_14",
+      "title": "～(으)ㄴ 적이 없다",
+      "structure": "～(으)ㄴ 적이 없다",
+      "explanation": "Significa que nunca se ha hecho algo.",
+      "examples": [
+        {
+          "korean": "나는 일본에 간 적이 없다.",
+          "translation": "Nunca he estado en Japón."
+        },
+        {
+          "korean": "그 영화는 본 적이 없다.",
+          "translation": "Nunca he visto esa película."
+        }
+      ]
+    },
+    {
+      "id": "g_181",
+      "lesson_id": "ko_G5_15",
+      "title": "He hecho ~",
+      "structure": "～(으)ㄴ 적이 있다",
+      "explanation": "He hecho ~",
+      "examples": [
+        {
+          "korean": "그 책을 읽은 적이 있다.",
+          "translation": "He leído ese libro."
+        },
+        {
+          "korean": "나는 그 사람을 만난 적이 있다.",
+          "translation": "He conocido a esa persona."
+        }
+      ]
+    },
+    {
+      "id": "g_182",
+      "lesson_id": "ko_G5_15",
+      "title": "Creo que voy a ~",
+      "structure": "～(으)ㄹ까 하다",
+      "explanation": "Creo que voy a ~",
+      "examples": [
+        {
+          "korean": "이번 주말에 여행을 갈까 한다.",
+          "translation": "Creo que voy a ir de viaje este fin de semana."
+        },
+        {
+          "korean": "새로운 취미를 시작할까 한다.",
+          "translation": "Creo que voy a empezar un nuevo pasatiempo."
+        }
+      ]
+    },
+    {
+      "id": "g_183",
+      "lesson_id": "ko_G5_16",
+      "title": "Estaba preocupado de que ~",
+      "structure": "～( 으 ) ㄹ까봐",
+      "explanation": "Estaba preocupado de que ~",
+      "examples": [
+        {
+          "korean": "비가 올까봐 우산을 챙겼다.",
+          "translation": "Llevé un paraguas porque estaba preocupado de que pudiera llover."
+        },
+        {
+          "korean": "늦을까봐 서둘렀다.",
+          "translation": "Me apresuré porque estaba preocupado de que pudiera llegar tarde."
+        }
+      ]
+    },
+    {
+      "id": "g_184",
+      "lesson_id": "ko_G5_16",
+      "title": "Planeo ~",
+      "structure": "～(으)려고요",
+      "explanation": "Planeo ~",
+      "examples": [
+        {
+          "korean": "내일 친구를 만나려고요.",
+          "translation": "Planeo encontrarme con un amigo mañana."
+        },
+        {
+          "korean": "이번 주말에 쉬려고요.",
+          "translation": "Planeo descansar este fin de semana."
+        }
+      ]
+    },
+    {
+      "id": "g_185",
+      "lesson_id": "ko_G5_17",
+      "title": "Sería bueno ~",
+      "structure": "～는 게 좋겠다",
+      "explanation": "Sería bueno ~",
+      "examples": [
+        {
+          "korean": "일찍 자는 게 좋겠다.",
+          "translation": "Sería bueno irse a la cama temprano."
+        },
+        {
+          "korean": "건강을 위해 운동하는 게 좋겠다.",
+          "translation": "Sería bueno hacer ejercicio por la salud."
+        }
+      ]
+    },
+    {
+      "id": "g_186",
+      "lesson_id": "ko_G5_17",
+      "title": "Escuché que ~",
+      "structure": "～ㄴ/는다면서(요)?",
+      "explanation": "Escuché que ~",
+      "examples": [
+        {
+          "korean": "그가 이사를 간다면서요?",
+          "translation": "¿Escuché que se está mudando?"
+        },
+        {
+          "korean": "그녀가 결혼한다면서요?",
+          "translation": "¿Escuché que se está casando?"
+        }
+      ]
+    },
+    {
+      "id": "g_187",
+      "lesson_id": "ko_G5_18",
+      "title": "～는 바람에",
+      "structure": "～는 바람에",
+      "explanation": "debido a",
+      "examples": [
+        {
+          "korean": "비가 오는 바람에 계획이 취소되었다.",
+          "translation": "Porque llovió, el plan fue cancelado."
+        },
+        {
+          "korean": "차가 막히는 바람에 늦었다.",
+          "translation": "Llegué tarde debido al tráfico."
+        }
+      ]
+    },
+    {
+      "id": "g_188",
+      "lesson_id": "ko_G5_18",
+      "title": "～다(가) 보니(까)",
+      "structure": "～다(가) 보니(까)",
+      "explanation": "cuando hice",
+      "examples": [
+        {
+          "korean": "공부하다 보니까 시간이 다 갔다.",
+          "translation": "Cuando estaba estudiando, todo el tiempo pasó."
+        },
+        {
+          "korean": "일하다 보니까 배가 고팠다.",
+          "translation": "Cuando estaba trabajando, me dio hambre."
+        }
+      ]
+    },
+    {
+      "id": "g_189",
+      "lesson_id": "ko_G5_19",
+      "title": "～다(가) 보면",
+      "structure": "～다(가) 보면",
+      "explanation": "si intentas",
+      "examples": [
+        {
+          "korean": "열심히 하다 보면 좋은 결과가 있을 것이다.",
+          "translation": "Si te esfuerzas, habrá buenos resultados."
+        },
+        {
+          "korean": "계속 연습하다 보면 실력이 늘 것이다.",
+          "translation": "Si sigues practicando, tus habilidades mejorarán."
+        }
+      ]
+    },
+    {
+      "id": "g_190",
+      "lesson_id": "ko_G5_19",
+      "title": "～더니",
+      "structure": "～더니",
+      "explanation": "cuando hice, sorprendentemente",
+      "examples": [
+        {
+          "korean": "열심히 공부했더니 시험에 합격했다.",
+          "translation": "Cuando estudié duro, pasé el examen."
+        },
+        {
+          "korean": "운동을 했더니 기분이 좋아졌다.",
+          "translation": "Cuando hice ejercicio, me sentí mejor."
+        }
+      ]
+    },
+    {
+      "id": "g_191",
+      "lesson_id": "ko_G6_01",
+      "title": "～더라도",
+      "structure": "～더라도",
+      "explanation": "incluso si",
+      "examples": [
+        {
+          "korean": "비가 오더라도 갈 것이다.",
+          "translation": "Incluso si llueve, iré."
+        },
+        {
+          "korean": "힘들더라도 포기하지 마세요.",
+          "translation": "Incluso si es difícil, por favor no te rindas."
+        }
+      ]
+    },
+    {
+      "id": "g_192",
+      "lesson_id": "ko_G6_01",
+      "title": "～든지",
+      "structure": "～든지",
+      "explanation": "ya sea que lo hagas o no",
+      "examples": [
+        {
+          "korean": "먹든지 말든지 네 마음대로 해.",
+          "translation": "Haz lo que quieras, ya sea que comas o no."
+        },
+        {
+          "korean": "가든지 말든지 결정하세요.",
+          "translation": "Decide si ir o no."
+        }
+      ]
+    },
+    {
+      "id": "g_193",
+      "lesson_id": "ko_G6_02",
+      "title": "Parece que ~았/었/였던",
+      "structure": "～았/었/였던 것 같다",
+      "explanation": "Parece que ~",
+      "examples": [
+        {
+          "korean": "그때는 정말 행복했던 것 같다.",
+          "translation": "Parece que yo era realmente feliz en ese momento."
+        },
+        {
+          "korean": "그 영화는 재미있었던 것 같다.",
+          "translation": "Parece que la película era interesante."
+        }
+      ]
+    },
+    {
+      "id": "g_194",
+      "lesson_id": "ko_G6_02",
+      "title": "Cuánto ~ (으)ㄴ/는지",
+      "structure": "얼마나 ～(으)ㄴ/는지",
+      "explanation": "Cuánto ~",
+      "examples": [
+        {
+          "korean": "그가 얼마나 똑똑한지 몰라요.",
+          "translation": "No sé cuán inteligente es."
+        },
+        {
+          "korean": "얼마나 힘든지 이해해요.",
+          "translation": "Entiendo cuán difícil es."
+        }
+      ]
+    },
+    {
+      "id": "g_195",
+      "lesson_id": "ko_G6_03",
+      "title": "Considerando (는)",
+      "structure": "치고(는)",
+      "explanation": "Considerando ~",
+      "examples": [
+        {
+          "korean": "그는 학생치고는 정말 성숙하다.",
+          "translation": "Él es realmente maduro considerando que es un estudiante."
+        },
+        {
+          "korean": "그녀는 초보자치고는 잘한다.",
+          "translation": "Ella lo hace bien considerando que es una principiante."
+        }
+      ]
+    },
+    {
+      "id": "g_196",
+      "lesson_id": "ko_G6_03",
+      "title": "Viendo que ~(으)ㄴ/는",
+      "structure": "～(으)ㄴ/는 걸 보니(까)",
+      "explanation": "Viendo que ~",
+      "examples": [
+        {
+          "korean": "그가 웃는 걸 보니까 기분이 좋은 것 같다.",
+          "translation": "Viendo que él sonríe, parece que me siento bien."
+        },
+        {
+          "korean": "비가 오는 걸 보니까 우산이 필요할 것 같다.",
+          "translation": "Viendo que está lloviendo, parece que necesito un paraguas."
+        }
+      ]
+    },
+    {
+      "id": "g_197",
+      "lesson_id": "ko_G6_04",
+      "title": "Por otro lado ~ (으)ㄴ/는",
+      "structure": "～(으)ㄴ/는 반면(에)",
+      "explanation": "Por otro lado ~",
+      "examples": [
+        {
+          "korean": "그는 친절한 반면에 엄격하다.",
+          "translation": "Él es amable, pero por otro lado, estricto."
+        },
+        {
+          "korean": "그녀는 똑똑한 반면에 조용하다.",
+          "translation": "Ella es inteligente, pero por otro lado, callada."
+        }
+      ]
+    },
+    {
+      "id": "g_198",
+      "lesson_id": "ko_G6_04",
+      "title": "Parece que ~(으)ㄴ/는/(으)ㄹ",
+      "structure": "～(으)ㄴ/는/(으)ㄹ 모양이다",
+      "explanation": "Parece que ~",
+      "examples": [
+        {
+          "korean": "그는 바쁜 모양이다.",
+          "translation": "Parece que él está ocupado."
+        },
+        {
+          "korean": "비가 올 모양이다.",
+          "translation": "Parece que va a llover."
+        }
+      ]
+    },
+    {
+      "id": "g_199",
+      "lesson_id": "ko_G6_05",
+      "title": "No pensé que ~",
+      "structure": "～(으)ㄴ/는/(으)ㄹ 줄 몰랐다",
+      "explanation": "No pensé que ~",
+      "examples": [
+        {
+          "korean": "그가 그렇게 빨리 올 줄 몰랐다.",
+          "translation": "No pensé que él vendría tan rápido."
+        },
+        {
+          "korean": "그녀가 이길 줄 몰랐다.",
+          "translation": "No pensé que ella ganaría."
+        }
+      ]
+    },
+    {
+      "id": "g_200",
+      "lesson_id": "ko_G6_05",
+      "title": "Pensé que ~",
+      "structure": "～(으)ㄴ/는/(으)ㄹ 줄 알았다",
+      "explanation": "Pensé que ~",
+      "examples": [
+        {
+          "korean": "그가 이미 도착한 줄 알았다.",
+          "translation": "Pensé que él ya había llegado."
+        },
+        {
+          "korean": "그녀가 참석할 줄 알았다.",
+          "translation": "Pensé que ella asistiría."
+        }
+      ]
+    },
+    {
+      "id": "g_201",
+      "lesson_id": "ko_G6_06",
+      "title": "con el propósito de ~",
+      "structure": "～(으)ㄹ 겸 (해서)",
+      "explanation": "con el propósito de ~",
+      "examples": [
+        {
+          "korean": "운동도 할 겸 산책을 나갔어요.",
+          "translation": "Salí a caminar con el propósito de hacer ejercicio también."
+        },
+        {
+          "korean": "친구도 만날 겸 카페에 갔어요.",
+          "translation": "Fui a la cafetería con el propósito de encontrarme con un amigo también."
+        }
+      ]
+    },
+    {
+      "id": "g_202",
+      "lesson_id": "ko_G6_06",
+      "title": "Debería haber ~",
+      "structure": "～(으)ㄹ걸 (그랬다)",
+      "explanation": "Debería haber ~",
+      "examples": [
+        {
+          "korean": "일찍 잘걸 그랬어요.",
+          "translation": "Debería haberme acostado temprano."
+        },
+        {
+          "korean": "우산을 가져올걸 그랬어요.",
+          "translation": "Debería haber traído un paraguas."
+        }
+      ]
+    },
+    {
+      "id": "g_203",
+      "lesson_id": "ko_G6_07",
+      "title": "si ~ o no",
+      "structure": "～(으)ㄹ까 말까",
+      "explanation": "si ~ o no",
+      "examples": [
+        {
+          "korean": "영화를 볼까 말까 고민 중이에요.",
+          "translation": "Estoy pensando si ver una película o no."
+        },
+        {
+          "korean": "파티에 갈까 말까 생각 중이에요.",
+          "translation": "Estoy pensando si ir a la fiesta o no."
+        }
+      ]
+    },
+    {
+      "id": "g_204",
+      "lesson_id": "ko_G6_07",
+      "title": "incluso si ~",
+      "structure": "～(으)ㄹ지라도",
+      "explanation": "incluso si ~",
+      "examples": [
+        {
+          "korean": "비가 올지라도 산책을 갈 거예요.",
+          "translation": "Incluso si llueve, iré a caminar."
+        },
+        {
+          "korean": "힘들지라도 포기하지 않겠어요.",
+          "translation": "Incluso si es difícil, no me rendiré."
+        }
+      ]
+    },
+    {
+      "id": "g_205",
+      "lesson_id": "ko_G6_08",
+      "title": "～(으)려다가",
+      "structure": "～(으)려다가",
+      "explanation": "Estaba tratando de ~",
+      "examples": [
+        {
+          "korean": "집에 가려다가 친구를 만났어요.",
+          "translation": "Estaba tratando de ir a casa cuando conocí a un amigo."
+        },
+        {
+          "korean": "책을 읽으려다가 잠들었어요.",
+          "translation": "Estaba tratando de leer un libro cuando me quedé dormido."
+        }
+      ]
+    },
+    {
+      "id": "g_206",
+      "lesson_id": "ko_G6_08",
+      "title": "～(으)려던 참이다",
+      "structure": "～(으)려던 참이다",
+      "explanation": "Estaba a punto de ~",
+      "examples": [
+        {
+          "korean": "지금 막 나가려던 참이에요.",
+          "translation": "Estaba a punto de salir."
+        },
+        {
+          "korean": "저녁을 먹으려던 참이었어요.",
+          "translation": "Estaba a punto de cenar."
+        }
+      ]
+    },
+    {
+      "id": "g_207",
+      "lesson_id": "ko_G6_09",
+      "title": "～ㄴ/는다거나",
+      "structure": "～ㄴ/는다거나",
+      "explanation": "como ~ o ~",
+      "examples": [
+        {
+          "korean": "영화를 본다거나 책을 읽는다거나 해요.",
+          "translation": "Hago cosas como ver películas o leer libros."
+        },
+        {
+          "korean": "주말에는 산에 간다거나 바다에 간다거나 해요.",
+          "translation": "Los fines de semana, hago cosas como ir a las montañas o a la playa."
+        }
+      ]
+    },
+    {
+      "id": "g_208",
+      "lesson_id": "ko_G6_09",
+      "title": "～ㄴ/는다더니",
+      "structure": "～ㄴ/는다더니",
+      "explanation": "Escuché que ~ pero",
+      "examples": [
+        {
+          "korean": "비가 온다더니 정말 비가 오네요.",
+          "translation": "Escuché que iba a llover, y realmente está lloviendo."
+        },
+        {
+          "korean": "그가 바쁘다더니 시간이 있네요.",
+          "translation": "Escuché que estaba ocupado, pero tiene tiempo."
+        }
+      ]
+    },
+    {
+      "id": "g_209",
+      "lesson_id": "ko_G6_10",
+      "title": "～ㄴ/는다더라",
+      "structure": "～ㄴ/는다더라",
+      "explanation": "Escuché que ~",
+      "examples": [
+        {
+          "korean": "그 영화가 재미있다더라.",
+          "translation": "Escuché que esa película es interesante."
+        },
+        {
+          "korean": "그 사람이 친절하다더라.",
+          "translation": "Escuché que esa persona es amable."
+        }
+      ]
+    },
+    {
+      "id": "g_210",
+      "lesson_id": "ko_G6_10",
+      "title": "～냐고 하다",
+      "structure": "～냐고 하다",
+      "explanation": "preguntar si ~",
+      "examples": [
+        {
+          "korean": "어디 가냐고 물어봤어요.",
+          "translation": "Pregunté a dónde ibas."
+        },
+        {
+          "korean": "무슨 일이냐고 했어요.",
+          "translation": "Pregunté qué estaba pasando."
+        }
+      ]
+    },
+    {
+      "id": "g_211",
+      "lesson_id": "ko_G6_11",
+      "title": "～는 수밖에 (없다)",
+      "structure": "～는 수밖에 (없다)",
+      "explanation": "No tengo más remedio que ~",
+      "examples": [
+        {
+          "korean": "이 방법을 쓰는 수밖에 없어요.",
+          "translation": "No tengo más remedio que usar este método."
+        },
+        {
+          "korean": "기다리는 수밖에 없겠어요.",
+          "translation": "Supongo que no tengo más remedio que esperar."
+        }
+      ]
+    },
+    {
+      "id": "g_212",
+      "lesson_id": "ko_G6_11",
+      "title": "～는 한편",
+      "structure": "～는 한편",
+      "explanation": "Por un lado ~",
+      "examples": [
+        {
+          "korean": "일을 하는 한편 음악을 들어요.",
+          "translation": "Por un lado, trabajo mientras escucho música."
+        },
+        {
+          "korean": "공부를 하는 한편 운동도 해요.",
+          "translation": "Por un lado, estudio mientras también hago ejercicio."
+        }
+      ]
+    },
+    {
+      "id": "g_213",
+      "lesson_id": "ko_G6_12",
+      "title": "～더군(요)",
+      "structure": "～더군(요)",
+      "explanation": "Resulta que ~",
+      "examples": [
+        {
+          "korean": "그 영화 정말 재미있더군요.",
+          "translation": "Resulta que esa película era realmente interesante."
+        },
+        {
+          "korean": "그 사람 친절하더군요.",
+          "translation": "Resulta que esa persona era amable."
+        }
+      ]
+    },
+    {
+      "id": "g_214",
+      "lesson_id": "ko_G6_12",
+      "title": "～던가(요)?",
+      "structure": "～던가(요)?",
+      "explanation": "¿Era que ~?",
+      "examples": [
+        {
+          "korean": "어제 비가 왔던가요?",
+          "translation": "¿Era que llovió ayer?"
+        },
+        {
+          "korean": "그 사람이 학생이었던가요?",
+          "translation": "¿Era que esa persona era un estudiante?"
+        }
+      ]
+    },
+    {
+      "id": "g_215",
+      "lesson_id": "ko_G6_13",
+      "title": "～던데",
+      "structure": "～던데",
+      "explanation": "Recuerdo que ~",
+      "examples": [
+        {
+          "korean": "비가 오던데 우산을 가져가세요.",
+          "translation": "Recuerdo que estaba lloviendo, así que por favor lleva un paraguas."
+        },
+        {
+          "korean": "길이 막히던데 지하철을 타세요.",
+          "translation": "Recuerdo que la carretera estaba congestionada, así que por favor toma el metro."
+        }
+      ]
+    },
+    {
+      "id": "g_216",
+      "lesson_id": "ko_G6_13",
+      "title": "～만 못하다",
+      "structure": "～만 못하다",
+      "explanation": "No es tan bueno como ~",
+      "examples": [
+        {
+          "korean": "이 영화는 전작만 못해요.",
+          "translation": "Esta película no es tan buena como la anterior."
+        },
+        {
+          "korean": "그의 실력은 프로만 못해요.",
+          "translation": "Sus habilidades no son tan buenas como las de un profesional."
+        }
+      ]
+    },
+    {
+      "id": "g_217",
+      "lesson_id": "ko_G6_14",
+      "title": "～아/어/여서 그런지",
+      "structure": "～아/어/여서 그런지",
+      "explanation": "Parece que...",
+      "examples": [
+        {
+          "korean": "날씨가 추워서 그런지 사람들이 적어요.",
+          "translation": "Parece que hay pocas personas porque el clima está frío."
+        },
+        {
+          "korean": "비가 와서 그런지 길이 미끄러워요.",
+          "translation": "Parece que la carretera está resbaladiza porque está lloviendo."
+        }
+      ]
+    },
+    {
+      "id": "g_218",
+      "lesson_id": "ko_G6_14",
+      "title": "～았/었/였더라면",
+      "structure": "～았/었/였더라면",
+      "explanation": "Si hubiera...",
+      "examples": [
+        {
+          "korean": "일찍 출발했더라면 늦지 않았을 거예요.",
+          "translation": "Si hubiera salido temprano, no habría llegado tarde."
+        },
+        {
+          "korean": "공부를 더 했더라면 시험에 합격했을 거예요.",
+          "translation": "Si hubiera estudiado más, habría pasado el examen."
+        }
+      ]
+    },
+    {
+      "id": "g_219",
+      "lesson_id": "ko_G6_15",
+      "title": "～을/를 비롯한",
+      "structure": "～을/를 비롯한",
+      "explanation": "Incluyendo...",
+      "examples": [
+        {
+          "korean": "한국을 비롯한 여러 나라가 참여했어요.",
+          "translation": "Varios países, incluyendo Corea del Sur, participaron."
+        },
+        {
+          "korean": "서울을 비롯한 주요 도시에서 행사가 열려요.",
+          "translation": "Se celebran eventos en ciudades principales, incluyendo Seúl."
+        }
+      ]
+    },
+    {
+      "id": "g_220",
+      "lesson_id": "ko_G6_15",
+      "title": "～(으)ㄴ/는/(으)ㄹ 셈이다",
+      "structure": "～(으)ㄴ/는/(으)ㄹ 셈이다",
+      "explanation": "Tengo la intención de...",
+      "examples": [
+        {
+          "korean": "이번 프로젝트는 성공한 셈이에요.",
+          "translation": "Tengo la intención de decir que este proyecto fue exitoso."
+        },
+        {
+          "korean": "그는 이미 결혼한 셈이에요.",
+          "translation": "Él tiene la intención de decir que ya está casado."
+        }
+      ]
+    },
+    {
+      "id": "g_221",
+      "lesson_id": "ko_G6_16",
+      "title": "～(으)나 마나",
+      "structure": "～(으)나 마나",
+      "explanation": "Es inútil...",
+      "examples": [
+        {
+          "korean": "말해 봐야 소용없으니 말하나 마나예요.",
+          "translation": "Es inútil decirlo porque no ayudará."
+        },
+        {
+          "korean": "그 영화는 보나 마나 재미없을 거예요.",
+          "translation": "Es inútil ver esa película; será aburrida."
+        }
+      ]
+    },
+    {
+      "id": "g_222",
+      "lesson_id": "ko_G6_16",
+      "title": "～(으)니만큼",
+      "structure": "～(으)니만큼",
+      "explanation": "Porque...",
+      "examples": [
+        {
+          "korean": "열심히 했으니만큼 좋은 결과가 있을 거예요.",
+          "translation": "Porque trabajé duro, habrá buenos resultados."
+        },
+        {
+          "korean": "준비를 잘 했으니만큼 걱정하지 마세요.",
+          "translation": "Porque me preparé bien, no te preocupes."
+        }
+      ]
+    },
+    {
+      "id": "g_223",
+      "lesson_id": "ko_G6_17",
+      "title": "～(으)ㄹ 지경이다",
+      "structure": "～(으)ㄹ 지경이다",
+      "explanation": "Está al borde de ~.",
+      "examples": [
+        {
+          "korean": "너무 피곤해서 쓰러질 지경이에요.",
+          "translation": "Estoy tan cansado que estoy a punto de colapsar."
+        },
+        {
+          "korean": "배가 고파서 죽을 지경이에요.",
+          "translation": "Tengo tanta hambre que siento que me voy a morir."
+        }
+      ]
+    },
+    {
+      "id": "g_224",
+      "lesson_id": "ko_G6_17",
+      "title": "～(이)나 ～(이)나 할 것 없이",
+      "structure": "～(이)나 ～(이)나 할 것 없이",
+      "explanation": "Independientemente de ~ o ~.",
+      "examples": [
+        {
+          "korean": "남자나 여자나 할 것 없이 모두 참여했어요.",
+          "translation": "Todos participaron, independientemente de si eran hombres o mujeres."
+        },
+        {
+          "korean": "어른이나 아이나 할 것 없이 모두 즐거워했어요.",
+          "translation": "Todos se divirtieron, independientemente de si eran adultos o niños."
+        }
+      ]
+    },
+    {
+      "id": "g_225",
+      "lesson_id": "ko_G6_18",
+      "title": "～기 십상이다",
+      "structure": "～기 십상이다",
+      "explanation": "Tiende a ~.",
+      "examples": [
+        {
+          "korean": "그렇게 하면 실패하기 십상이에요.",
+          "translation": "Si lo haces así, es probable que fracases."
+        },
+        {
+          "korean": "비 오는 날에는 넘어지기 십상이에요.",
+          "translation": "En días de lluvia, es probable que resbales."
+        }
+      ]
+    },
+    {
+      "id": "g_226",
+      "lesson_id": "ko_G6_18",
+      "title": "～ㄴ/는다고 치다",
+      "structure": "～ㄴ/는다고 치다",
+      "explanation": "Suponiendo que ~.",
+      "examples": [
+        {
+          "korean": "그렇게 한다고 치면 문제가 없을까요?",
+          "translation": "Suponiendo que lo hacemos así, ¿no habrá problema?"
+        },
+        {
+          "korean": "내일 비가 온다고 치고 우산을 준비합시다.",
+          "translation": "Suponiendo que llueve mañana, preparemos un paraguas."
+        }
+      ]
+    },
+    {
+      "id": "g_227",
+      "lesson_id": "ko_G6_19",
+      "title": "～느라고",
+      "structure": "～느라고",
+      "explanation": "Porque yo ~.",
+      "examples": [
+        {
+          "korean": "일하느라고 전화를 못 받았어요.",
+          "translation": "No pude contestar el teléfono porque estaba trabajando."
+        },
+        {
+          "korean": "공부하느라고 늦게 잤어요.",
+          "translation": "Me acosté tarde porque estaba estudiando."
+        }
+      ]
+    },
+    {
+      "id": "g_228",
+      "lesson_id": "ko_G6_19",
+      "title": "～ㄴ/는다던데",
+      "structure": "～ㄴ/는다던데",
+      "explanation": "Escuché que ~.",
+      "examples": [
+        {
+          "korean": "그 영화가 재미있다던데 같이 볼래요?",
+          "translation": "Escuché que esa película es interesante, ¿quieres verla juntos?"
+        },
+        {
+          "korean": "그 사람이 친절하다던데 정말인가요?",
+          "translation": "Escuché que esa persona es amable, ¿es cierto?"
+        }
+      ]
+    },
+    {
+      "id": "g_229",
+      "lesson_id": "ko_G6_20",
+      "title": "～는 셈 치다",
+      "structure": "～는 셈 치다",
+      "explanation": "asumir que ~",
+      "examples": [
+        {
+          "korean": "이번 여행은 연습하는 셈 치고 다녀왔어요.",
+          "translation": "Fui en este viaje asumiendo que era práctica."
+        },
+        {
+          "korean": "이건 선물하는 셈 치고 준비했어요.",
+          "translation": "Preparé esto asumiendo que era un regalo."
+        }
+      ]
+    },
+    {
+      "id": "g_230",
+      "lesson_id": "ko_G6_20",
+      "title": "～는 통에",
+      "structure": "～는 통에",
+      "explanation": "debido a ~",
+      "examples": [
+        {
+          "korean": "갑작스러운 일 때문에 계획이 취소되었어요.",
+          "translation": "El plan fue cancelado debido a un evento repentino."
+        },
+        {
+          "korean": "교통사고 때문에 길이 막혔어요.",
+          "translation": "La carretera estaba bloqueada debido a un accidente de tráfico."
+        }
+      ]
+    },
+    {
+      "id": "g_231",
+      "lesson_id": "ko_G6_21",
+      "title": "～는/은커녕",
+      "structure": "～는/은커녕",
+      "explanation": "ni siquiera ~",
+      "examples": [
+        {
+          "korean": "아침은커녕 물 한 잔도 못 마셨어요.",
+          "translation": "Ni siquiera desayuno, no pude beber un vaso de agua."
+        },
+        {
+          "korean": "휴가는커녕 주말에도 일해야 해요.",
+          "translation": "Ni siquiera vacaciones, tengo que trabajar incluso los fines de semana."
+        }
+      ]
+    },
+    {
+      "id": "g_232",
+      "lesson_id": "ko_G6_21",
+      "title": "～다시피",
+      "structure": "～다시피",
+      "explanation": "como ~ muestra",
+      "examples": [
+        {
+          "korean": "말한 대로 하다시피 했어요.",
+          "translation": "Lo hice como dije."
+        },
+        {
+          "korean": "보시다시피 결과가 좋습니다.",
+          "translation": "Como pueden ver, el resultado es bueno."
+        }
+      ]
+    },
+    {
+      "id": "g_233",
+      "lesson_id": "ko_G6_22",
+      "title": "～(으)ㄴ/는들",
+      "structure": "～(으)ㄴ/는들",
+      "explanation": "incluso si ~",
+      "examples": [
+        {
+          "korean": "아무리 바쁜들 건강을 잃으면 소용없어요.",
+          "translation": "Incluso si estás ocupado, no sirve de nada si pierdes tu salud."
+        },
+        {
+          "korean": "돈이 많은들 행복하지 않으면 무슨 소용이에요?",
+          "translation": "Incluso si tienes mucho dinero, ¿de qué sirve si no eres feliz?"
+        }
+      ]
+    }
+  ]
+}

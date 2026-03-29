@@ -1,0 +1,4214 @@
+{
+  "levels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "lessons": [
+    {
+      "lessonId": "ko_G1_01",
+      "level": 1,
+      "lessonNum": 1,
+      "grammarIds": [
+        "g_001",
+        "g_002"
+      ],
+      "summary": "～に ・ ～は"
+    },
+    {
+      "lessonId": "ko_G1_02",
+      "level": 1,
+      "lessonNum": 2,
+      "grammarIds": [
+        "g_003",
+        "g_004"
+      ],
+      "summary": "～を ・ ～の"
+    },
+    {
+      "lessonId": "ko_G1_03",
+      "level": 1,
+      "lessonNum": 3,
+      "grammarIds": [
+        "g_005",
+        "g_006"
+      ],
+      "summary": "～が ・ ～も"
+    },
+    {
+      "lessonId": "ko_G1_04",
+      "level": 1,
+      "lessonNum": 4,
+      "grammarIds": [
+        "g_007",
+        "g_008"
+      ],
+      "summary": "～して ・ ～です"
+    },
+    {
+      "lessonId": "ko_G1_05",
+      "level": 1,
+      "lessonNum": 5,
+      "grammarIds": [
+        "g_009",
+        "g_010"
+      ],
+      "summary": "～です ・ ～しない"
+    },
+    {
+      "lessonId": "ko_G1_06",
+      "level": 1,
+      "lessonNum": 6,
+      "grammarIds": [
+        "g_011",
+        "g_012"
+      ],
+      "summary": "～だが ・ ～まで"
+    },
+    {
+      "lessonId": "ko_G1_07",
+      "level": 1,
+      "lessonNum": 7,
+      "grammarIds": [
+        "g_013",
+        "g_014"
+      ],
+      "summary": "～だけ ・ ～より"
+    },
+    {
+      "lessonId": "ko_G1_08",
+      "level": 1,
+      "lessonNum": 8,
+      "grammarIds": [
+        "g_015",
+        "g_016"
+      ],
+      "summary": "～から ・ ～に"
+    },
+    {
+      "lessonId": "ko_G1_09",
+      "level": 1,
+      "lessonNum": 9,
+      "grammarIds": [
+        "g_017",
+        "g_018"
+      ],
+      "summary": "～から ・ ～と"
+    },
+    {
+      "lessonId": "ko_G1_10",
+      "level": 1,
+      "lessonNum": 10,
+      "grammarIds": [
+        "g_019",
+        "g_020"
+      ],
+      "summary": "～と、して ・ ～に"
+    },
+    {
+      "lessonId": "ko_G1_11",
+      "level": 1,
+      "lessonNum": 11,
+      "grammarIds": [
+        "g_021",
+        "g_022"
+      ],
+      "summary": "～しないで ・ ～できない"
+    },
+    {
+      "lessonId": "ko_G1_12",
+      "level": 1,
+      "lessonNum": 12,
+      "grammarIds": [
+        "g_023",
+        "g_024"
+      ],
+      "summary": "と ・ ～に"
+    },
+    {
+      "lessonId": "ko_G1_13",
+      "level": 1,
+      "lessonNum": 13,
+      "grammarIds": [
+        "g_025",
+        "g_026"
+      ],
+      "summary": "～な ら ・ ～しましょう"
+    },
+    {
+      "lessonId": "ko_G1_14",
+      "level": 1,
+      "lessonNum": 14,
+      "grammarIds": [
+        "g_027",
+        "g_028"
+      ],
+      "summary": "～してください ・ ～く"
+    },
+    {
+      "lessonId": "ko_G1_15",
+      "level": 1,
+      "lessonNum": 15,
+      "grammarIds": [
+        "g_029",
+        "g_030"
+      ],
+      "summary": "～したい ・ ～している"
+    },
+    {
+      "lessonId": "ko_G1_16",
+      "level": 1,
+      "lessonNum": 16,
+      "grammarIds": [
+        "g_031",
+        "g_032"
+      ],
+      "summary": "～の前に ・ ～ですか ?"
+    },
+    {
+      "lessonId": "ko_G1_17",
+      "level": 1,
+      "lessonNum": 17,
+      "grammarIds": [
+        "g_033",
+        "g_034"
+      ],
+      "summary": "〜だ、する ・ 〜だと言う"
+    },
+    {
+      "lessonId": "ko_G1_18",
+      "level": 1,
+      "lessonNum": 18,
+      "grammarIds": [
+        "g_035",
+        "g_036"
+      ],
+      "summary": "〜なの？ ・ 〜なのかい？"
+    },
+    {
+      "lessonId": "ko_G1_19",
+      "level": 1,
+      "lessonNum": 19,
+      "grammarIds": [
+        "g_037",
+        "g_038"
+      ],
+      "summary": "〜のとおり ・ でも"
+    },
+    {
+      "lessonId": "ko_G2_01",
+      "level": 2,
+      "lessonNum": 1,
+      "grammarIds": [
+        "g_039",
+        "g_040"
+      ],
+      "summary": "〜しても ・ 〜になる"
+    },
+    {
+      "lessonId": "ko_G2_02",
+      "level": 2,
+      "lessonNum": 2,
+      "grammarIds": [
+        "g_041",
+        "g_042"
+      ],
+      "summary": "〜について ・ 〜に対して"
+    },
+    {
+      "lessonId": "ko_G2_03",
+      "level": 2,
+      "lessonNum": 3,
+      "grammarIds": [
+        "g_043",
+        "g_044"
+      ],
+      "summary": "〜に ・ 〜しよう"
+    },
+    {
+      "lessonId": "ko_G2_04",
+      "level": 2,
+      "lessonNum": 4,
+      "grammarIds": [
+        "g_045",
+        "g_046"
+      ],
+      "summary": "〜でしょう ・ ほど"
+    },
+    {
+      "lessonId": "ko_G2_05",
+      "level": 2,
+      "lessonNum": 5,
+      "grammarIds": [
+        "g_047",
+        "g_048"
+      ],
+      "summary": "～ごと ・ ～しか"
+    },
+    {
+      "lessonId": "ko_G2_06",
+      "level": 2,
+      "lessonNum": 6,
+      "grammarIds": [
+        "g_049",
+        "g_050"
+      ],
+      "summary": "～から ・ ～ではない"
+    },
+    {
+      "lessonId": "ko_G2_07",
+      "level": 2,
+      "lessonNum": 7,
+      "grammarIds": [
+        "g_051",
+        "g_052"
+      ],
+      "summary": "～のように ・ ～から"
+    },
+    {
+      "lessonId": "ko_G2_08",
+      "level": 2,
+      "lessonNum": 8,
+      "grammarIds": [
+        "g_053",
+        "g_054"
+      ],
+      "summary": "～してください ・ ～ですね"
+    },
+    {
+      "lessonId": "ko_G2_09",
+      "level": 2,
+      "lessonNum": 9,
+      "grammarIds": [
+        "g_055",
+        "g_056"
+      ],
+      "summary": "～したらいい ・ ～ですが"
+    },
+    {
+      "lessonId": "ko_G2_10",
+      "level": 2,
+      "lessonNum": 10,
+      "grammarIds": [
+        "g_057",
+        "g_058"
+      ],
+      "summary": "〜なのか？ ・ 〜だから"
+    },
+    {
+      "lessonId": "ko_G2_11",
+      "level": 2,
+      "lessonNum": 11,
+      "grammarIds": [
+        "g_059",
+        "g_060"
+      ],
+      "summary": "〜だけだ ・ 〜するほど"
+    },
+    {
+      "lessonId": "ko_G2_12",
+      "level": 2,
+      "lessonNum": 12,
+      "grammarIds": [
+        "g_061",
+        "g_062"
+      ],
+      "summary": "〜しなさいと言う ・ 〜するなら"
+    },
+    {
+      "lessonId": "ko_G2_13",
+      "level": 2,
+      "lessonNum": 13,
+      "grammarIds": [
+        "g_063",
+        "g_064"
+      ],
+      "summary": "〜して ・ 〜すればよい"
+    },
+    {
+      "lessonId": "ko_G2_14",
+      "level": 2,
+      "lessonNum": 14,
+      "grammarIds": [
+        "g_065",
+        "g_066"
+      ],
+      "summary": "〜させる ・ 〜したら"
+    },
+    {
+      "lessonId": "ko_G2_15",
+      "level": 2,
+      "lessonNum": 15,
+      "grammarIds": [
+        "g_067",
+        "g_068"
+      ],
+      "summary": "〜したら ・ 〜してから"
+    },
+    {
+      "lessonId": "ko_G2_16",
+      "level": 2,
+      "lessonNum": 16,
+      "grammarIds": [
+        "g_069",
+        "g_070"
+      ],
+      "summary": "〜しやすい ・ 〜のために"
+    },
+    {
+      "lessonId": "ko_G2_17",
+      "level": 2,
+      "lessonNum": 17,
+      "grammarIds": [
+        "g_071",
+        "g_072"
+      ],
+      "summary": "〜さえすれば ・ 〜するようだ"
+    },
+    {
+      "lessonId": "ko_G2_18",
+      "level": 2,
+      "lessonNum": 18,
+      "grammarIds": [
+        "g_073",
+        "g_074"
+      ],
+      "summary": "〜することがある ・ 〜しているところだ"
+    },
+    {
+      "lessonId": "ko_G2_19",
+      "level": 2,
+      "lessonNum": 19,
+      "grammarIds": [
+        "g_075",
+        "g_076"
+      ],
+      "summary": "〜なんだね ・ 〜せよ、～しろ"
+    },
+    {
+      "lessonId": "ko_G3_01",
+      "level": 3,
+      "lessonNum": 1,
+      "grammarIds": [
+        "g_077",
+        "g_078"
+      ],
+      "summary": "～に（丁寧語） ・ ～が（丁寧語）"
+    },
+    {
+      "lessonId": "ko_G3_02",
+      "level": 3,
+      "lessonNum": 2,
+      "grammarIds": [
+        "g_079",
+        "g_080"
+      ],
+      "summary": "〜しにくい ・ ～する時"
+    },
+    {
+      "lessonId": "ko_G3_03",
+      "level": 3,
+      "lessonNum": 3,
+      "grammarIds": [
+        "g_081",
+        "g_082"
+      ],
+      "summary": "～できない ・ ～できる"
+    },
+    {
+      "lessonId": "ko_G3_04",
+      "level": 3,
+      "lessonNum": 4,
+      "grammarIds": [
+        "g_083",
+        "g_084"
+      ],
+      "summary": "～しましょうか？ ・ ～でしょうか？"
+    },
+    {
+      "lessonId": "ko_G3_05",
+      "level": 3,
+      "lessonNum": 5,
+      "grammarIds": [
+        "g_085",
+        "g_086"
+      ],
+      "summary": "でも ・ か"
+    },
+    {
+      "lessonId": "ko_G3_06",
+      "level": 3,
+      "lessonNum": 6,
+      "grammarIds": [
+        "g_087",
+        "g_088"
+      ],
+      "summary": "も ・ ～てから"
+    },
+    {
+      "lessonId": "ko_G3_07",
+      "level": 3,
+      "lessonNum": 7,
+      "grammarIds": [
+        "g_089",
+        "g_090"
+      ],
+      "summary": "～て ・ ～した後に"
+    },
+    {
+      "lessonId": "ko_G3_08",
+      "level": 3,
+      "lessonNum": 8,
+      "grammarIds": [
+        "g_091",
+        "g_092"
+      ],
+      "summary": "～だから ・ ～しますよ"
+    },
+    {
+      "lessonId": "ko_G3_09",
+      "level": 3,
+      "lessonNum": 9,
+      "grammarIds": [
+        "g_093",
+        "g_094"
+      ],
+      "summary": "～ます ・ ～しますか？"
+    },
+    {
+      "lessonId": "ko_G3_10",
+      "level": 3,
+      "lessonNum": 10,
+      "grammarIds": [
+        "g_095",
+        "g_096"
+      ],
+      "summary": "～しに行く ・ ～しに 来る"
+    },
+    {
+      "lessonId": "ko_G3_11",
+      "level": 3,
+      "lessonNum": 11,
+      "grammarIds": [
+        "g_097",
+        "g_098"
+      ],
+      "summary": "～しようと ・ ～しながら"
+    },
+    {
+      "lessonId": "ko_G3_12",
+      "level": 3,
+      "lessonNum": 12,
+      "grammarIds": [
+        "g_099",
+        "g_100"
+      ],
+      "summary": "～ですよね？ ・ ～したり"
+    },
+    {
+      "lessonId": "ko_G3_13",
+      "level": 3,
+      "lessonNum": 13,
+      "grammarIds": [
+        "g_101",
+        "g_102"
+      ],
+      "summary": "～になる ・ ～のせいで"
+    },
+    {
+      "lessonId": "ko_G3_14",
+      "level": 3,
+      "lessonNum": 14,
+      "grammarIds": [
+        "g_103",
+        "g_104"
+      ],
+      "summary": "～することにする ・ ～するのに"
+    },
+    {
+      "lessonId": "ko_G3_15",
+      "level": 3,
+      "lessonNum": 15,
+      "grammarIds": [
+        "g_105",
+        "g_106"
+      ],
+      "summary": "～してみる ・ ～してくれる"
+    },
+    {
+      "lessonId": "ko_G3_16",
+      "level": 3,
+      "lessonNum": 16,
+      "grammarIds": [
+        "g_107",
+        "g_108"
+      ],
+      "summary": "〜なら ・ ～するとおり"
+    },
+    {
+      "lessonId": "ko_G3_17",
+      "level": 3,
+      "lessonNum": 17,
+      "grammarIds": [
+        "g_109",
+        "g_110"
+      ],
+      "summary": "〜する代わりに ・ 〜のおかげで"
+    },
+    {
+      "lessonId": "ko_G3_18",
+      "level": 3,
+      "lessonNum": 18,
+      "grammarIds": [
+        "g_111",
+        "g_112"
+      ],
+      "summary": "〜する方だ ・ 〜していて"
+    },
+    {
+      "lessonId": "ko_G3_19",
+      "level": 3,
+      "lessonNum": 19,
+      "grammarIds": [
+        "g_113",
+        "g_114"
+      ],
+      "summary": "〜だよ ・ 〜だったよ、～していたよ"
+    },
+    {
+      "lessonId": "ko_G4_01",
+      "level": 4,
+      "lessonNum": 1,
+      "grammarIds": [
+        "g_115",
+        "g_116"
+      ],
+      "summary": "〜した ・ 〜するように"
+    },
+    {
+      "lessonId": "ko_G4_02",
+      "level": 4,
+      "lessonNum": 2,
+      "grammarIds": [
+        "g_117",
+        "g_118"
+      ],
+      "summary": "〜のように ・ 〜 そうに見える"
+    },
+    {
+      "lessonId": "ko_G4_03",
+      "level": 4,
+      "lessonNum": 3,
+      "grammarIds": [
+        "g_119",
+        "g_120"
+      ],
+      "summary": "〜してこそ ・ 〜しなきゃ"
+    },
+    {
+      "lessonId": "ko_G4_04",
+      "level": 4,
+      "lessonNum": 4,
+      "grammarIds": [
+        "g_121",
+        "g_122"
+      ],
+      "summary": "〜だったら良い ・ 〜に従って"
+    },
+    {
+      "lessonId": "ko_G4_05",
+      "level": 4,
+      "lessonNum": 5,
+      "grammarIds": [
+        "g_123",
+        "g_124"
+      ],
+      "summary": "〜によって ・ 〜を通して"
+    },
+    {
+      "lessonId": "ko_G4_06",
+      "level": 4,
+      "lessonNum": 6,
+      "grammarIds": [
+        "g_125",
+        "g_126"
+      ],
+      "summary": "〜しようと言う ・ 〜するとすぐ"
+    },
+    {
+      "lessonId": "ko_G4_07",
+      "level": 4,
+      "lessonNum": 7,
+      "grammarIds": [
+        "g_127",
+        "g_128"
+      ],
+      "summary": "さえも ・ 何の 〜でも"
+    },
+    {
+      "lessonId": "ko_G4_08",
+      "level": 4,
+      "lessonNum": 8,
+      "grammarIds": [
+        "g_129",
+        "g_130"
+      ],
+      "summary": "何の 〜も ・ ～さえ"
+    },
+    {
+      "lessonId": "ko_G4_09",
+      "level": 4,
+      "lessonNum": 9,
+      "grammarIds": [
+        "g_131",
+        "g_132"
+      ],
+      "summary": "～ですね ・ 〜ほど"
+    },
+    {
+      "lessonId": "ko_G4_10",
+      "level": 4,
+      "lessonNum": 10,
+      "grammarIds": [
+        "g_133",
+        "g_134"
+      ],
+      "summary": "〜なのか ・ 〜のようだ"
+    },
+    {
+      "lessonId": "ko_G4_11",
+      "level": 4,
+      "lessonNum": 11,
+      "grammarIds": [
+        "g_135",
+        "g_136"
+      ],
+      "summary": "〜するはずがない ・ 〜に値する"
+    },
+    {
+      "lessonId": "ko_G4_12",
+      "level": 4,
+      "lessonNum": 12,
+      "grammarIds": [
+        "g_137",
+        "g_138"
+      ],
+      "summary": "〜だけでなく ・ 〜するしかない"
+    },
+    {
+      "lessonId": "ko_G4_13",
+      "level": 4,
+      "lessonNum": 13,
+      "grammarIds": [
+        "g_139",
+        "g_140"
+      ],
+      "summary": "〜するほど ・ 〜するから"
+    },
+    {
+      "lessonId": "ko_G4_14",
+      "level": 4,
+      "lessonNum": 14,
+      "grammarIds": [
+        "g_141",
+        "g_142"
+      ],
+      "summary": "〜のはずだが ・ 〜か分からない"
+    },
+    {
+      "lessonId": "ko_G4_15",
+      "level": 4,
+      "lessonNum": 15,
+      "grammarIds": [
+        "g_143",
+        "g_144"
+      ],
+      "summary": "〜によって ・ ～として"
+    },
+    {
+      "lessonId": "ko_G4_16",
+      "level": 4,
+      "lessonNum": 16,
+      "grammarIds": [
+        "g_145",
+        "g_146"
+      ],
+      "summary": "〜ので ・ 〜してしまう"
+    },
+    {
+      "lessonId": "ko_G4_17",
+      "level": 4,
+      "lessonNum": 17,
+      "grammarIds": [
+        "g_147",
+        "g_148"
+      ],
+      "summary": "〜するものだ ・ 〜とはいえ"
+    },
+    {
+      "lessonId": "ko_G4_18",
+      "level": 4,
+      "lessonNum": 18,
+      "grammarIds": [
+        "g_149",
+        "g_150"
+      ],
+      "summary": "〜するには ・ 〜のふりをする"
+    },
+    {
+      "lessonId": "ko_G4_19",
+      "level": 4,
+      "lessonNum": 19,
+      "grammarIds": [
+        "g_151",
+        "g_152"
+      ],
+      "summary": "〜と言っても ・ 〜だそうだ"
+    },
+    {
+      "lessonId": "ko_G5_01",
+      "level": 5,
+      "lessonNum": 1,
+      "grammarIds": [
+        "g_153",
+        "g_154"
+      ],
+      "summary": "〜している最中に ・ 〜の途中で"
+    },
+    {
+      "lessonId": "ko_G5_02",
+      "level": 5,
+      "lessonNum": 2,
+      "grammarIds": [
+        "g_155",
+        "g_156"
+      ],
+      "summary": "〜する間に ・ 〜する限り"
+    },
+    {
+      "lessonId": "ko_G5_03",
+      "level": 5,
+      "lessonNum": 3,
+      "grammarIds": [
+        "g_157",
+        "g_158"
+      ],
+      "summary": "こそ ・ 〜のまま"
+    },
+    {
+      "lessonId": "ko_G5_04",
+      "level": 5,
+      "lessonNum": 4,
+      "grammarIds": [
+        "g_159",
+        "g_160"
+      ],
+      "summary": "〜ついでに ・ 〜なものだ"
+    },
+    {
+      "lessonId": "ko_G5_05",
+      "level": 5,
+      "lessonNum": 5,
+      "grammarIds": [
+        "g_161",
+        "g_162"
+      ],
+      "summary": "〜のせいで ・ 〜だよ"
+    },
+    {
+      "lessonId": "ko_G5_06",
+      "level": 5,
+      "lessonNum": 6,
+      "grammarIds": [
+        "g_163",
+        "g_164"
+      ],
+      "summary": "〜しそうだった ・ 〜だよ"
+    },
+    {
+      "lessonId": "ko_G5_07",
+      "level": 5,
+      "lessonNum": 7,
+      "grammarIds": [
+        "g_165",
+        "g_166"
+      ],
+      "summary": "〜に決まっている ・ 〜してみると"
+    },
+    {
+      "lessonId": "ko_G5_08",
+      "level": 5,
+      "lessonNum": 8,
+      "grammarIds": [
+        "g_167",
+        "g_168"
+      ],
+      "summary": "〜したりする ・ 〜だなんて"
+    },
+    {
+      "lessonId": "ko_G5_09",
+      "level": 5,
+      "lessonNum": 9,
+      "grammarIds": [
+        "g_169",
+        "g_170"
+      ],
+      "summary": "〜なので ・ 〜だなんて"
+    },
+    {
+      "lessonId": "ko_G5_10",
+      "level": 5,
+      "lessonNum": 10,
+      "grammarIds": [
+        "g_171",
+        "g_172"
+      ],
+      "summary": "〜だってば ・ ～したみたい/気がする"
+    },
+    {
+      "lessonId": "ko_G5_11",
+      "level": 5,
+      "lessonNum": 11,
+      "grammarIds": [
+        "g_173",
+        "g_174"
+      ],
+      "summary": "～するみたい ・ ～けど"
+    },
+    {
+      "lessonId": "ko_G5_12",
+      "level": 5,
+      "lessonNum": 12,
+      "grammarIds": [
+        "g_175",
+        "g_176"
+      ],
+      "summary": "～が ・ ～するだろう"
+    },
+    {
+      "lessonId": "ko_G5_13",
+      "level": 5,
+      "lessonNum": 13,
+      "grammarIds": [
+        "g_177",
+        "g_178"
+      ],
+      "summary": "～しようと思う ・ ～しなければならない"
+    },
+    {
+      "lessonId": "ko_G5_14",
+      "level": 5,
+      "lessonNum": 14,
+      "grammarIds": [
+        "g_179",
+        "g_180"
+      ],
+      "summary": "～しなければならない ・ ～したことがない"
+    },
+    {
+      "lessonId": "ko_G5_15",
+      "level": 5,
+      "lessonNum": 15,
+      "grammarIds": [
+        "g_181",
+        "g_182"
+      ],
+      "summary": "～したことがある ・ ～しようと思う"
+    },
+    {
+      "lessonId": "ko_G5_16",
+      "level": 5,
+      "lessonNum": 16,
+      "grammarIds": [
+        "g_183",
+        "g_184"
+      ],
+      "summary": "～するかと思って ・ ～するつもりです、予定です"
+    },
+    {
+      "lessonId": "ko_G5_17",
+      "level": 5,
+      "lessonNum": 17,
+      "grammarIds": [
+        "g_185",
+        "g_186"
+      ],
+      "summary": "～するのがよい ・ 〜 なんだって？"
+    },
+    {
+      "lessonId": "ko_G5_18",
+      "level": 5,
+      "lessonNum": 18,
+      "grammarIds": [
+        "g_187",
+        "g_188"
+      ],
+      "summary": "〜せいで ・ 〜していたら"
+    },
+    {
+      "lessonId": "ko_G5_19",
+      "level": 5,
+      "lessonNum": 19,
+      "grammarIds": [
+        "g_189",
+        "g_190"
+      ],
+      "summary": "〜してみると ・ 〜したらなんと"
+    },
+    {
+      "lessonId": "ko_G6_01",
+      "level": 6,
+      "lessonNum": 1,
+      "grammarIds": [
+        "g_191",
+        "g_192"
+      ],
+      "summary": "〜としても ・ 〜しようが"
+    },
+    {
+      "lessonId": "ko_G6_02",
+      "level": 6,
+      "lessonNum": 2,
+      "grammarIds": [
+        "g_193",
+        "g_194"
+      ],
+      "summary": "〜だったらしい ・ どれほど 〜したのか"
+    },
+    {
+      "lessonId": "ko_G6_03",
+      "level": 6,
+      "lessonNum": 3,
+      "grammarIds": [
+        "g_195",
+        "g_196"
+      ],
+      "summary": "～にしては ・ 〜をみると"
+    },
+    {
+      "lessonId": "ko_G6_04",
+      "level": 6,
+      "lessonNum": 4,
+      "grammarIds": [
+        "g_197",
+        "g_198"
+      ],
+      "summary": "〜の反面 ・ 〜のようだ"
+    },
+    {
+      "lessonId": "ko_G6_05",
+      "level": 6,
+      "lessonNum": 5,
+      "grammarIds": [
+        "g_199",
+        "g_200"
+      ],
+      "summary": "〜とは思わなかった ・ 〜と思った"
+    },
+    {
+      "lessonId": "ko_G6_06",
+      "level": 6,
+      "lessonNum": 6,
+      "grammarIds": [
+        "g_201",
+        "g_202"
+      ],
+      "summary": "〜を兼ねて ・ 〜すればよかった"
+    },
+    {
+      "lessonId": "ko_G6_07",
+      "level": 6,
+      "lessonNum": 7,
+      "grammarIds": [
+        "g_203",
+        "g_204"
+      ],
+      "summary": "〜するかどうか ・ 〜だとしても"
+    },
+    {
+      "lessonId": "ko_G6_08",
+      "level": 6,
+      "lessonNum": 8,
+      "grammarIds": [
+        "g_205",
+        "g_206"
+      ],
+      "summary": "〜しようとしていたら ・ 〜しようとしたところだ"
+    },
+    {
+      "lessonId": "ko_G6_09",
+      "level": 6,
+      "lessonNum": 9,
+      "grammarIds": [
+        "g_207",
+        "g_208"
+      ],
+      "summary": "〜だとか、するとか ・ ～と言ってたけど"
+    },
+    {
+      "lessonId": "ko_G6_10",
+      "level": 6,
+      "lessonNum": 10,
+      "grammarIds": [
+        "g_209",
+        "g_210"
+      ],
+      "summary": "〜 だそうだ ・ 〜かと言う"
+    },
+    {
+      "lessonId": "ko_G6_11",
+      "level": 6,
+      "lessonNum": 11,
+      "grammarIds": [
+        "g_211",
+        "g_212"
+      ],
+      "summary": "〜せざるを得ない ・ 〜する一方"
+    },
+    {
+      "lessonId": "ko_G6_12",
+      "level": 6,
+      "lessonNum": 12,
+      "grammarIds": [
+        "g_213",
+        "g_214"
+      ],
+      "summary": "〜なったんだ ・ 〜だったっけ？"
+    },
+    {
+      "lessonId": "ko_G6_13",
+      "level": 6,
+      "lessonNum": 13,
+      "grammarIds": [
+        "g_215",
+        "g_216"
+      ],
+      "summary": "〜していたが ・ 〜に及ばない"
+    },
+    {
+      "lessonId": "ko_G6_14",
+      "level": 6,
+      "lessonNum": 14,
+      "grammarIds": [
+        "g_217",
+        "g_218"
+      ],
+      "summary": "〜 でそうなのか ・ 〜だったら"
+    },
+    {
+      "lessonId": "ko_G6_15",
+      "level": 6,
+      "lessonNum": 15,
+      "grammarIds": [
+        "g_219",
+        "g_220"
+      ],
+      "summary": "〜をはじめとして ・ 〜するつもりだ"
+    },
+    {
+      "lessonId": "ko_G6_16",
+      "level": 6,
+      "lessonNum": 16,
+      "grammarIds": [
+        "g_221",
+        "g_222"
+      ],
+      "summary": "〜するまでもなく ・ 〜だからこそ"
+    },
+    {
+      "lessonId": "ko_G6_17",
+      "level": 6,
+      "lessonNum": 17,
+      "grammarIds": [
+        "g_223",
+        "g_224"
+      ],
+      "summary": "〜する寸前だ ・ 〜や〜を問わず"
+    },
+    {
+      "lessonId": "ko_G6_18",
+      "level": 6,
+      "lessonNum": 18,
+      "grammarIds": [
+        "g_225",
+        "g_226"
+      ],
+      "summary": "〜しがちである ・ 〜としたら"
+    },
+    {
+      "lessonId": "ko_G6_19",
+      "level": 6,
+      "lessonNum": 19,
+      "grammarIds": [
+        "g_227",
+        "g_228"
+      ],
+      "summary": "〜したので ・ 〜と言うけど"
+    },
+    {
+      "lessonId": "ko_G6_20",
+      "level": 6,
+      "lessonNum": 20,
+      "grammarIds": [
+        "g_229",
+        "g_230"
+      ],
+      "summary": "〜のつもりでいる ・ 〜のせいで"
+    },
+    {
+      "lessonId": "ko_G6_21",
+      "level": 6,
+      "lessonNum": 21,
+      "grammarIds": [
+        "g_231",
+        "g_232"
+      ],
+      "summary": "〜どころか ・ 〜のとおり"
+    },
+    {
+      "lessonId": "ko_G6_22",
+      "level": 6,
+      "lessonNum": 22,
+      "grammarIds": [
+        "g_233"
+      ],
+      "summary": "〜としても"
+    }
+  ],
+  "grammarById": {
+    "g_001": {
+      "korean": "에",
+      "japanese": "～に",
+      "topik_level": 1,
+      "difficulty_score": 1,
+      "frequency_score": 1
+    },
+    "g_002": {
+      "korean": "은/는",
+      "japanese": "～は",
+      "topik_level": 1,
+      "difficulty_score": 1,
+      "frequency_score": 1
+    },
+    "g_003": {
+      "korean": "을/를",
+      "japanese": "～を",
+      "topik_level": 1,
+      "difficulty_score": 1,
+      "frequency_score": 1
+    },
+    "g_004": {
+      "korean": "의",
+      "japanese": "～の",
+      "topik_level": 1,
+      "difficulty_score": 1,
+      "frequency_score": 1
+    },
+    "g_005": {
+      "korean": "이/가",
+      "japanese": "～が",
+      "topik_level": 1,
+      "difficulty_score": 1,
+      "frequency_score": 1
+    },
+    "g_006": {
+      "korean": "도",
+      "japanese": "～も",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 1
+    },
+    "g_007": {
+      "korean": "～고",
+      "japanese": "～して",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 1
+    },
+    "g_008": {
+      "korean": "～ㅂ/습니다",
+      "japanese": "～です",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 1
+    },
+    "g_009": {
+      "korean": "～아/어요",
+      "japanese": "～です",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 1
+    },
+    "g_010": {
+      "korean": "～지 않다",
+      "japanese": "～しない",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 1
+    },
+    "g_011": {
+      "korean": "～지만",
+      "japanese": "～だが",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 1
+    },
+    "g_012": {
+      "korean": "까지",
+      "japanese": "～まで",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 2
+    },
+    "g_013": {
+      "korean": "만",
+      "japanese": "～だけ",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 2
+    },
+    "g_014": {
+      "korean": "보다",
+      "japanese": "～より",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 2
+    },
+    "g_015": {
+      "korean": "부터",
+      "japanese": "～から",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 2
+    },
+    "g_016": {
+      "korean": "에게",
+      "japanese": "～に",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 2
+    },
+    "g_017": {
+      "korean": "에서",
+      "japanese": "～から",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 2
+    },
+    "g_018": {
+      "korean": "와/과",
+      "japanese": "～と",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 2
+    },
+    "g_019": {
+      "korean": "하고",
+      "japanese": "～と、して",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 2
+    },
+    "g_020": {
+      "korean": "한테",
+      "japanese": "～に",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 2
+    },
+    "g_021": {
+      "korean": "～지 말다",
+      "japanese": "～しないで",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 2
+    },
+    "g_022": {
+      "korean": "～지 못하다",
+      "japanese": "～できない",
+      "topik_level": 1,
+      "difficulty_score": 2,
+      "frequency_score": 2
+    },
+    "g_023": {
+      "korean": "( 이 ) 랑",
+      "japanese": "と",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_024": {
+      "korean": "～ ( 으 ) 로",
+      "japanese": "～に",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_025": {
+      "korean": "～(으)면",
+      "japanese": "～な ら",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_026": {
+      "korean": "～(으)ㅂ시다",
+      "japanese": "～しましょう",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_027": {
+      "korean": "～(으)세요",
+      "japanese": "～してください",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_028": {
+      "korean": "～게",
+      "japanese": "～く",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_029": {
+      "korean": "～고 싶다",
+      "japanese": "～したい",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_030": {
+      "korean": "～고 있다",
+      "japanese": "～している",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_031": {
+      "korean": "～기 전에",
+      "japanese": "～の前に",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_032": {
+      "korean": "～ ㅂ / 습니까 ?",
+      "japanese": "～ですか ?",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_033": {
+      "korean": "～ㄴ/는다",
+      "japanese": "〜だ、する",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_034": {
+      "korean": "～ㄴ/는다고 하다",
+      "japanese": "〜だと言う",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_035": {
+      "korean": "～나(요)?",
+      "japanese": "〜なの？",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_036": {
+      "korean": "～니/냐?",
+      "japanese": "〜なのかい？",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_037": {
+      "korean": "～대로",
+      "japanese": "〜のとおり",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_038": {
+      "korean": "(이)라도",
+      "japanese": "でも",
+      "topik_level": 1,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_039": {
+      "korean": "～아/어도",
+      "japanese": "〜しても",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_040": {
+      "korean": "～아/어지다",
+      "japanese": "〜になる",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_041": {
+      "korean": "～에 관해(서)",
+      "japanese": "〜について",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_042": {
+      "korean": "～에 대해(서)",
+      "japanese": "〜に対して",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_043": {
+      "korean": "～에다(가)",
+      "japanese": "〜に",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_044": {
+      "korean": "～자",
+      "japanese": "〜しよう",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_045": {
+      "korean": "～잖아(요)",
+      "japanese": "〜でしょう",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_046": {
+      "korean": "만큼",
+      "japanese": "ほど",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 2
+    },
+    "g_047": {
+      "korean": "마다",
+      "japanese": "～ごと",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_048": {
+      "korean": "밖에",
+      "japanese": "～しか",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_049": {
+      "korean": "에게서",
+      "japanese": "～から",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_050": {
+      "korean": "이/가 아니다",
+      "japanese": "～ではない",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_051": {
+      "korean": "처럼",
+      "japanese": "～のように",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_052": {
+      "korean": "한테서",
+      "japanese": "～から",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_053": {
+      "korean": "～(으)십시오",
+      "japanese": "～してください",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_054": {
+      "korean": "～네요",
+      "japanese": "～ですね",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_055": {
+      "korean": "～았/었/였으면 좋겠다",
+      "japanese": "～したらいい",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_056": {
+      "korean": "～(으)ㄴ/는데(요)",
+      "japanese": "～ですが",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_057": {
+      "korean": "～(으)ㄴ가(요)?",
+      "japanese": "〜なのか？",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_058": {
+      "korean": "～(으)니까(요)",
+      "japanese": "〜だから",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_059": {
+      "korean": "～(으)ㄹ 뿐이다",
+      "japanese": "〜だけだ",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_060": {
+      "korean": "～(으)ㄹ수록",
+      "japanese": "〜するほど",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_061": {
+      "korean": "～(으)라고 하다",
+      "japanese": "〜しなさいと言う",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_062": {
+      "korean": "～(으)려면",
+      "japanese": "〜するなら",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_063": {
+      "korean": "～(으)며",
+      "japanese": "〜して",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_064": {
+      "korean": "～(으)면 되다",
+      "japanese": "〜すればよい",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_065": {
+      "korean": "～게 하다",
+      "japanese": "〜させる",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_066": {
+      "korean": "～고 나니(까)",
+      "japanese": "〜したら",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_067": {
+      "korean": "～고 나면",
+      "japanese": "〜したら",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_068": {
+      "korean": "～고 나서",
+      "japanese": "〜してから",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_069": {
+      "korean": "～기 쉽다",
+      "japanese": "〜しやすい",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_070": {
+      "korean": "～기 위해(서)",
+      "japanese": "〜のために",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_071": {
+      "korean": "～기만 하면 (되다)",
+      "japanese": "〜さえすれば",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_072": {
+      "korean": "～나 보다",
+      "japanese": "〜するようだ",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_073": {
+      "korean": "～는 수(가) 있다",
+      "japanese": "〜することがある",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_074": {
+      "korean": "～는 중이다",
+      "japanese": "〜しているところだ",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_075": {
+      "korean": "～는구나",
+      "japanese": "〜なんだね",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_076": {
+      "korean": "～아/어라",
+      "japanese": "〜せよ、～しろ",
+      "topik_level": 2,
+      "difficulty_score": 3,
+      "frequency_score": 3
+    },
+    "g_077": {
+      "korean": "께",
+      "japanese": "～に（丁寧語）",
+      "topik_level": 3,
+      "difficulty_score": 3,
+      "frequency_score": 4
+    },
+    "g_078": {
+      "korean": "께서",
+      "japanese": "～が（丁寧語）",
+      "topik_level": 3,
+      "difficulty_score": 3,
+      "frequency_score": 4
+    },
+    "g_079": {
+      "korean": "～기 어렵다",
+      "japanese": "〜しにくい",
+      "topik_level": 3,
+      "difficulty_score": 3,
+      "frequency_score": 4
+    },
+    "g_080": {
+      "korean": "～(으)ㄹ 때",
+      "japanese": "～する時",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 2
+    },
+    "g_081": {
+      "korean": "～(으)ㄹ 수 없다",
+      "japanese": "～できない",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 2
+    },
+    "g_082": {
+      "korean": "～(으)ㄹ 수 있다",
+      "japanese": "～できる",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 2
+    },
+    "g_083": {
+      "korean": "～(으)ㄹ까요",
+      "japanese": "～しましょうか？",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 2
+    },
+    "g_084": {
+      "korean": "～( 으 ) ㄹ까요 ?",
+      "japanese": "～でしょうか？",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 2
+    },
+    "g_085": {
+      "korean": "( 이 ) 나",
+      "japanese": "でも",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_086": {
+      "korean": "( 이 ) 나",
+      "japanese": "か",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_087": {
+      "korean": "( 이 ) 나",
+      "japanese": "も",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_088": {
+      "korean": "～(으)ㄴ 지",
+      "japanese": "～てから",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_089": {
+      "korean": "～(으)ㄴ 지",
+      "japanese": "～て",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_090": {
+      "korean": "～(으)ㄴ 후에",
+      "japanese": "～した後に",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_091": {
+      "korean": "～(으)니까",
+      "japanese": "～だから",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_092": {
+      "korean": "～(으)ㄹ게요",
+      "japanese": "～しますよ",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_093": {
+      "korean": "～(으)ㄹ래요",
+      "japanese": "～ます",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_094": {
+      "korean": "～( 으 ) ㄹ래요 ?",
+      "japanese": "～しますか？",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_095": {
+      "korean": "～(으)러 가다",
+      "japanese": "～しに行く",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_096": {
+      "korean": "～(으)러 오다",
+      "japanese": "～しに 来る",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_097": {
+      "korean": "～(으)려고",
+      "japanese": "～しようと",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_098": {
+      "korean": "～(으)면서",
+      "japanese": "～しながら",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_099": {
+      "korean": "～(이)지요?",
+      "japanese": "～ですよね？",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_100": {
+      "korean": "～거나",
+      "japanese": "～したり",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_101": {
+      "korean": "～게 되다",
+      "japanese": "～になる",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_102": {
+      "korean": "～기 때문에",
+      "japanese": "～のせいで",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_103": {
+      "korean": "～기로 하다",
+      "japanese": "～することにする",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_104": {
+      "korean": "～는데",
+      "japanese": "～するのに",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_105": {
+      "korean": "～아/어/여 보다",
+      "japanese": "～してみる",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_106": {
+      "korean": "～아/어/여 주다",
+      "japanese": "～してくれる",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_107": {
+      "korean": "～ㄴ/는다면",
+      "japanese": "〜なら",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_108": {
+      "korean": "～는 대로",
+      "japanese": "～するとおり",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_109": {
+      "korean": "～는 대신(에)",
+      "japanese": "〜する代わりに",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_110": {
+      "korean": "～는 덕분에",
+      "japanese": "〜のおかげで",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_111": {
+      "korean": "～는 편이다",
+      "japanese": "〜する方だ",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_112": {
+      "korean": "～다가",
+      "japanese": "〜していて",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_113": {
+      "korean": "～더라",
+      "japanese": "〜だよ",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_114": {
+      "korean": "～더라고(요)",
+      "japanese": "〜だったよ、～していたよ",
+      "topik_level": 3,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_115": {
+      "korean": "～던",
+      "japanese": "〜した",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_116": {
+      "korean": "～도록",
+      "japanese": "〜するように",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_117": {
+      "korean": "～듯이",
+      "japanese": "〜のように",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_118": {
+      "korean": "～아/어/여 보이다",
+      "japanese": "〜 そうに見える",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_119": {
+      "korean": "～아/어야",
+      "japanese": "〜してこそ",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_120": {
+      "korean": "～아/어야지",
+      "japanese": "〜しなきゃ",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_121": {
+      "korean": "～았/었으면 하다",
+      "japanese": "〜だったら良い",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_122": {
+      "korean": "～에 따라(서)",
+      "japanese": "〜に従って",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_123": {
+      "korean": "～에 의해(서)",
+      "japanese": "〜によって",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_124": {
+      "korean": "～을/를 통해(서)",
+      "japanese": "〜を通して",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_125": {
+      "korean": "～자고 하다",
+      "japanese": "〜しようと言う",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_126": {
+      "korean": "～자마자",
+      "japanese": "〜するとすぐ",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_127": {
+      "korean": "마저",
+      "japanese": "さえも",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_128": {
+      "korean": "아무 ～(이)나",
+      "japanese": "何の 〜でも",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_129": {
+      "korean": "아무 ～도",
+      "japanese": "何の 〜も",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_130": {
+      "korean": "조차",
+      "japanese": "～さえ",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 3
+    },
+    "g_131": {
+      "korean": "～군요",
+      "japanese": "～ですね",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_132": {
+      "korean": "～(으)ㄴ/는 만큼",
+      "japanese": "〜ほど",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_133": {
+      "korean": "～(으)ㄴ/는/(으)ㄹ지",
+      "japanese": "〜なのか",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_134": {
+      "korean": "～(으)ㄴ가 보다",
+      "japanese": "〜のようだ",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_135": {
+      "korean": "～(으)ㄹ 리가 없다",
+      "japanese": "〜するはずがない",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_136": {
+      "korean": "～(으)ㄹ 만하다",
+      "japanese": "〜に値する",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_137": {
+      "korean": "～(으)ㄹ 뿐만 아니라",
+      "japanese": "〜だけでなく",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_138": {
+      "korean": "～(으)ㄹ 수밖에 (없다)",
+      "japanese": "〜するしかない",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_139": {
+      "korean": "～(으)ㄹ 정도(로)",
+      "japanese": "〜するほど",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_140": {
+      "korean": "～(으)ㄹ 테니(까)",
+      "japanese": "〜するから",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_141": {
+      "korean": "～(으)ㄹ 텐데",
+      "japanese": "〜のはずだが",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_142": {
+      "korean": "～(으)ㄹ지(도) 모르다",
+      "japanese": "〜か分からない",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_143": {
+      "korean": "～(으)로 인해(서)",
+      "japanese": "〜によって",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_144": {
+      "korean": "～(으)로서",
+      "japanese": "～として",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_145": {
+      "korean": "～(으)므로",
+      "japanese": "〜ので",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_146": {
+      "korean": "～고 말다",
+      "japanese": "〜してしまう",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_147": {
+      "korean": "～기/게 마련이다",
+      "japanese": "〜するものだ",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_148": {
+      "korean": "～기는 하지만",
+      "japanese": "〜とはいえ",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_149": {
+      "korean": "～기에(는)",
+      "japanese": "〜するには",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_150": {
+      "korean": "～ㄴ/는 척하다",
+      "japanese": "〜のふりをする",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_151": {
+      "korean": "～ㄴ/는다고 해도",
+      "japanese": "〜と言っても",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_152": {
+      "korean": "～ㄴ/는다고(요)",
+      "japanese": "〜だそうだ",
+      "topik_level": 4,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_153": {
+      "korean": "～는 (도)중에",
+      "japanese": "〜している最中に",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_154": {
+      "korean": "～는 길에",
+      "japanese": "〜の途中で",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_155": {
+      "korean": "～는 사이에",
+      "japanese": "〜する間に",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_156": {
+      "korean": "～는 한",
+      "japanese": "〜する限り",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_157": {
+      "korean": "(이)야말로",
+      "japanese": "こそ",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 4
+    },
+    "g_158": {
+      "korean": "～(으)ㄴ 채(로)",
+      "japanese": "〜のまま",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_159": {
+      "korean": "～(으)ㄴ/는 김에",
+      "japanese": "〜ついでに",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_160": {
+      "korean": "～(으)ㄴ/는 법이다",
+      "japanese": "〜なものだ",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_161": {
+      "korean": "～(으)ㄴ/는 탓에",
+      "japanese": "〜のせいで",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_162": {
+      "korean": "～(으)ㄴ/는걸(요)",
+      "japanese": "〜だよ",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_163": {
+      "korean": "～(으)ㄹ 뻔하다",
+      "japanese": "〜しそうだった",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_164": {
+      "korean": "～거든",
+      "japanese": "〜だよ",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_165": {
+      "korean": "～고 말고(요)",
+      "japanese": "〜に決まっている",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_166": {
+      "korean": "～고 보면",
+      "japanese": "〜してみると",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_167": {
+      "korean": "～곤 하다",
+      "japanese": "〜したりする",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_168": {
+      "korean": "～기는(요)",
+      "japanese": "〜だなんて",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_169": {
+      "korean": "～길래",
+      "japanese": "〜なので",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_170": {
+      "korean": "～ㄴ/는다니",
+      "japanese": "〜だなんて",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_171": {
+      "korean": "～ㄴ/는다니까",
+      "japanese": "〜だってば",
+      "topik_level": 5,
+      "difficulty_score": 4,
+      "frequency_score": 5
+    },
+    "g_172": {
+      "korean": "～(으)ㄴ 것 같다",
+      "japanese": "～したみたい/気がする",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 3
+    },
+    "g_173": {
+      "korean": "～( 으 ) ㄹ 것 같다",
+      "japanese": "～するみたい",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 3
+    },
+    "g_174": {
+      "korean": "～(으)ㄴ데(요)",
+      "japanese": "～けど",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 3
+    },
+    "g_175": {
+      "korean": "～(으)ㄴ데(요)",
+      "japanese": "～が",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 3
+    },
+    "g_176": {
+      "korean": "～(으)ㄹ 것이다",
+      "japanese": "～するだろう",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 3
+    },
+    "g_177": {
+      "korean": "～(으)려고 하다",
+      "japanese": "～しようと思う",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 3
+    },
+    "g_178": {
+      "korean": "～아/어/여야 되다",
+      "japanese": "～しなければならない",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 3
+    },
+    "g_179": {
+      "korean": "～아/어/여야 하다",
+      "japanese": "～しなければならない",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 3
+    },
+    "g_180": {
+      "korean": "～(으)ㄴ 적이 없다",
+      "japanese": "～したことがない",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_181": {
+      "korean": "～(으)ㄴ 적이 있다",
+      "japanese": "～したことがある",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_182": {
+      "korean": "～(으)ㄹ까 하다",
+      "japanese": "～しようと思う",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_183": {
+      "korean": "～( 으 ) ㄹ까봐",
+      "japanese": "～するかと思って",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_184": {
+      "korean": "～(으)려고요",
+      "japanese": "～するつもりです、予定です",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_185": {
+      "korean": "～는 게 좋겠다",
+      "japanese": "～するのがよい",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_186": {
+      "korean": "～ㄴ/는다면서(요)?",
+      "japanese": "〜 なんだって？",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_187": {
+      "korean": "～는 바람에",
+      "japanese": "〜せいで",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_188": {
+      "korean": "～다(가) 보니(까)",
+      "japanese": "〜していたら",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_189": {
+      "korean": "～다(가) 보면",
+      "japanese": "〜してみると",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_190": {
+      "korean": "～더니",
+      "japanese": "〜したらなんと",
+      "topik_level": 5,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_191": {
+      "korean": "～더라도",
+      "japanese": "〜としても",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_192": {
+      "korean": "～든지",
+      "japanese": "〜しようが",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_193": {
+      "korean": "～았/었/였던 것 같다",
+      "japanese": "〜だったらしい",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_194": {
+      "korean": "얼마나 ～(으)ㄴ/는지",
+      "japanese": "どれほど 〜したのか",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_195": {
+      "korean": "치고(는)",
+      "japanese": "～にしては",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 4
+    },
+    "g_196": {
+      "korean": "～(으)ㄴ/는 걸 보니(까)",
+      "japanese": "〜をみると",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_197": {
+      "korean": "～(으)ㄴ/는 반면(에)",
+      "japanese": "〜の反面",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_198": {
+      "korean": "～(으)ㄴ/는/(으)ㄹ 모양이다",
+      "japanese": "〜のようだ",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_199": {
+      "korean": "～(으)ㄴ/는/(으)ㄹ 줄 몰랐다",
+      "japanese": "〜とは思わなかった",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_200": {
+      "korean": "～(으)ㄴ/는/(으)ㄹ 줄 알았다",
+      "japanese": "〜と思った",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_201": {
+      "korean": "～(으)ㄹ 겸 (해서)",
+      "japanese": "〜を兼ねて",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_202": {
+      "korean": "～(으)ㄹ걸 (그랬다)",
+      "japanese": "〜すればよかった",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_203": {
+      "korean": "～(으)ㄹ까 말까",
+      "japanese": "〜するかどうか",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_204": {
+      "korean": "～(으)ㄹ지라도",
+      "japanese": "〜だとしても",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_205": {
+      "korean": "～(으)려다가",
+      "japanese": "〜しようとしていたら",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_206": {
+      "korean": "～(으)려던 참이다",
+      "japanese": "〜しようとしたところだ",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_207": {
+      "korean": "～ㄴ/는다거나",
+      "japanese": "〜だとか、するとか",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_208": {
+      "korean": "～ㄴ/는다더니",
+      "japanese": "～と言ってたけど",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_209": {
+      "korean": "～ㄴ/는다더라",
+      "japanese": "〜 だそうだ",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_210": {
+      "korean": "～냐고 하다",
+      "japanese": "〜かと言う",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_211": {
+      "korean": "～는 수밖에 (없다)",
+      "japanese": "〜せざるを得ない",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_212": {
+      "korean": "～는 한편",
+      "japanese": "〜する一方",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_213": {
+      "korean": "～더군(요)",
+      "japanese": "〜なったんだ",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_214": {
+      "korean": "～던가(요)?",
+      "japanese": "〜だったっけ？",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_215": {
+      "korean": "～던데",
+      "japanese": "〜していたが",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_216": {
+      "korean": "～만 못하다",
+      "japanese": "〜に及ばない",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_217": {
+      "korean": "～아/어/여서 그런지",
+      "japanese": "〜 でそうなのか",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_218": {
+      "korean": "～았/었/였더라면",
+      "japanese": "〜だったら",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_219": {
+      "korean": "～을/를 비롯한",
+      "japanese": "〜をはじめとして",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 5
+    },
+    "g_220": {
+      "korean": "～(으)ㄴ/는/(으)ㄹ 셈이다",
+      "japanese": "〜するつもりだ",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 6
+    },
+    "g_221": {
+      "korean": "～(으)나 마나",
+      "japanese": "〜するまでもなく",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 6
+    },
+    "g_222": {
+      "korean": "～(으)니만큼",
+      "japanese": "〜だからこそ",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 6
+    },
+    "g_223": {
+      "korean": "～(으)ㄹ 지경이다",
+      "japanese": "〜する寸前だ",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 6
+    },
+    "g_224": {
+      "korean": "～(이)나 ～(이)나 할 것 없이",
+      "japanese": "〜や〜を問わず",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 6
+    },
+    "g_225": {
+      "korean": "～기 십상이다",
+      "japanese": "〜しがちである",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 6
+    },
+    "g_226": {
+      "korean": "～ㄴ/는다고 치다",
+      "japanese": "〜としたら",
+      "topik_level": 6,
+      "difficulty_score": 5,
+      "frequency_score": 6
+    },
+    "g_227": {
+      "korean": "～느라고",
+      "japanese": "〜したので",
+      "topik_level": 6,
+      "difficulty_score": 6,
+      "frequency_score": 5
+    },
+    "g_228": {
+      "korean": "～ㄴ/는다던데",
+      "japanese": "〜と言うけど",
+      "topik_level": 6,
+      "difficulty_score": 6,
+      "frequency_score": 6
+    },
+    "g_229": {
+      "korean": "～는 셈 치다",
+      "japanese": "〜のつもりでいる",
+      "topik_level": 6,
+      "difficulty_score": 6,
+      "frequency_score": 6
+    },
+    "g_230": {
+      "korean": "～는 통에",
+      "japanese": "〜のせいで",
+      "topik_level": 6,
+      "difficulty_score": 6,
+      "frequency_score": 6
+    },
+    "g_231": {
+      "korean": "～는/은커녕",
+      "japanese": "〜どころか",
+      "topik_level": 6,
+      "difficulty_score": 6,
+      "frequency_score": 6
+    },
+    "g_232": {
+      "korean": "～다시피",
+      "japanese": "〜のとおり",
+      "topik_level": 6,
+      "difficulty_score": 6,
+      "frequency_score": 6
+    },
+    "g_233": {
+      "korean": "～(으)ㄴ/는들",
+      "japanese": "〜としても",
+      "topik_level": 6,
+      "difficulty_score": 6,
+      "frequency_score": 7
+    }
+  },
+  "grammarList": [
+    {
+      "id": "g_001",
+      "korean": "에",
+      "japanese": "～に",
+      "topik_level": 1
+    },
+    {
+      "id": "g_002",
+      "korean": "은/는",
+      "japanese": "～は",
+      "topik_level": 1
+    },
+    {
+      "id": "g_003",
+      "korean": "을/를",
+      "japanese": "～を",
+      "topik_level": 1
+    },
+    {
+      "id": "g_004",
+      "korean": "의",
+      "japanese": "～の",
+      "topik_level": 1
+    },
+    {
+      "id": "g_005",
+      "korean": "이/가",
+      "japanese": "～が",
+      "topik_level": 1
+    },
+    {
+      "id": "g_006",
+      "korean": "도",
+      "japanese": "～も",
+      "topik_level": 1
+    },
+    {
+      "id": "g_007",
+      "korean": "～고",
+      "japanese": "～して",
+      "topik_level": 1
+    },
+    {
+      "id": "g_008",
+      "korean": "～ㅂ/습니다",
+      "japanese": "～です",
+      "topik_level": 1
+    },
+    {
+      "id": "g_009",
+      "korean": "～아/어요",
+      "japanese": "～です",
+      "topik_level": 1
+    },
+    {
+      "id": "g_010",
+      "korean": "～지 않다",
+      "japanese": "～しない",
+      "topik_level": 1
+    },
+    {
+      "id": "g_011",
+      "korean": "～지만",
+      "japanese": "～だが",
+      "topik_level": 1
+    },
+    {
+      "id": "g_012",
+      "korean": "까지",
+      "japanese": "～まで",
+      "topik_level": 1
+    },
+    {
+      "id": "g_013",
+      "korean": "만",
+      "japanese": "～だけ",
+      "topik_level": 1
+    },
+    {
+      "id": "g_014",
+      "korean": "보다",
+      "japanese": "～より",
+      "topik_level": 1
+    },
+    {
+      "id": "g_015",
+      "korean": "부터",
+      "japanese": "～から",
+      "topik_level": 1
+    },
+    {
+      "id": "g_016",
+      "korean": "에게",
+      "japanese": "～に",
+      "topik_level": 1
+    },
+    {
+      "id": "g_017",
+      "korean": "에서",
+      "japanese": "～から",
+      "topik_level": 1
+    },
+    {
+      "id": "g_018",
+      "korean": "와/과",
+      "japanese": "～と",
+      "topik_level": 1
+    },
+    {
+      "id": "g_019",
+      "korean": "하고",
+      "japanese": "～と、して",
+      "topik_level": 1
+    },
+    {
+      "id": "g_020",
+      "korean": "한테",
+      "japanese": "～に",
+      "topik_level": 1
+    },
+    {
+      "id": "g_021",
+      "korean": "～지 말다",
+      "japanese": "～しないで",
+      "topik_level": 1
+    },
+    {
+      "id": "g_022",
+      "korean": "～지 못하다",
+      "japanese": "～できない",
+      "topik_level": 1
+    },
+    {
+      "id": "g_023",
+      "korean": "( 이 ) 랑",
+      "japanese": "と",
+      "topik_level": 1
+    },
+    {
+      "id": "g_024",
+      "korean": "～ ( 으 ) 로",
+      "japanese": "～に",
+      "topik_level": 1
+    },
+    {
+      "id": "g_025",
+      "korean": "～(으)면",
+      "japanese": "～な ら",
+      "topik_level": 1
+    },
+    {
+      "id": "g_026",
+      "korean": "～(으)ㅂ시다",
+      "japanese": "～しましょう",
+      "topik_level": 1
+    },
+    {
+      "id": "g_027",
+      "korean": "～(으)세요",
+      "japanese": "～してください",
+      "topik_level": 1
+    },
+    {
+      "id": "g_028",
+      "korean": "～게",
+      "japanese": "～く",
+      "topik_level": 1
+    },
+    {
+      "id": "g_029",
+      "korean": "～고 싶다",
+      "japanese": "～したい",
+      "topik_level": 1
+    },
+    {
+      "id": "g_030",
+      "korean": "～고 있다",
+      "japanese": "～している",
+      "topik_level": 1
+    },
+    {
+      "id": "g_031",
+      "korean": "～기 전에",
+      "japanese": "～の前に",
+      "topik_level": 1
+    },
+    {
+      "id": "g_032",
+      "korean": "～ ㅂ / 습니까 ?",
+      "japanese": "～ですか ?",
+      "topik_level": 1
+    },
+    {
+      "id": "g_033",
+      "korean": "～ㄴ/는다",
+      "japanese": "〜だ、する",
+      "topik_level": 1
+    },
+    {
+      "id": "g_034",
+      "korean": "～ㄴ/는다고 하다",
+      "japanese": "〜だと言う",
+      "topik_level": 1
+    },
+    {
+      "id": "g_035",
+      "korean": "～나(요)?",
+      "japanese": "〜なの？",
+      "topik_level": 1
+    },
+    {
+      "id": "g_036",
+      "korean": "～니/냐?",
+      "japanese": "〜なのかい？",
+      "topik_level": 1
+    },
+    {
+      "id": "g_037",
+      "korean": "～대로",
+      "japanese": "〜のとおり",
+      "topik_level": 1
+    },
+    {
+      "id": "g_038",
+      "korean": "(이)라도",
+      "japanese": "でも",
+      "topik_level": 1
+    },
+    {
+      "id": "g_039",
+      "korean": "～아/어도",
+      "japanese": "〜しても",
+      "topik_level": 2
+    },
+    {
+      "id": "g_040",
+      "korean": "～아/어지다",
+      "japanese": "〜になる",
+      "topik_level": 2
+    },
+    {
+      "id": "g_041",
+      "korean": "～에 관해(서)",
+      "japanese": "〜について",
+      "topik_level": 2
+    },
+    {
+      "id": "g_042",
+      "korean": "～에 대해(서)",
+      "japanese": "〜に対して",
+      "topik_level": 2
+    },
+    {
+      "id": "g_043",
+      "korean": "～에다(가)",
+      "japanese": "〜に",
+      "topik_level": 2
+    },
+    {
+      "id": "g_044",
+      "korean": "～자",
+      "japanese": "〜しよう",
+      "topik_level": 2
+    },
+    {
+      "id": "g_045",
+      "korean": "～잖아(요)",
+      "japanese": "〜でしょう",
+      "topik_level": 2
+    },
+    {
+      "id": "g_046",
+      "korean": "만큼",
+      "japanese": "ほど",
+      "topik_level": 2
+    },
+    {
+      "id": "g_047",
+      "korean": "마다",
+      "japanese": "～ごと",
+      "topik_level": 2
+    },
+    {
+      "id": "g_048",
+      "korean": "밖에",
+      "japanese": "～しか",
+      "topik_level": 2
+    },
+    {
+      "id": "g_049",
+      "korean": "에게서",
+      "japanese": "～から",
+      "topik_level": 2
+    },
+    {
+      "id": "g_050",
+      "korean": "이/가 아니다",
+      "japanese": "～ではない",
+      "topik_level": 2
+    },
+    {
+      "id": "g_051",
+      "korean": "처럼",
+      "japanese": "～のように",
+      "topik_level": 2
+    },
+    {
+      "id": "g_052",
+      "korean": "한테서",
+      "japanese": "～から",
+      "topik_level": 2
+    },
+    {
+      "id": "g_053",
+      "korean": "～(으)십시오",
+      "japanese": "～してください",
+      "topik_level": 2
+    },
+    {
+      "id": "g_054",
+      "korean": "～네요",
+      "japanese": "～ですね",
+      "topik_level": 2
+    },
+    {
+      "id": "g_055",
+      "korean": "～았/었/였으면 좋겠다",
+      "japanese": "～したらいい",
+      "topik_level": 2
+    },
+    {
+      "id": "g_056",
+      "korean": "～(으)ㄴ/는데(요)",
+      "japanese": "～ですが",
+      "topik_level": 2
+    },
+    {
+      "id": "g_057",
+      "korean": "～(으)ㄴ가(요)?",
+      "japanese": "〜なのか？",
+      "topik_level": 2
+    },
+    {
+      "id": "g_058",
+      "korean": "～(으)니까(요)",
+      "japanese": "〜だから",
+      "topik_level": 2
+    },
+    {
+      "id": "g_059",
+      "korean": "～(으)ㄹ 뿐이다",
+      "japanese": "〜だけだ",
+      "topik_level": 2
+    },
+    {
+      "id": "g_060",
+      "korean": "～(으)ㄹ수록",
+      "japanese": "〜するほど",
+      "topik_level": 2
+    },
+    {
+      "id": "g_061",
+      "korean": "～(으)라고 하다",
+      "japanese": "〜しなさいと言う",
+      "topik_level": 2
+    },
+    {
+      "id": "g_062",
+      "korean": "～(으)려면",
+      "japanese": "〜するなら",
+      "topik_level": 2
+    },
+    {
+      "id": "g_063",
+      "korean": "～(으)며",
+      "japanese": "〜して",
+      "topik_level": 2
+    },
+    {
+      "id": "g_064",
+      "korean": "～(으)면 되다",
+      "japanese": "〜すればよい",
+      "topik_level": 2
+    },
+    {
+      "id": "g_065",
+      "korean": "～게 하다",
+      "japanese": "〜させる",
+      "topik_level": 2
+    },
+    {
+      "id": "g_066",
+      "korean": "～고 나니(까)",
+      "japanese": "〜したら",
+      "topik_level": 2
+    },
+    {
+      "id": "g_067",
+      "korean": "～고 나면",
+      "japanese": "〜したら",
+      "topik_level": 2
+    },
+    {
+      "id": "g_068",
+      "korean": "～고 나서",
+      "japanese": "〜してから",
+      "topik_level": 2
+    },
+    {
+      "id": "g_069",
+      "korean": "～기 쉽다",
+      "japanese": "〜しやすい",
+      "topik_level": 2
+    },
+    {
+      "id": "g_070",
+      "korean": "～기 위해(서)",
+      "japanese": "〜のために",
+      "topik_level": 2
+    },
+    {
+      "id": "g_071",
+      "korean": "～기만 하면 (되다)",
+      "japanese": "〜さえすれば",
+      "topik_level": 2
+    },
+    {
+      "id": "g_072",
+      "korean": "～나 보다",
+      "japanese": "〜するようだ",
+      "topik_level": 2
+    },
+    {
+      "id": "g_073",
+      "korean": "～는 수(가) 있다",
+      "japanese": "〜することがある",
+      "topik_level": 2
+    },
+    {
+      "id": "g_074",
+      "korean": "～는 중이다",
+      "japanese": "〜しているところだ",
+      "topik_level": 2
+    },
+    {
+      "id": "g_075",
+      "korean": "～는구나",
+      "japanese": "〜なんだね",
+      "topik_level": 2
+    },
+    {
+      "id": "g_076",
+      "korean": "～아/어라",
+      "japanese": "〜せよ、～しろ",
+      "topik_level": 2
+    },
+    {
+      "id": "g_077",
+      "korean": "께",
+      "japanese": "～に（丁寧語）",
+      "topik_level": 3
+    },
+    {
+      "id": "g_078",
+      "korean": "께서",
+      "japanese": "～が（丁寧語）",
+      "topik_level": 3
+    },
+    {
+      "id": "g_079",
+      "korean": "～기 어렵다",
+      "japanese": "〜しにくい",
+      "topik_level": 3
+    },
+    {
+      "id": "g_080",
+      "korean": "～(으)ㄹ 때",
+      "japanese": "～する時",
+      "topik_level": 3
+    },
+    {
+      "id": "g_081",
+      "korean": "～(으)ㄹ 수 없다",
+      "japanese": "～できない",
+      "topik_level": 3
+    },
+    {
+      "id": "g_082",
+      "korean": "～(으)ㄹ 수 있다",
+      "japanese": "～できる",
+      "topik_level": 3
+    },
+    {
+      "id": "g_083",
+      "korean": "～(으)ㄹ까요",
+      "japanese": "～しましょうか？",
+      "topik_level": 3
+    },
+    {
+      "id": "g_084",
+      "korean": "～( 으 ) ㄹ까요 ?",
+      "japanese": "～でしょうか？",
+      "topik_level": 3
+    },
+    {
+      "id": "g_085",
+      "korean": "( 이 ) 나",
+      "japanese": "でも",
+      "topik_level": 3
+    },
+    {
+      "id": "g_086",
+      "korean": "( 이 ) 나",
+      "japanese": "か",
+      "topik_level": 3
+    },
+    {
+      "id": "g_087",
+      "korean": "( 이 ) 나",
+      "japanese": "も",
+      "topik_level": 3
+    },
+    {
+      "id": "g_088",
+      "korean": "～(으)ㄴ 지",
+      "japanese": "～てから",
+      "topik_level": 3
+    },
+    {
+      "id": "g_089",
+      "korean": "～(으)ㄴ 지",
+      "japanese": "～て",
+      "topik_level": 3
+    },
+    {
+      "id": "g_090",
+      "korean": "～(으)ㄴ 후에",
+      "japanese": "～した後に",
+      "topik_level": 3
+    },
+    {
+      "id": "g_091",
+      "korean": "～(으)니까",
+      "japanese": "～だから",
+      "topik_level": 3
+    },
+    {
+      "id": "g_092",
+      "korean": "～(으)ㄹ게요",
+      "japanese": "～しますよ",
+      "topik_level": 3
+    },
+    {
+      "id": "g_093",
+      "korean": "～(으)ㄹ래요",
+      "japanese": "～ます",
+      "topik_level": 3
+    },
+    {
+      "id": "g_094",
+      "korean": "～( 으 ) ㄹ래요 ?",
+      "japanese": "～しますか？",
+      "topik_level": 3
+    },
+    {
+      "id": "g_095",
+      "korean": "～(으)러 가다",
+      "japanese": "～しに行く",
+      "topik_level": 3
+    },
+    {
+      "id": "g_096",
+      "korean": "～(으)러 오다",
+      "japanese": "～しに 来る",
+      "topik_level": 3
+    },
+    {
+      "id": "g_097",
+      "korean": "～(으)려고",
+      "japanese": "～しようと",
+      "topik_level": 3
+    },
+    {
+      "id": "g_098",
+      "korean": "～(으)면서",
+      "japanese": "～しながら",
+      "topik_level": 3
+    },
+    {
+      "id": "g_099",
+      "korean": "～(이)지요?",
+      "japanese": "～ですよね？",
+      "topik_level": 3
+    },
+    {
+      "id": "g_100",
+      "korean": "～거나",
+      "japanese": "～したり",
+      "topik_level": 3
+    },
+    {
+      "id": "g_101",
+      "korean": "～게 되다",
+      "japanese": "～になる",
+      "topik_level": 3
+    },
+    {
+      "id": "g_102",
+      "korean": "～기 때문에",
+      "japanese": "～のせいで",
+      "topik_level": 3
+    },
+    {
+      "id": "g_103",
+      "korean": "～기로 하다",
+      "japanese": "～することにする",
+      "topik_level": 3
+    },
+    {
+      "id": "g_104",
+      "korean": "～는데",
+      "japanese": "～するのに",
+      "topik_level": 3
+    },
+    {
+      "id": "g_105",
+      "korean": "～아/어/여 보다",
+      "japanese": "～してみる",
+      "topik_level": 3
+    },
+    {
+      "id": "g_106",
+      "korean": "～아/어/여 주다",
+      "japanese": "～してくれる",
+      "topik_level": 3
+    },
+    {
+      "id": "g_107",
+      "korean": "～ㄴ/는다면",
+      "japanese": "〜なら",
+      "topik_level": 3
+    },
+    {
+      "id": "g_108",
+      "korean": "～는 대로",
+      "japanese": "～するとおり",
+      "topik_level": 3
+    },
+    {
+      "id": "g_109",
+      "korean": "～는 대신(에)",
+      "japanese": "〜する代わりに",
+      "topik_level": 3
+    },
+    {
+      "id": "g_110",
+      "korean": "～는 덕분에",
+      "japanese": "〜のおかげで",
+      "topik_level": 3
+    },
+    {
+      "id": "g_111",
+      "korean": "～는 편이다",
+      "japanese": "〜する方だ",
+      "topik_level": 3
+    },
+    {
+      "id": "g_112",
+      "korean": "～다가",
+      "japanese": "〜していて",
+      "topik_level": 3
+    },
+    {
+      "id": "g_113",
+      "korean": "～더라",
+      "japanese": "〜だよ",
+      "topik_level": 3
+    },
+    {
+      "id": "g_114",
+      "korean": "～더라고(요)",
+      "japanese": "〜だったよ、～していたよ",
+      "topik_level": 3
+    },
+    {
+      "id": "g_115",
+      "korean": "～던",
+      "japanese": "〜した",
+      "topik_level": 4
+    },
+    {
+      "id": "g_116",
+      "korean": "～도록",
+      "japanese": "〜するように",
+      "topik_level": 4
+    },
+    {
+      "id": "g_117",
+      "korean": "～듯이",
+      "japanese": "〜のように",
+      "topik_level": 4
+    },
+    {
+      "id": "g_118",
+      "korean": "～아/어/여 보이다",
+      "japanese": "〜 そうに見える",
+      "topik_level": 4
+    },
+    {
+      "id": "g_119",
+      "korean": "～아/어야",
+      "japanese": "〜してこそ",
+      "topik_level": 4
+    },
+    {
+      "id": "g_120",
+      "korean": "～아/어야지",
+      "japanese": "〜しなきゃ",
+      "topik_level": 4
+    },
+    {
+      "id": "g_121",
+      "korean": "～았/었으면 하다",
+      "japanese": "〜だったら良い",
+      "topik_level": 4
+    },
+    {
+      "id": "g_122",
+      "korean": "～에 따라(서)",
+      "japanese": "〜に従って",
+      "topik_level": 4
+    },
+    {
+      "id": "g_123",
+      "korean": "～에 의해(서)",
+      "japanese": "〜によって",
+      "topik_level": 4
+    },
+    {
+      "id": "g_124",
+      "korean": "～을/를 통해(서)",
+      "japanese": "〜を通して",
+      "topik_level": 4
+    },
+    {
+      "id": "g_125",
+      "korean": "～자고 하다",
+      "japanese": "〜しようと言う",
+      "topik_level": 4
+    },
+    {
+      "id": "g_126",
+      "korean": "～자마자",
+      "japanese": "〜するとすぐ",
+      "topik_level": 4
+    },
+    {
+      "id": "g_127",
+      "korean": "마저",
+      "japanese": "さえも",
+      "topik_level": 4
+    },
+    {
+      "id": "g_128",
+      "korean": "아무 ～(이)나",
+      "japanese": "何の 〜でも",
+      "topik_level": 4
+    },
+    {
+      "id": "g_129",
+      "korean": "아무 ～도",
+      "japanese": "何の 〜も",
+      "topik_level": 4
+    },
+    {
+      "id": "g_130",
+      "korean": "조차",
+      "japanese": "～さえ",
+      "topik_level": 4
+    },
+    {
+      "id": "g_131",
+      "korean": "～군요",
+      "japanese": "～ですね",
+      "topik_level": 4
+    },
+    {
+      "id": "g_132",
+      "korean": "～(으)ㄴ/는 만큼",
+      "japanese": "〜ほど",
+      "topik_level": 4
+    },
+    {
+      "id": "g_133",
+      "korean": "～(으)ㄴ/는/(으)ㄹ지",
+      "japanese": "〜なのか",
+      "topik_level": 4
+    },
+    {
+      "id": "g_134",
+      "korean": "～(으)ㄴ가 보다",
+      "japanese": "〜のようだ",
+      "topik_level": 4
+    },
+    {
+      "id": "g_135",
+      "korean": "～(으)ㄹ 리가 없다",
+      "japanese": "〜するはずがない",
+      "topik_level": 4
+    },
+    {
+      "id": "g_136",
+      "korean": "～(으)ㄹ 만하다",
+      "japanese": "〜に値する",
+      "topik_level": 4
+    },
+    {
+      "id": "g_137",
+      "korean": "～(으)ㄹ 뿐만 아니라",
+      "japanese": "〜だけでなく",
+      "topik_level": 4
+    },
+    {
+      "id": "g_138",
+      "korean": "～(으)ㄹ 수밖에 (없다)",
+      "japanese": "〜するしかない",
+      "topik_level": 4
+    },
+    {
+      "id": "g_139",
+      "korean": "～(으)ㄹ 정도(로)",
+      "japanese": "〜するほど",
+      "topik_level": 4
+    },
+    {
+      "id": "g_140",
+      "korean": "～(으)ㄹ 테니(까)",
+      "japanese": "〜するから",
+      "topik_level": 4
+    },
+    {
+      "id": "g_141",
+      "korean": "～(으)ㄹ 텐데",
+      "japanese": "〜のはずだが",
+      "topik_level": 4
+    },
+    {
+      "id": "g_142",
+      "korean": "～(으)ㄹ지(도) 모르다",
+      "japanese": "〜か分からない",
+      "topik_level": 4
+    },
+    {
+      "id": "g_143",
+      "korean": "～(으)로 인해(서)",
+      "japanese": "〜によって",
+      "topik_level": 4
+    },
+    {
+      "id": "g_144",
+      "korean": "～(으)로서",
+      "japanese": "～として",
+      "topik_level": 4
+    },
+    {
+      "id": "g_145",
+      "korean": "～(으)므로",
+      "japanese": "〜ので",
+      "topik_level": 4
+    },
+    {
+      "id": "g_146",
+      "korean": "～고 말다",
+      "japanese": "〜してしまう",
+      "topik_level": 4
+    },
+    {
+      "id": "g_147",
+      "korean": "～기/게 마련이다",
+      "japanese": "〜するものだ",
+      "topik_level": 4
+    },
+    {
+      "id": "g_148",
+      "korean": "～기는 하지만",
+      "japanese": "〜とはいえ",
+      "topik_level": 4
+    },
+    {
+      "id": "g_149",
+      "korean": "～기에(는)",
+      "japanese": "〜するには",
+      "topik_level": 4
+    },
+    {
+      "id": "g_150",
+      "korean": "～ㄴ/는 척하다",
+      "japanese": "〜のふりをする",
+      "topik_level": 4
+    },
+    {
+      "id": "g_151",
+      "korean": "～ㄴ/는다고 해도",
+      "japanese": "〜と言っても",
+      "topik_level": 4
+    },
+    {
+      "id": "g_152",
+      "korean": "～ㄴ/는다고(요)",
+      "japanese": "〜だそうだ",
+      "topik_level": 4
+    },
+    {
+      "id": "g_153",
+      "korean": "～는 (도)중에",
+      "japanese": "〜している最中に",
+      "topik_level": 5
+    },
+    {
+      "id": "g_154",
+      "korean": "～는 길에",
+      "japanese": "〜の途中で",
+      "topik_level": 5
+    },
+    {
+      "id": "g_155",
+      "korean": "～는 사이에",
+      "japanese": "〜する間に",
+      "topik_level": 5
+    },
+    {
+      "id": "g_156",
+      "korean": "～는 한",
+      "japanese": "〜する限り",
+      "topik_level": 5
+    },
+    {
+      "id": "g_157",
+      "korean": "(이)야말로",
+      "japanese": "こそ",
+      "topik_level": 5
+    },
+    {
+      "id": "g_158",
+      "korean": "～(으)ㄴ 채(로)",
+      "japanese": "〜のまま",
+      "topik_level": 5
+    },
+    {
+      "id": "g_159",
+      "korean": "～(으)ㄴ/는 김에",
+      "japanese": "〜ついでに",
+      "topik_level": 5
+    },
+    {
+      "id": "g_160",
+      "korean": "～(으)ㄴ/는 법이다",
+      "japanese": "〜なものだ",
+      "topik_level": 5
+    },
+    {
+      "id": "g_161",
+      "korean": "～(으)ㄴ/는 탓에",
+      "japanese": "〜のせいで",
+      "topik_level": 5
+    },
+    {
+      "id": "g_162",
+      "korean": "～(으)ㄴ/는걸(요)",
+      "japanese": "〜だよ",
+      "topik_level": 5
+    },
+    {
+      "id": "g_163",
+      "korean": "～(으)ㄹ 뻔하다",
+      "japanese": "〜しそうだった",
+      "topik_level": 5
+    },
+    {
+      "id": "g_164",
+      "korean": "～거든",
+      "japanese": "〜だよ",
+      "topik_level": 5
+    },
+    {
+      "id": "g_165",
+      "korean": "～고 말고(요)",
+      "japanese": "〜に決まっている",
+      "topik_level": 5
+    },
+    {
+      "id": "g_166",
+      "korean": "～고 보면",
+      "japanese": "〜してみると",
+      "topik_level": 5
+    },
+    {
+      "id": "g_167",
+      "korean": "～곤 하다",
+      "japanese": "〜したりする",
+      "topik_level": 5
+    },
+    {
+      "id": "g_168",
+      "korean": "～기는(요)",
+      "japanese": "〜だなんて",
+      "topik_level": 5
+    },
+    {
+      "id": "g_169",
+      "korean": "～길래",
+      "japanese": "〜なので",
+      "topik_level": 5
+    },
+    {
+      "id": "g_170",
+      "korean": "～ㄴ/는다니",
+      "japanese": "〜だなんて",
+      "topik_level": 5
+    },
+    {
+      "id": "g_171",
+      "korean": "～ㄴ/는다니까",
+      "japanese": "〜だってば",
+      "topik_level": 5
+    },
+    {
+      "id": "g_172",
+      "korean": "～(으)ㄴ 것 같다",
+      "japanese": "～したみたい/気がする",
+      "topik_level": 5
+    },
+    {
+      "id": "g_173",
+      "korean": "～( 으 ) ㄹ 것 같다",
+      "japanese": "～するみたい",
+      "topik_level": 5
+    },
+    {
+      "id": "g_174",
+      "korean": "～(으)ㄴ데(요)",
+      "japanese": "～けど",
+      "topik_level": 5
+    },
+    {
+      "id": "g_175",
+      "korean": "～(으)ㄴ데(요)",
+      "japanese": "～が",
+      "topik_level": 5
+    },
+    {
+      "id": "g_176",
+      "korean": "～(으)ㄹ 것이다",
+      "japanese": "～するだろう",
+      "topik_level": 5
+    },
+    {
+      "id": "g_177",
+      "korean": "～(으)려고 하다",
+      "japanese": "～しようと思う",
+      "topik_level": 5
+    },
+    {
+      "id": "g_178",
+      "korean": "～아/어/여야 되다",
+      "japanese": "～しなければならない",
+      "topik_level": 5
+    },
+    {
+      "id": "g_179",
+      "korean": "～아/어/여야 하다",
+      "japanese": "～しなければならない",
+      "topik_level": 5
+    },
+    {
+      "id": "g_180",
+      "korean": "～(으)ㄴ 적이 없다",
+      "japanese": "～したことがない",
+      "topik_level": 5
+    },
+    {
+      "id": "g_181",
+      "korean": "～(으)ㄴ 적이 있다",
+      "japanese": "～したことがある",
+      "topik_level": 5
+    },
+    {
+      "id": "g_182",
+      "korean": "～(으)ㄹ까 하다",
+      "japanese": "～しようと思う",
+      "topik_level": 5
+    },
+    {
+      "id": "g_183",
+      "korean": "～( 으 ) ㄹ까봐",
+      "japanese": "～するかと思って",
+      "topik_level": 5
+    },
+    {
+      "id": "g_184",
+      "korean": "～(으)려고요",
+      "japanese": "～するつもりです、予定です",
+      "topik_level": 5
+    },
+    {
+      "id": "g_185",
+      "korean": "～는 게 좋겠다",
+      "japanese": "～するのがよい",
+      "topik_level": 5
+    },
+    {
+      "id": "g_186",
+      "korean": "～ㄴ/는다면서(요)?",
+      "japanese": "〜 なんだって？",
+      "topik_level": 5
+    },
+    {
+      "id": "g_187",
+      "korean": "～는 바람에",
+      "japanese": "〜せいで",
+      "topik_level": 5
+    },
+    {
+      "id": "g_188",
+      "korean": "～다(가) 보니(까)",
+      "japanese": "〜していたら",
+      "topik_level": 5
+    },
+    {
+      "id": "g_189",
+      "korean": "～다(가) 보면",
+      "japanese": "〜してみると",
+      "topik_level": 5
+    },
+    {
+      "id": "g_190",
+      "korean": "～더니",
+      "japanese": "〜したらなんと",
+      "topik_level": 5
+    },
+    {
+      "id": "g_191",
+      "korean": "～더라도",
+      "japanese": "〜としても",
+      "topik_level": 6
+    },
+    {
+      "id": "g_192",
+      "korean": "～든지",
+      "japanese": "〜しようが",
+      "topik_level": 6
+    },
+    {
+      "id": "g_193",
+      "korean": "～았/었/였던 것 같다",
+      "japanese": "〜だったらしい",
+      "topik_level": 6
+    },
+    {
+      "id": "g_194",
+      "korean": "얼마나 ～(으)ㄴ/는지",
+      "japanese": "どれほど 〜したのか",
+      "topik_level": 6
+    },
+    {
+      "id": "g_195",
+      "korean": "치고(는)",
+      "japanese": "～にしては",
+      "topik_level": 6
+    },
+    {
+      "id": "g_196",
+      "korean": "～(으)ㄴ/는 걸 보니(까)",
+      "japanese": "〜をみると",
+      "topik_level": 6
+    },
+    {
+      "id": "g_197",
+      "korean": "～(으)ㄴ/는 반면(에)",
+      "japanese": "〜の反面",
+      "topik_level": 6
+    },
+    {
+      "id": "g_198",
+      "korean": "～(으)ㄴ/는/(으)ㄹ 모양이다",
+      "japanese": "〜のようだ",
+      "topik_level": 6
+    },
+    {
+      "id": "g_199",
+      "korean": "～(으)ㄴ/는/(으)ㄹ 줄 몰랐다",
+      "japanese": "〜とは思わなかった",
+      "topik_level": 6
+    },
+    {
+      "id": "g_200",
+      "korean": "～(으)ㄴ/는/(으)ㄹ 줄 알았다",
+      "japanese": "〜と思った",
+      "topik_level": 6
+    },
+    {
+      "id": "g_201",
+      "korean": "～(으)ㄹ 겸 (해서)",
+      "japanese": "〜を兼ねて",
+      "topik_level": 6
+    },
+    {
+      "id": "g_202",
+      "korean": "～(으)ㄹ걸 (그랬다)",
+      "japanese": "〜すればよかった",
+      "topik_level": 6
+    },
+    {
+      "id": "g_203",
+      "korean": "～(으)ㄹ까 말까",
+      "japanese": "〜するかどうか",
+      "topik_level": 6
+    },
+    {
+      "id": "g_204",
+      "korean": "～(으)ㄹ지라도",
+      "japanese": "〜だとしても",
+      "topik_level": 6
+    },
+    {
+      "id": "g_205",
+      "korean": "～(으)려다가",
+      "japanese": "〜しようとしていたら",
+      "topik_level": 6
+    },
+    {
+      "id": "g_206",
+      "korean": "～(으)려던 참이다",
+      "japanese": "〜しようとしたところだ",
+      "topik_level": 6
+    },
+    {
+      "id": "g_207",
+      "korean": "～ㄴ/는다거나",
+      "japanese": "〜だとか、するとか",
+      "topik_level": 6
+    },
+    {
+      "id": "g_208",
+      "korean": "～ㄴ/는다더니",
+      "japanese": "～と言ってたけど",
+      "topik_level": 6
+    },
+    {
+      "id": "g_209",
+      "korean": "～ㄴ/는다더라",
+      "japanese": "〜 だそうだ",
+      "topik_level": 6
+    },
+    {
+      "id": "g_210",
+      "korean": "～냐고 하다",
+      "japanese": "〜かと言う",
+      "topik_level": 6
+    },
+    {
+      "id": "g_211",
+      "korean": "～는 수밖에 (없다)",
+      "japanese": "〜せざるを得ない",
+      "topik_level": 6
+    },
+    {
+      "id": "g_212",
+      "korean": "～는 한편",
+      "japanese": "〜する一方",
+      "topik_level": 6
+    },
+    {
+      "id": "g_213",
+      "korean": "～더군(요)",
+      "japanese": "〜なったんだ",
+      "topik_level": 6
+    },
+    {
+      "id": "g_214",
+      "korean": "～던가(요)?",
+      "japanese": "〜だったっけ？",
+      "topik_level": 6
+    },
+    {
+      "id": "g_215",
+      "korean": "～던데",
+      "japanese": "〜していたが",
+      "topik_level": 6
+    },
+    {
+      "id": "g_216",
+      "korean": "～만 못하다",
+      "japanese": "〜に及ばない",
+      "topik_level": 6
+    },
+    {
+      "id": "g_217",
+      "korean": "～아/어/여서 그런지",
+      "japanese": "〜 でそうなのか",
+      "topik_level": 6
+    },
+    {
+      "id": "g_218",
+      "korean": "～았/었/였더라면",
+      "japanese": "〜だったら",
+      "topik_level": 6
+    },
+    {
+      "id": "g_219",
+      "korean": "～을/를 비롯한",
+      "japanese": "〜をはじめとして",
+      "topik_level": 6
+    },
+    {
+      "id": "g_220",
+      "korean": "～(으)ㄴ/는/(으)ㄹ 셈이다",
+      "japanese": "〜するつもりだ",
+      "topik_level": 6
+    },
+    {
+      "id": "g_221",
+      "korean": "～(으)나 마나",
+      "japanese": "〜するまでもなく",
+      "topik_level": 6
+    },
+    {
+      "id": "g_222",
+      "korean": "～(으)니만큼",
+      "japanese": "〜だからこそ",
+      "topik_level": 6
+    },
+    {
+      "id": "g_223",
+      "korean": "～(으)ㄹ 지경이다",
+      "japanese": "〜する寸前だ",
+      "topik_level": 6
+    },
+    {
+      "id": "g_224",
+      "korean": "～(이)나 ～(이)나 할 것 없이",
+      "japanese": "〜や〜を問わず",
+      "topik_level": 6
+    },
+    {
+      "id": "g_225",
+      "korean": "～기 십상이다",
+      "japanese": "〜しがちである",
+      "topik_level": 6
+    },
+    {
+      "id": "g_226",
+      "korean": "～ㄴ/는다고 치다",
+      "japanese": "〜としたら",
+      "topik_level": 6
+    },
+    {
+      "id": "g_227",
+      "korean": "～느라고",
+      "japanese": "〜したので",
+      "topik_level": 6
+    },
+    {
+      "id": "g_228",
+      "korean": "～ㄴ/는다던데",
+      "japanese": "〜と言うけど",
+      "topik_level": 6
+    },
+    {
+      "id": "g_229",
+      "korean": "～는 셈 치다",
+      "japanese": "〜のつもりでいる",
+      "topik_level": 6
+    },
+    {
+      "id": "g_230",
+      "korean": "～는 통에",
+      "japanese": "〜のせいで",
+      "topik_level": 6
+    },
+    {
+      "id": "g_231",
+      "korean": "～는/은커녕",
+      "japanese": "〜どころか",
+      "topik_level": 6
+    },
+    {
+      "id": "g_232",
+      "korean": "～다시피",
+      "japanese": "〜のとおり",
+      "topik_level": 6
+    },
+    {
+      "id": "g_233",
+      "korean": "～(으)ㄴ/는들",
+      "japanese": "〜としても",
+      "topik_level": 6
+    }
+  ]
+}

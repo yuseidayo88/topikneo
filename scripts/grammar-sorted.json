@@ -1,0 +1,1866 @@
+[
+  {
+    "id": "g_001",
+    "korean": "에",
+    "japanese": "～に",
+    "difficulty_score": 1,
+    "frequency_score": 1,
+    "order_rank": 1
+  },
+  {
+    "id": "g_002",
+    "korean": "은/는",
+    "japanese": "～は",
+    "difficulty_score": 1,
+    "frequency_score": 1,
+    "order_rank": 2
+  },
+  {
+    "id": "g_003",
+    "korean": "을/를",
+    "japanese": "～を",
+    "difficulty_score": 1,
+    "frequency_score": 1,
+    "order_rank": 3
+  },
+  {
+    "id": "g_004",
+    "korean": "의",
+    "japanese": "～の",
+    "difficulty_score": 1,
+    "frequency_score": 1,
+    "order_rank": 4
+  },
+  {
+    "id": "g_005",
+    "korean": "이/가",
+    "japanese": "～が",
+    "difficulty_score": 1,
+    "frequency_score": 1,
+    "order_rank": 5
+  },
+  {
+    "id": "g_006",
+    "korean": "도",
+    "japanese": "～も",
+    "difficulty_score": 2,
+    "frequency_score": 1,
+    "order_rank": 6
+  },
+  {
+    "id": "g_007",
+    "korean": "～고",
+    "japanese": "～して",
+    "difficulty_score": 2,
+    "frequency_score": 1,
+    "order_rank": 7
+  },
+  {
+    "id": "g_008",
+    "korean": "～ㅂ/습니다",
+    "japanese": "～です",
+    "difficulty_score": 2,
+    "frequency_score": 1,
+    "order_rank": 8
+  },
+  {
+    "id": "g_009",
+    "korean": "～아/어요",
+    "japanese": "～です",
+    "difficulty_score": 2,
+    "frequency_score": 1,
+    "order_rank": 9
+  },
+  {
+    "id": "g_010",
+    "korean": "～지 않다",
+    "japanese": "～しない",
+    "difficulty_score": 2,
+    "frequency_score": 1,
+    "order_rank": 10
+  },
+  {
+    "id": "g_011",
+    "korean": "～지만",
+    "japanese": "～だが",
+    "difficulty_score": 2,
+    "frequency_score": 1,
+    "order_rank": 11
+  },
+  {
+    "id": "g_012",
+    "korean": "까지",
+    "japanese": "～まで",
+    "difficulty_score": 2,
+    "frequency_score": 2,
+    "order_rank": 12
+  },
+  {
+    "id": "g_013",
+    "korean": "만",
+    "japanese": "～だけ",
+    "difficulty_score": 2,
+    "frequency_score": 2,
+    "order_rank": 13
+  },
+  {
+    "id": "g_014",
+    "korean": "보다",
+    "japanese": "～より",
+    "difficulty_score": 2,
+    "frequency_score": 2,
+    "order_rank": 14
+  },
+  {
+    "id": "g_015",
+    "korean": "부터",
+    "japanese": "～から",
+    "difficulty_score": 2,
+    "frequency_score": 2,
+    "order_rank": 15
+  },
+  {
+    "id": "g_016",
+    "korean": "에게",
+    "japanese": "～に",
+    "difficulty_score": 2,
+    "frequency_score": 2,
+    "order_rank": 16
+  },
+  {
+    "id": "g_017",
+    "korean": "에서",
+    "japanese": "～から",
+    "difficulty_score": 2,
+    "frequency_score": 2,
+    "order_rank": 17
+  },
+  {
+    "id": "g_018",
+    "korean": "와/과",
+    "japanese": "～と",
+    "difficulty_score": 2,
+    "frequency_score": 2,
+    "order_rank": 18
+  },
+  {
+    "id": "g_019",
+    "korean": "하고",
+    "japanese": "～と、して",
+    "difficulty_score": 2,
+    "frequency_score": 2,
+    "order_rank": 19
+  },
+  {
+    "id": "g_020",
+    "korean": "한테",
+    "japanese": "～に",
+    "difficulty_score": 2,
+    "frequency_score": 2,
+    "order_rank": 20
+  },
+  {
+    "id": "g_021",
+    "korean": "～지 말다",
+    "japanese": "～しないで",
+    "difficulty_score": 2,
+    "frequency_score": 2,
+    "order_rank": 21
+  },
+  {
+    "id": "g_022",
+    "korean": "～지 못하다",
+    "japanese": "～できない",
+    "difficulty_score": 2,
+    "frequency_score": 2,
+    "order_rank": 22
+  },
+  {
+    "id": "g_023",
+    "korean": "( 이 ) 랑",
+    "japanese": "と",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 23
+  },
+  {
+    "id": "g_024",
+    "korean": "～ ( 으 ) 로",
+    "japanese": "～に",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 24
+  },
+  {
+    "id": "g_025",
+    "korean": "～(으)면",
+    "japanese": "～な ら",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 25
+  },
+  {
+    "id": "g_026",
+    "korean": "～(으)ㅂ시다",
+    "japanese": "～しましょう",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 26
+  },
+  {
+    "id": "g_027",
+    "korean": "～(으)세요",
+    "japanese": "～してください",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 27
+  },
+  {
+    "id": "g_028",
+    "korean": "～게",
+    "japanese": "～く",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 28
+  },
+  {
+    "id": "g_029",
+    "korean": "～고 싶다",
+    "japanese": "～したい",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 29
+  },
+  {
+    "id": "g_030",
+    "korean": "～고 있다",
+    "japanese": "～している",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 30
+  },
+  {
+    "id": "g_031",
+    "korean": "～기 전에",
+    "japanese": "～の前に",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 31
+  },
+  {
+    "id": "g_032",
+    "korean": "～ ㅂ / 습니까 ?",
+    "japanese": "～ですか ?",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 32
+  },
+  {
+    "id": "g_033",
+    "korean": "～ㄴ/는다",
+    "japanese": "〜だ、する",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 33
+  },
+  {
+    "id": "g_034",
+    "korean": "～ㄴ/는다고 하다",
+    "japanese": "〜だと言う",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 34
+  },
+  {
+    "id": "g_035",
+    "korean": "～나(요)?",
+    "japanese": "〜なの？",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 35
+  },
+  {
+    "id": "g_036",
+    "korean": "～니/냐?",
+    "japanese": "〜なのかい？",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 36
+  },
+  {
+    "id": "g_037",
+    "korean": "～대로",
+    "japanese": "〜のとおり",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 37
+  },
+  {
+    "id": "g_038",
+    "korean": "(이)라도",
+    "japanese": "でも",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 38
+  },
+  {
+    "id": "g_039",
+    "korean": "～아/어도",
+    "japanese": "〜しても",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 39
+  },
+  {
+    "id": "g_040",
+    "korean": "～아/어지다",
+    "japanese": "〜になる",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 40
+  },
+  {
+    "id": "g_041",
+    "korean": "～에 관해(서)",
+    "japanese": "〜について",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 41
+  },
+  {
+    "id": "g_042",
+    "korean": "～에 대해(서)",
+    "japanese": "〜に対して",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 42
+  },
+  {
+    "id": "g_043",
+    "korean": "～에다(가)",
+    "japanese": "〜に",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 43
+  },
+  {
+    "id": "g_044",
+    "korean": "～자",
+    "japanese": "〜しよう",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 44
+  },
+  {
+    "id": "g_045",
+    "korean": "～잖아(요)",
+    "japanese": "〜でしょう",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 45
+  },
+  {
+    "id": "g_046",
+    "korean": "만큼",
+    "japanese": "ほど",
+    "difficulty_score": 3,
+    "frequency_score": 2,
+    "order_rank": 46
+  },
+  {
+    "id": "g_047",
+    "korean": "마다",
+    "japanese": "～ごと",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 47
+  },
+  {
+    "id": "g_048",
+    "korean": "밖에",
+    "japanese": "～しか",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 48
+  },
+  {
+    "id": "g_049",
+    "korean": "에게서",
+    "japanese": "～から",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 49
+  },
+  {
+    "id": "g_050",
+    "korean": "이/가 아니다",
+    "japanese": "～ではない",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 50
+  },
+  {
+    "id": "g_051",
+    "korean": "처럼",
+    "japanese": "～のように",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 51
+  },
+  {
+    "id": "g_052",
+    "korean": "한테서",
+    "japanese": "～から",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 52
+  },
+  {
+    "id": "g_053",
+    "korean": "～(으)십시오",
+    "japanese": "～してください",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 53
+  },
+  {
+    "id": "g_054",
+    "korean": "～네요",
+    "japanese": "～ですね",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 54
+  },
+  {
+    "id": "g_055",
+    "korean": "～았/었/였으면 좋겠다",
+    "japanese": "～したらいい",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 55
+  },
+  {
+    "id": "g_056",
+    "korean": "～(으)ㄴ/는데(요)",
+    "japanese": "～ですが",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 56
+  },
+  {
+    "id": "g_057",
+    "korean": "～(으)ㄴ가(요)?",
+    "japanese": "〜なのか？",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 57
+  },
+  {
+    "id": "g_058",
+    "korean": "～(으)니까(요)",
+    "japanese": "〜だから",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 58
+  },
+  {
+    "id": "g_059",
+    "korean": "～(으)ㄹ 뿐이다",
+    "japanese": "〜だけだ",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 59
+  },
+  {
+    "id": "g_060",
+    "korean": "～(으)ㄹ수록",
+    "japanese": "〜するほど",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 60
+  },
+  {
+    "id": "g_061",
+    "korean": "～(으)라고 하다",
+    "japanese": "〜しなさいと言う",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 61
+  },
+  {
+    "id": "g_062",
+    "korean": "～(으)려면",
+    "japanese": "〜するなら",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 62
+  },
+  {
+    "id": "g_063",
+    "korean": "～(으)며",
+    "japanese": "〜して",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 63
+  },
+  {
+    "id": "g_064",
+    "korean": "～(으)면 되다",
+    "japanese": "〜すればよい",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 64
+  },
+  {
+    "id": "g_065",
+    "korean": "～게 하다",
+    "japanese": "〜させる",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 65
+  },
+  {
+    "id": "g_066",
+    "korean": "～고 나니(까)",
+    "japanese": "〜したら",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 66
+  },
+  {
+    "id": "g_067",
+    "korean": "～고 나면",
+    "japanese": "〜したら",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 67
+  },
+  {
+    "id": "g_068",
+    "korean": "～고 나서",
+    "japanese": "〜してから",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 68
+  },
+  {
+    "id": "g_069",
+    "korean": "～기 쉽다",
+    "japanese": "〜しやすい",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 69
+  },
+  {
+    "id": "g_070",
+    "korean": "～기 위해(서)",
+    "japanese": "〜のために",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 70
+  },
+  {
+    "id": "g_071",
+    "korean": "～기만 하면 (되다)",
+    "japanese": "〜さえすれば",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 71
+  },
+  {
+    "id": "g_072",
+    "korean": "～나 보다",
+    "japanese": "〜するようだ",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 72
+  },
+  {
+    "id": "g_073",
+    "korean": "～는 수(가) 있다",
+    "japanese": "〜することがある",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 73
+  },
+  {
+    "id": "g_074",
+    "korean": "～는 중이다",
+    "japanese": "〜しているところだ",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 74
+  },
+  {
+    "id": "g_075",
+    "korean": "～는구나",
+    "japanese": "〜なんだね",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 75
+  },
+  {
+    "id": "g_076",
+    "korean": "～아/어라",
+    "japanese": "〜せよ、～しろ",
+    "difficulty_score": 3,
+    "frequency_score": 3,
+    "order_rank": 76
+  },
+  {
+    "id": "g_077",
+    "korean": "께",
+    "japanese": "～に（丁寧語）",
+    "difficulty_score": 3,
+    "frequency_score": 4,
+    "order_rank": 77
+  },
+  {
+    "id": "g_078",
+    "korean": "께서",
+    "japanese": "～が（丁寧語）",
+    "difficulty_score": 3,
+    "frequency_score": 4,
+    "order_rank": 78
+  },
+  {
+    "id": "g_079",
+    "korean": "～기 어렵다",
+    "japanese": "〜しにくい",
+    "difficulty_score": 3,
+    "frequency_score": 4,
+    "order_rank": 79
+  },
+  {
+    "id": "g_080",
+    "korean": "～(으)ㄹ 때",
+    "japanese": "～する時",
+    "difficulty_score": 4,
+    "frequency_score": 2,
+    "order_rank": 80
+  },
+  {
+    "id": "g_081",
+    "korean": "～(으)ㄹ 수 없다",
+    "japanese": "～できない",
+    "difficulty_score": 4,
+    "frequency_score": 2,
+    "order_rank": 81
+  },
+  {
+    "id": "g_082",
+    "korean": "～(으)ㄹ 수 있다",
+    "japanese": "～できる",
+    "difficulty_score": 4,
+    "frequency_score": 2,
+    "order_rank": 82
+  },
+  {
+    "id": "g_083",
+    "korean": "～(으)ㄹ까요",
+    "japanese": "～しましょうか？",
+    "difficulty_score": 4,
+    "frequency_score": 2,
+    "order_rank": 83
+  },
+  {
+    "id": "g_084",
+    "korean": "～( 으 ) ㄹ까요 ?",
+    "japanese": "～でしょうか？",
+    "difficulty_score": 4,
+    "frequency_score": 2,
+    "order_rank": 84
+  },
+  {
+    "id": "g_085",
+    "korean": "( 이 ) 나",
+    "japanese": "でも",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 85
+  },
+  {
+    "id": "g_086",
+    "korean": "( 이 ) 나",
+    "japanese": "か",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 86
+  },
+  {
+    "id": "g_087",
+    "korean": "( 이 ) 나",
+    "japanese": "も",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 87
+  },
+  {
+    "id": "g_088",
+    "korean": "～(으)ㄴ 지",
+    "japanese": "～てから",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 88
+  },
+  {
+    "id": "g_089",
+    "korean": "～(으)ㄴ 지",
+    "japanese": "～て",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 89
+  },
+  {
+    "id": "g_090",
+    "korean": "～(으)ㄴ 후에",
+    "japanese": "～した後に",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 90
+  },
+  {
+    "id": "g_091",
+    "korean": "～(으)니까",
+    "japanese": "～だから",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 91
+  },
+  {
+    "id": "g_092",
+    "korean": "～(으)ㄹ게요",
+    "japanese": "～しますよ",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 92
+  },
+  {
+    "id": "g_093",
+    "korean": "～(으)ㄹ래요",
+    "japanese": "～ます",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 93
+  },
+  {
+    "id": "g_094",
+    "korean": "～( 으 ) ㄹ래요 ?",
+    "japanese": "～しますか？",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 94
+  },
+  {
+    "id": "g_095",
+    "korean": "～(으)러 가다",
+    "japanese": "～しに行く",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 95
+  },
+  {
+    "id": "g_096",
+    "korean": "～(으)러 오다",
+    "japanese": "～しに 来る",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 96
+  },
+  {
+    "id": "g_097",
+    "korean": "～(으)려고",
+    "japanese": "～しようと",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 97
+  },
+  {
+    "id": "g_098",
+    "korean": "～(으)면서",
+    "japanese": "～しながら",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 98
+  },
+  {
+    "id": "g_099",
+    "korean": "～(이)지요?",
+    "japanese": "～ですよね？",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 99
+  },
+  {
+    "id": "g_100",
+    "korean": "～거나",
+    "japanese": "～したり",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 100
+  },
+  {
+    "id": "g_101",
+    "korean": "～게 되다",
+    "japanese": "～になる",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 101
+  },
+  {
+    "id": "g_102",
+    "korean": "～기 때문에",
+    "japanese": "～のせいで",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 102
+  },
+  {
+    "id": "g_103",
+    "korean": "～기로 하다",
+    "japanese": "～することにする",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 103
+  },
+  {
+    "id": "g_104",
+    "korean": "～는데",
+    "japanese": "～するのに",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 104
+  },
+  {
+    "id": "g_105",
+    "korean": "～아/어/여 보다",
+    "japanese": "～してみる",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 105
+  },
+  {
+    "id": "g_106",
+    "korean": "～아/어/여 주다",
+    "japanese": "～してくれる",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 106
+  },
+  {
+    "id": "g_107",
+    "korean": "～ㄴ/는다면",
+    "japanese": "〜なら",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 107
+  },
+  {
+    "id": "g_108",
+    "korean": "～는 대로",
+    "japanese": "～するとおり",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 108
+  },
+  {
+    "id": "g_109",
+    "korean": "～는 대신(에)",
+    "japanese": "〜する代わりに",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 109
+  },
+  {
+    "id": "g_110",
+    "korean": "～는 덕분에",
+    "japanese": "〜のおかげで",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 110
+  },
+  {
+    "id": "g_111",
+    "korean": "～는 편이다",
+    "japanese": "〜する方だ",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 111
+  },
+  {
+    "id": "g_112",
+    "korean": "～다가",
+    "japanese": "〜していて",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 112
+  },
+  {
+    "id": "g_113",
+    "korean": "～더라",
+    "japanese": "〜だよ",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 113
+  },
+  {
+    "id": "g_114",
+    "korean": "～더라고(요)",
+    "japanese": "〜だったよ、～していたよ",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 114
+  },
+  {
+    "id": "g_115",
+    "korean": "～던",
+    "japanese": "〜した",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 115
+  },
+  {
+    "id": "g_116",
+    "korean": "～도록",
+    "japanese": "〜するように",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 116
+  },
+  {
+    "id": "g_117",
+    "korean": "～듯이",
+    "japanese": "〜のように",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 117
+  },
+  {
+    "id": "g_118",
+    "korean": "～아/어/여 보이다",
+    "japanese": "〜 そうに見える",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 118
+  },
+  {
+    "id": "g_119",
+    "korean": "～아/어야",
+    "japanese": "〜してこそ",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 119
+  },
+  {
+    "id": "g_120",
+    "korean": "～아/어야지",
+    "japanese": "〜しなきゃ",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 120
+  },
+  {
+    "id": "g_121",
+    "korean": "～았/었으면 하다",
+    "japanese": "〜だったら良い",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 121
+  },
+  {
+    "id": "g_122",
+    "korean": "～에 따라(서)",
+    "japanese": "〜に従って",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 122
+  },
+  {
+    "id": "g_123",
+    "korean": "～에 의해(서)",
+    "japanese": "〜によって",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 123
+  },
+  {
+    "id": "g_124",
+    "korean": "～을/를 통해(서)",
+    "japanese": "〜を通して",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 124
+  },
+  {
+    "id": "g_125",
+    "korean": "～자고 하다",
+    "japanese": "〜しようと言う",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 125
+  },
+  {
+    "id": "g_126",
+    "korean": "～자마자",
+    "japanese": "〜するとすぐ",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 126
+  },
+  {
+    "id": "g_127",
+    "korean": "마저",
+    "japanese": "さえも",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 127
+  },
+  {
+    "id": "g_128",
+    "korean": "아무 ～(이)나",
+    "japanese": "何の 〜でも",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 128
+  },
+  {
+    "id": "g_129",
+    "korean": "아무 ～도",
+    "japanese": "何の 〜も",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 129
+  },
+  {
+    "id": "g_130",
+    "korean": "조차",
+    "japanese": "～さえ",
+    "difficulty_score": 4,
+    "frequency_score": 3,
+    "order_rank": 130
+  },
+  {
+    "id": "g_131",
+    "korean": "～군요",
+    "japanese": "～ですね",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 131
+  },
+  {
+    "id": "g_132",
+    "korean": "～(으)ㄴ/는 만큼",
+    "japanese": "〜ほど",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 132
+  },
+  {
+    "id": "g_133",
+    "korean": "～(으)ㄴ/는/(으)ㄹ지",
+    "japanese": "〜なのか",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 133
+  },
+  {
+    "id": "g_134",
+    "korean": "～(으)ㄴ가 보다",
+    "japanese": "〜のようだ",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 134
+  },
+  {
+    "id": "g_135",
+    "korean": "～(으)ㄹ 리가 없다",
+    "japanese": "〜するはずがない",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 135
+  },
+  {
+    "id": "g_136",
+    "korean": "～(으)ㄹ 만하다",
+    "japanese": "〜に値する",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 136
+  },
+  {
+    "id": "g_137",
+    "korean": "～(으)ㄹ 뿐만 아니라",
+    "japanese": "〜だけでなく",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 137
+  },
+  {
+    "id": "g_138",
+    "korean": "～(으)ㄹ 수밖에 (없다)",
+    "japanese": "〜するしかない",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 138
+  },
+  {
+    "id": "g_139",
+    "korean": "～(으)ㄹ 정도(로)",
+    "japanese": "〜するほど",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 139
+  },
+  {
+    "id": "g_140",
+    "korean": "～(으)ㄹ 테니(까)",
+    "japanese": "〜するから",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 140
+  },
+  {
+    "id": "g_141",
+    "korean": "～(으)ㄹ 텐데",
+    "japanese": "〜のはずだが",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 141
+  },
+  {
+    "id": "g_142",
+    "korean": "～(으)ㄹ지(도) 모르다",
+    "japanese": "〜か分からない",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 142
+  },
+  {
+    "id": "g_143",
+    "korean": "～(으)로 인해(서)",
+    "japanese": "〜によって",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 143
+  },
+  {
+    "id": "g_144",
+    "korean": "～(으)로서",
+    "japanese": "～として",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 144
+  },
+  {
+    "id": "g_145",
+    "korean": "～(으)므로",
+    "japanese": "〜ので",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 145
+  },
+  {
+    "id": "g_146",
+    "korean": "～고 말다",
+    "japanese": "〜してしまう",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 146
+  },
+  {
+    "id": "g_147",
+    "korean": "～기/게 마련이다",
+    "japanese": "〜するものだ",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 147
+  },
+  {
+    "id": "g_148",
+    "korean": "～기는 하지만",
+    "japanese": "〜とはいえ",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 148
+  },
+  {
+    "id": "g_149",
+    "korean": "～기에(는)",
+    "japanese": "〜するには",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 149
+  },
+  {
+    "id": "g_150",
+    "korean": "～ㄴ/는 척하다",
+    "japanese": "〜のふりをする",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 150
+  },
+  {
+    "id": "g_151",
+    "korean": "～ㄴ/는다고 해도",
+    "japanese": "〜と言っても",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 151
+  },
+  {
+    "id": "g_152",
+    "korean": "～ㄴ/는다고(요)",
+    "japanese": "〜だそうだ",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 152
+  },
+  {
+    "id": "g_153",
+    "korean": "～는 (도)중에",
+    "japanese": "〜している最中に",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 153
+  },
+  {
+    "id": "g_154",
+    "korean": "～는 길에",
+    "japanese": "〜の途中で",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 154
+  },
+  {
+    "id": "g_155",
+    "korean": "～는 사이에",
+    "japanese": "〜する間に",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 155
+  },
+  {
+    "id": "g_156",
+    "korean": "～는 한",
+    "japanese": "〜する限り",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 156
+  },
+  {
+    "id": "g_157",
+    "korean": "(이)야말로",
+    "japanese": "こそ",
+    "difficulty_score": 4,
+    "frequency_score": 4,
+    "order_rank": 157
+  },
+  {
+    "id": "g_158",
+    "korean": "～(으)ㄴ 채(로)",
+    "japanese": "〜のまま",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 158
+  },
+  {
+    "id": "g_159",
+    "korean": "～(으)ㄴ/는 김에",
+    "japanese": "〜ついでに",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 159
+  },
+  {
+    "id": "g_160",
+    "korean": "～(으)ㄴ/는 법이다",
+    "japanese": "〜なものだ",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 160
+  },
+  {
+    "id": "g_161",
+    "korean": "～(으)ㄴ/는 탓에",
+    "japanese": "〜のせいで",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 161
+  },
+  {
+    "id": "g_162",
+    "korean": "～(으)ㄴ/는걸(요)",
+    "japanese": "〜だよ",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 162
+  },
+  {
+    "id": "g_163",
+    "korean": "～(으)ㄹ 뻔하다",
+    "japanese": "〜しそうだった",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 163
+  },
+  {
+    "id": "g_164",
+    "korean": "～거든",
+    "japanese": "〜だよ",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 164
+  },
+  {
+    "id": "g_165",
+    "korean": "～고 말고(요)",
+    "japanese": "〜に決まっている",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 165
+  },
+  {
+    "id": "g_166",
+    "korean": "～고 보면",
+    "japanese": "〜してみると",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 166
+  },
+  {
+    "id": "g_167",
+    "korean": "～곤 하다",
+    "japanese": "〜したりする",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 167
+  },
+  {
+    "id": "g_168",
+    "korean": "～기는(요)",
+    "japanese": "〜だなんて",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 168
+  },
+  {
+    "id": "g_169",
+    "korean": "～길래",
+    "japanese": "〜なので",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 169
+  },
+  {
+    "id": "g_170",
+    "korean": "～ㄴ/는다니",
+    "japanese": "〜だなんて",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 170
+  },
+  {
+    "id": "g_171",
+    "korean": "～ㄴ/는다니까",
+    "japanese": "〜だってば",
+    "difficulty_score": 4,
+    "frequency_score": 5,
+    "order_rank": 171
+  },
+  {
+    "id": "g_172",
+    "korean": "～(으)ㄴ 것 같다",
+    "japanese": "～したみたい/気がする",
+    "difficulty_score": 5,
+    "frequency_score": 3,
+    "order_rank": 172
+  },
+  {
+    "id": "g_173",
+    "korean": "～( 으 ) ㄹ 것 같다",
+    "japanese": "～するみたい",
+    "difficulty_score": 5,
+    "frequency_score": 3,
+    "order_rank": 173
+  },
+  {
+    "id": "g_174",
+    "korean": "～(으)ㄴ데(요)",
+    "japanese": "～けど",
+    "difficulty_score": 5,
+    "frequency_score": 3,
+    "order_rank": 174
+  },
+  {
+    "id": "g_175",
+    "korean": "～(으)ㄴ데(요)",
+    "japanese": "～が",
+    "difficulty_score": 5,
+    "frequency_score": 3,
+    "order_rank": 175
+  },
+  {
+    "id": "g_176",
+    "korean": "～(으)ㄹ 것이다",
+    "japanese": "～するだろう",
+    "difficulty_score": 5,
+    "frequency_score": 3,
+    "order_rank": 176
+  },
+  {
+    "id": "g_177",
+    "korean": "～(으)려고 하다",
+    "japanese": "～しようと思う",
+    "difficulty_score": 5,
+    "frequency_score": 3,
+    "order_rank": 177
+  },
+  {
+    "id": "g_178",
+    "korean": "～아/어/여야 되다",
+    "japanese": "～しなければならない",
+    "difficulty_score": 5,
+    "frequency_score": 3,
+    "order_rank": 178
+  },
+  {
+    "id": "g_179",
+    "korean": "～아/어/여야 하다",
+    "japanese": "～しなければならない",
+    "difficulty_score": 5,
+    "frequency_score": 3,
+    "order_rank": 179
+  },
+  {
+    "id": "g_180",
+    "korean": "～(으)ㄴ 적이 없다",
+    "japanese": "～したことがない",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 180
+  },
+  {
+    "id": "g_181",
+    "korean": "～(으)ㄴ 적이 있다",
+    "japanese": "～したことがある",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 181
+  },
+  {
+    "id": "g_182",
+    "korean": "～(으)ㄹ까 하다",
+    "japanese": "～しようと思う",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 182
+  },
+  {
+    "id": "g_183",
+    "korean": "～( 으 ) ㄹ까봐",
+    "japanese": "～するかと思って",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 183
+  },
+  {
+    "id": "g_184",
+    "korean": "～(으)려고요",
+    "japanese": "～するつもりです、予定です",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 184
+  },
+  {
+    "id": "g_185",
+    "korean": "～는 게 좋겠다",
+    "japanese": "～するのがよい",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 185
+  },
+  {
+    "id": "g_186",
+    "korean": "～ㄴ/는다면서(요)?",
+    "japanese": "〜 なんだって？",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 186
+  },
+  {
+    "id": "g_187",
+    "korean": "～는 바람에",
+    "japanese": "〜せいで",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 187
+  },
+  {
+    "id": "g_188",
+    "korean": "～다(가) 보니(까)",
+    "japanese": "〜していたら",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 188
+  },
+  {
+    "id": "g_189",
+    "korean": "～다(가) 보면",
+    "japanese": "〜してみると",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 189
+  },
+  {
+    "id": "g_190",
+    "korean": "～더니",
+    "japanese": "〜したらなんと",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 190
+  },
+  {
+    "id": "g_191",
+    "korean": "～더라도",
+    "japanese": "〜としても",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 191
+  },
+  {
+    "id": "g_192",
+    "korean": "～든지",
+    "japanese": "〜しようが",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 192
+  },
+  {
+    "id": "g_193",
+    "korean": "～았/었/였던 것 같다",
+    "japanese": "〜だったらしい",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 193
+  },
+  {
+    "id": "g_194",
+    "korean": "얼마나 ～(으)ㄴ/는지",
+    "japanese": "どれほど 〜したのか",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 194
+  },
+  {
+    "id": "g_195",
+    "korean": "치고(는)",
+    "japanese": "～にしては",
+    "difficulty_score": 5,
+    "frequency_score": 4,
+    "order_rank": 195
+  },
+  {
+    "id": "g_196",
+    "korean": "～(으)ㄴ/는 걸 보니(까)",
+    "japanese": "〜をみると",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 196
+  },
+  {
+    "id": "g_197",
+    "korean": "～(으)ㄴ/는 반면(에)",
+    "japanese": "〜の反面",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 197
+  },
+  {
+    "id": "g_198",
+    "korean": "～(으)ㄴ/는/(으)ㄹ 모양이다",
+    "japanese": "〜のようだ",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 198
+  },
+  {
+    "id": "g_199",
+    "korean": "～(으)ㄴ/는/(으)ㄹ 줄 몰랐다",
+    "japanese": "〜とは思わなかった",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 199
+  },
+  {
+    "id": "g_200",
+    "korean": "～(으)ㄴ/는/(으)ㄹ 줄 알았다",
+    "japanese": "〜と思った",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 200
+  },
+  {
+    "id": "g_201",
+    "korean": "～(으)ㄹ 겸 (해서)",
+    "japanese": "〜を兼ねて",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 201
+  },
+  {
+    "id": "g_202",
+    "korean": "～(으)ㄹ걸 (그랬다)",
+    "japanese": "〜すればよかった",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 202
+  },
+  {
+    "id": "g_203",
+    "korean": "～(으)ㄹ까 말까",
+    "japanese": "〜するかどうか",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 203
+  },
+  {
+    "id": "g_204",
+    "korean": "～(으)ㄹ지라도",
+    "japanese": "〜だとしても",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 204
+  },
+  {
+    "id": "g_205",
+    "korean": "～(으)려다가",
+    "japanese": "〜しようとしていたら",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 205
+  },
+  {
+    "id": "g_206",
+    "korean": "～(으)려던 참이다",
+    "japanese": "〜しようとしたところだ",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 206
+  },
+  {
+    "id": "g_207",
+    "korean": "～ㄴ/는다거나",
+    "japanese": "〜だとか、するとか",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 207
+  },
+  {
+    "id": "g_208",
+    "korean": "～ㄴ/는다더니",
+    "japanese": "～と言ってたけど",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 208
+  },
+  {
+    "id": "g_209",
+    "korean": "～ㄴ/는다더라",
+    "japanese": "〜 だそうだ",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 209
+  },
+  {
+    "id": "g_210",
+    "korean": "～냐고 하다",
+    "japanese": "〜かと言う",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 210
+  },
+  {
+    "id": "g_211",
+    "korean": "～는 수밖에 (없다)",
+    "japanese": "〜せざるを得ない",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 211
+  },
+  {
+    "id": "g_212",
+    "korean": "～는 한편",
+    "japanese": "〜する一方",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 212
+  },
+  {
+    "id": "g_213",
+    "korean": "～더군(요)",
+    "japanese": "〜なったんだ",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 213
+  },
+  {
+    "id": "g_214",
+    "korean": "～던가(요)?",
+    "japanese": "〜だったっけ？",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 214
+  },
+  {
+    "id": "g_215",
+    "korean": "～던데",
+    "japanese": "〜していたが",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 215
+  },
+  {
+    "id": "g_216",
+    "korean": "～만 못하다",
+    "japanese": "〜に及ばない",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 216
+  },
+  {
+    "id": "g_217",
+    "korean": "～아/어/여서 그런지",
+    "japanese": "〜 でそうなのか",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 217
+  },
+  {
+    "id": "g_218",
+    "korean": "～았/었/였더라면",
+    "japanese": "〜だったら",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 218
+  },
+  {
+    "id": "g_219",
+    "korean": "～을/를 비롯한",
+    "japanese": "〜をはじめとして",
+    "difficulty_score": 5,
+    "frequency_score": 5,
+    "order_rank": 219
+  },
+  {
+    "id": "g_220",
+    "korean": "～(으)ㄴ/는/(으)ㄹ 셈이다",
+    "japanese": "〜するつもりだ",
+    "difficulty_score": 5,
+    "frequency_score": 6,
+    "order_rank": 220
+  },
+  {
+    "id": "g_221",
+    "korean": "～(으)나 마나",
+    "japanese": "〜するまでもなく",
+    "difficulty_score": 5,
+    "frequency_score": 6,
+    "order_rank": 221
+  },
+  {
+    "id": "g_222",
+    "korean": "～(으)니만큼",
+    "japanese": "〜だからこそ",
+    "difficulty_score": 5,
+    "frequency_score": 6,
+    "order_rank": 222
+  },
+  {
+    "id": "g_223",
+    "korean": "～(으)ㄹ 지경이다",
+    "japanese": "〜する寸前だ",
+    "difficulty_score": 5,
+    "frequency_score": 6,
+    "order_rank": 223
+  },
+  {
+    "id": "g_224",
+    "korean": "～(이)나 ～(이)나 할 것 없이",
+    "japanese": "〜や〜を問わず",
+    "difficulty_score": 5,
+    "frequency_score": 6,
+    "order_rank": 224
+  },
+  {
+    "id": "g_225",
+    "korean": "～기 십상이다",
+    "japanese": "〜しがちである",
+    "difficulty_score": 5,
+    "frequency_score": 6,
+    "order_rank": 225
+  },
+  {
+    "id": "g_226",
+    "korean": "～ㄴ/는다고 치다",
+    "japanese": "〜としたら",
+    "difficulty_score": 5,
+    "frequency_score": 6,
+    "order_rank": 226
+  },
+  {
+    "id": "g_227",
+    "korean": "～느라고",
+    "japanese": "〜したので",
+    "difficulty_score": 6,
+    "frequency_score": 5,
+    "order_rank": 227
+  },
+  {
+    "id": "g_228",
+    "korean": "～ㄴ/는다던데",
+    "japanese": "〜と言うけど",
+    "difficulty_score": 6,
+    "frequency_score": 6,
+    "order_rank": 228
+  },
+  {
+    "id": "g_229",
+    "korean": "～는 셈 치다",
+    "japanese": "〜のつもりでいる",
+    "difficulty_score": 6,
+    "frequency_score": 6,
+    "order_rank": 229
+  },
+  {
+    "id": "g_230",
+    "korean": "～는 통에",
+    "japanese": "〜のせいで",
+    "difficulty_score": 6,
+    "frequency_score": 6,
+    "order_rank": 230
+  },
+  {
+    "id": "g_231",
+    "korean": "～는/은커녕",
+    "japanese": "〜どころか",
+    "difficulty_score": 6,
+    "frequency_score": 6,
+    "order_rank": 231
+  },
+  {
+    "id": "g_232",
+    "korean": "～다시피",
+    "japanese": "〜のとおり",
+    "difficulty_score": 6,
+    "frequency_score": 6,
+    "order_rank": 232
+  },
+  {
+    "id": "g_233",
+    "korean": "～(으)ㄴ/는들",
+    "japanese": "〜としても",
+    "difficulty_score": 6,
+    "frequency_score": 7,
+    "order_rank": 233
+  }
+]

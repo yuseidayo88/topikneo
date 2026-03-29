@@ -1,0 +1,29 @@
+# KLA E2E: 起動 → タブ遷移
+# 実行: maestro test .maestro/flows/start-and-navigate.yaml
+# 事前にシミュレータでアプリを起動するか、maestro run で起動する
+appId: com.kla.app
+---
+- launchApp
+- assertVisible:
+    text: "ホーム"
+    timeout: 10000
+- tapOn:
+    text: "単語"
+- assertVisible:
+    text: "TOPIK"
+    timeout: 5000
+- tapOn:
+    text: "TOPIK 1級"
+- assertVisible:
+    text: "単語レッスン"
+    timeout: 8000
+- tapOn:
+    text: "ホーム"
+- assertVisible:
+    text: "連続学習"
+    timeout: 5000
+- tapOn:
+    text: "単語"
+- assertVisible:
+    text: "TOPIK"
+    timeout: 5000

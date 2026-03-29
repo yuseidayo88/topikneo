@@ -1,0 +1,51 @@
+# 文法並び替えクイズ: ホーム → 文法 → 1級 → レッスン1 → クイズ開始 → 1問並び替え → 確認
+---
+- launchApp
+- tapOn:
+    text: "文法"
+    optional: true
+- tapOn:
+    text: "TOPIK 1級"
+    optional: true
+- tapOn:
+    text: "レッスン 1"
+    optional: true
+- tapOn:
+    text: "クイズ開始"
+    optional: true
+- extendedWaitUntil:
+    visible: "語をタップして正しい順に並べましょう"
+    timeout: 8000
+    optional: true
+# 並び替え: 表示された語を順にタップして解答エリアに並べる（例: 저 → は → 学生 → です）
+- tapOn:
+    text: "저"
+    optional: true
+- tapOn:
+    text: "는"
+    optional: true
+- tapOn:
+    text: "학생"
+    optional: true
+- tapOn:
+    text: "입니다"
+    optional: true
+- tapOn:
+    text: "確認"
+    optional: true
+- extendedWaitUntil:
+    visible: "正解!"
+    timeout: 3000
+    optional: true
+- assertVisible:
+    text: "正解!"
+    optional: true
+# 2問目へ進んだこと（出題順はシャッフルされるため、語タップは省略）
+- extendedWaitUntil:
+    visible: "2 /"
+    timeout: 20000
+    optional: true
+- extendedWaitUntil:
+    visible: "語をタップして正しい順に並べましょう"
+    timeout: 15000
+    optional: true

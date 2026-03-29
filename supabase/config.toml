@@ -1,0 +1,14 @@
+[functions.delete-user]
+verify_jwt = false
+
+[functions.sync-subscription]
+verify_jwt = false
+
+[functions.chat-send-message]
+verify_jwt = false
+
+[functions.chat-report-content]
+verify_jwt = false
+
+[functions.chat-block-user]
+verify_jwt = false

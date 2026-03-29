@@ -1,0 +1,132 @@
+[
+  {
+    "id": "ko_w001",
+    "language": "ko",
+    "korean": "안녕하세요",
+    "reading": "annyeonghaseyo",
+    "japanese": "こんにちは",
+    "topik_level": 1,
+    "lesson_id": "ko_W1_01",
+    "example": {
+      "korean": "안녕하세요, 저는 야마다입니다.",
+      "japanese": "こんにちは、私は山田です。"
+    }
+  },
+  {
+    "id": "ko_w002",
+    "language": "ko",
+    "korean": "감사합니다",
+    "reading": "gamsahamnida",
+    "japanese": "ありがとうございます",
+    "topik_level": 1,
+    "lesson_id": "ko_W1_01",
+    "example": {
+      "korean": "도와주셔서 감사합니다.",
+      "japanese": "手伝ってくれてありがとうございます。"
+    }
+  },
+  {
+    "id": "ko_w003",
+    "language": "ko",
+    "korean": "학생",
+    "reading": "haksaeng",
+    "japanese": "学生",
+    "topik_level": 1,
+    "lesson_id": "ko_W1_01",
+    "example": {
+      "korean": "저는 학생입니다.",
+      "japanese": "私は学生です。"
+    }
+  },
+  {
+    "id": "ko_w004",
+    "language": "ko",
+    "korean": "책",
+    "reading": "chaek",
+    "japanese": "本",
+    "topik_level": 1,
+    "lesson_id": "ko_W1_01",
+    "example": {
+      "korean": "이것은 책입니다.",
+      "japanese": "これは本です。"
+    }
+  },
+  {
+    "id": "ko_w005",
+    "language": "ko",
+    "korean": "물",
+    "reading": "mul",
+    "japanese": "水",
+    "topik_level": 1,
+    "lesson_id": "ko_W1_01",
+    "example": {
+      "korean": "물을 마십시다.",
+      "japanese": "水を飲みましょう。"
+    }
+  },
+  {
+    "id": "ko_w006",
+    "language": "ko",
+    "korean": "사랑",
+    "reading": "sarang",
+    "japanese": "愛",
+    "topik_level": 1,
+    "lesson_id": "ko_W1_01",
+    "example": {
+      "korean": "사랑해요.",
+      "japanese": "愛しています。"
+    }
+  },
+  {
+    "id": "ko_w007",
+    "language": "ko",
+    "korean": "친구",
+    "reading": "chingu",
+    "japanese": "友達",
+    "topik_level": 1,
+    "lesson_id": "ko_W1_01",
+    "example": {
+      "korean": "그는 제 친구입니다.",
+      "japanese": "彼は私の友達です。"
+    }
+  },
+  {
+    "id": "ko_w008",
+    "language": "ko",
+    "korean": "시간",
+    "reading": "sigan",
+    "japanese": "時間",
+    "topik_level": 1,
+    "lesson_id": "ko_W1_01",
+    "example": {
+      "korean": "지금 몇 시입니까?",
+      "japanese": "今何時ですか？"
+    }
+  },
+  {
+    "id": "ko_w009",
+    "language": "ko",
+    "korean": "음식",
+    "reading": "eumsik",
+    "japanese": "食べ物",
+    "topik_level": 1,
+    "lesson_id": "ko_W1_01",
+    "example": {
+      "korean": "한국 음식을 좋아해요.",
+      "japanese": "韓国料理が好きです。"
+    }
+  },
+  {
+    "id": "ko_w010",
+    "language": "ko",
+    "korean": "한국",
+    "reading": "hanguk",
+    "japanese": "韓国",
+    "topik_level": 1,
+    "lesson_id": "ko_W1_01",
+    "example": {
+      "korean": "저는 한국에 갑니다.",
+      "japanese": "私は韓国に行きます。"
+    }
+  }
+]
