@@ -21,6 +21,7 @@ import {
   Platform,
   Animated,
   PanResponder,
+  ScrollView,
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { BlurView } from 'expo-blur';
@@ -35,7 +36,7 @@ import { triggerLightImpact } from '@/src/utils/haptics';
 import type { Colors } from '@/src/theme';
 import { typographyScale } from '@/src/theme';
 import {
-  getDefaultRoom,
+  listChatRooms,
   fetchMessagesLatest,
   fetchMessagesOlderThan,
   sendMessage,
@@ -67,6 +68,7 @@ import { useContentColumnWidth } from '@/src/hooks/useContentColumnWidth';
 import * as WebBrowser from 'expo-web-browser';
 import { TERMS_URL } from '@/src/constants/legal';
 import * as Clipboard from 'expo-clipboard';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const PAD = 24;
 const MIN_TOUCH = 44;
@@ -78,6 +80,7 @@ const SCROLL_TO_BOTTOM_SHOW_OFFSET = 50;
 const CHAT_TERMS_VERSION = '2026-03-26';
 // App Review 用: 既存ユーザーでもチャット入室時に規約同意モーダルを表示する
 const ALWAYS_SHOW_TERMS_GATE = true;
+const CHAT_SELECTED_ROOM_KEY = 'kla_chat_selected_room_v1';
 
 type GroupPos = 'single' | 'first' | 'middle' | 'last';
 
@@ -273,6 +276,26 @@ export default function ChatScreen() {
           backgroundColor: colors.danger ?? '#B91C1C',
         },
         realtimeBannerText: { ...typographyScale.bodySmall, fontWeight: '600', color: colors.onPrimary },
+        roomPickerRow: {
+          borderBottomWidth: StyleSheet.hairlineWidth,
+          borderBottomColor: colors.border,
+          backgroundColor: colors.surface,
+          maxHeight: 52,
+        },
+        roomPickerScroll: { paddingHorizontal: 12, paddingVertical: 8, flexGrow: 0 },
+        roomChip: {
+          marginRight: 8,
+          paddingVertical: 8,
+          paddingHorizontal: 14,
+          borderRadius: 20,
+          borderWidth: 1,
+          borderColor: colors.border,
+          backgroundColor: colors.inputBg,
+          maxWidth: 220,
+        },
+        roomChipActive: { borderColor: colors.accent, backgroundColor: colors.accent },
+        roomChipText: { ...typographyScale.bodySmall, fontWeight: '600', color: colors.text },
+        roomChipTextActive: { color: colors.onPrimary },
         body: { flex: 1 },
         listContent: { paddingHorizontal: 12, paddingTop: 12 },
         empty: { ...typographyScale.bodySmall, color: colors.textSecondary, textAlign: 'center', marginTop: PAD },
@@ -543,6 +566,7 @@ export default function ChatScreen() {
   );
 
   const [room, setRoom] = useState<ChatRoom | null>(null);
+  const [rooms, setRooms] = useState<ChatRoom[]>([]);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(true);
@@ -633,6 +657,22 @@ export default function ChatScreen() {
     [requestAutoScrollToBottom, performScrollToBottom]
   );
 
+  const loadMessagesForRoom = useCallback(
+    async (targetRoom: ChatRoom, blockedIds: string[]) => {
+      const cached = await getCachedChatMessages(targetRoom.id);
+      if (cached && cached.length > 0) {
+        setMessages(filterBlockedMessages(cached, blockedIds));
+        setHasMoreOlder(cached.length >= MESSAGES_PAGE_SIZE);
+      }
+      const list = await fetchMessagesLatest(targetRoom.id, MESSAGES_PAGE_SIZE);
+      setMessages(filterBlockedMessages(list, blockedIds));
+      setHasMoreOlder(list.length >= MESSAGES_PAGE_SIZE);
+      void setCachedChatMessages(targetRoom.id, list);
+      triggerAutoScrollToBottom(800, false);
+    },
+    [triggerAutoScrollToBottom]
+  );
+
   const load = useCallback(async () => {
     if (!isSupabaseConfigured()) {
       setLoading(false);
@@ -654,9 +694,25 @@ export default function ChatScreen() {
       setIsBanned(status.isBanned);
       setBanReason(status.banReason);
       const blockedIds = status.blockedUserIds;
-      const [r, sid] = await Promise.all([getDefaultRoom(), getCurrentSenderId()]);
+      const [roomList, sid] = await Promise.all([listChatRooms(), getCurrentSenderId()]);
       setSenderId(sid);
+      setRooms(roomList);
+      let savedId: string | null = null;
+      try {
+        savedId = await AsyncStorage.getItem(CHAT_SELECTED_ROOM_KEY);
+      } catch {
+        /* ignore */
+      }
+      const bySaved = savedId ? roomList.find((x) => x.id === savedId) : undefined;
+      const r = bySaved ?? roomList[0] ?? null;
       setRoom(r);
+      if (r && savedId !== r.id) {
+        try {
+          await AsyncStorage.setItem(CHAT_SELECTED_ROOM_KEY, r.id);
+        } catch {
+          /* ignore */
+        }
+      }
       if (r) {
         const cached = await getCachedChatMessages(r.id);
         if (cached && cached.length > 0) {
@@ -664,18 +720,73 @@ export default function ChatScreen() {
           setHasMoreOlder(cached.length >= MESSAGES_PAGE_SIZE);
           setLoading(false);
         }
-        const list = await fetchMessagesLatest(r.id, MESSAGES_PAGE_SIZE);
-        setMessages(filterBlockedMessages(list, blockedIds));
-        setHasMoreOlder(list.length >= MESSAGES_PAGE_SIZE);
-        void setCachedChatMessages(r.id, list);
-        triggerAutoScrollToBottom(800, false);
+        await loadMessagesForRoom(r, blockedIds);
       }
     } catch {
       setLoadError(true);
     } finally {
       setLoading(false);
     }
-  }, [triggerAutoScrollToBottom, user]);
+  }, [loadMessagesForRoom, user]);
+
+  const selectRoom = useCallback(
+    async (next: ChatRoom) => {
+      if (next.id === room?.id) return;
+      triggerLightImpact();
+      setRoom(next);
+      try {
+        await AsyncStorage.setItem(CHAT_SELECTED_ROOM_KEY, next.id);
+      } catch {
+        /* ignore */
+      }
+      setReplyTarget(null);
+      setContextMenu((prev) => ({ ...prev, visible: false, message: null }));
+      inputValueRef.current = '';
+      setInput('');
+      setLoadingOlder(false);
+      loadingOlderRef.current = false;
+      setLoading(true);
+      try {
+        await loadMessagesForRoom(next, blockedUserIds);
+      } finally {
+        setLoading(false);
+      }
+    },
+    [room?.id, blockedUserIds, loadMessagesForRoom]
+  );
+
+  const showRoomPicker = rooms.length > 1 && room != null;
+
+  const roomPickerBar = showRoomPicker ? (
+    <View style={s.roomPickerRow}>
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={s.roomPickerScroll}
+        accessibilityLabel={chatStr.roomPickerA11y}
+        accessibilityRole="scrollbar"
+      >
+        {rooms.map((rItem) => {
+          const label = (rItem.name || DEFAULT_ROOM_NAME).trim() || DEFAULT_ROOM_NAME;
+          const active = rItem.id === room?.id;
+          return (
+            <Pressable
+              key={rItem.id}
+              onPress={() => void selectRoom(rItem)}
+              style={({ pressed }) => [s.roomChip, active && s.roomChipActive, pressed && { opacity: 0.88 }]}
+              accessibilityRole="button"
+              accessibilityState={{ selected: active }}
+              accessibilityLabel={label}
+            >
+              <Text numberOfLines={1} style={[s.roomChipText, active && s.roomChipTextActive]}>
+                {label}
+              </Text>
+            </Pressable>
+          );
+        })}
+      </ScrollView>
+    </View>
+  ) : null;
 
   useFocusEffect(
     useCallback(() => {
@@ -1499,6 +1610,7 @@ export default function ChatScreen() {
           rightButtonA11y={chatStr.manageBlockedUsers}
           rightIconName="ellipsis-horizontal"
         />
+        {roomPickerBar}
         <View style={s.center}>
           <Text style={s.hint}>{chatStr.loginRequiredForChat}</Text>
           <Pressable
@@ -1529,6 +1641,7 @@ export default function ChatScreen() {
           rightButtonA11y={chatStr.manageBlockedUsers}
           rightIconName="ellipsis-horizontal"
         />
+        {roomPickerBar}
         <View style={s.center}>
           <Text style={s.hint}>{chatStr.chatRestricted}</Text>
           {banReason ? <Text style={s.hint}>{banReason}</Text> : null}
@@ -1555,6 +1668,8 @@ export default function ChatScreen() {
         rightButtonA11y={chatStr.manageBlockedUsers}
         rightIconName="ellipsis-horizontal"
       />
+
+      {roomPickerBar}
 
       {realtimeError && (
         <Pressable

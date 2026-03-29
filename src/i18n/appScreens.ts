@@ -197,6 +197,8 @@ export type ChatTabStrings = {
   messageInputA11y: string;
   sendA11y: string;
   chatListA11y: string;
+  /** ルーム切り替えチップ行（複数ルーム時） */
+  roomPickerA11y: string;
   scrollToBottomA11y: string;
   offlineCannotSend: string;
   /** リアルタイム接続失敗時（フォールバック） */
@@ -1428,6 +1430,7 @@ const chatJa: ChatTabStrings = {
   messageInputA11y: 'メッセージを入力',
   sendA11y: '送信',
   chatListA11y: 'チャットメッセージ一覧',
+  roomPickerA11y: 'チャットルームを選択',
   scrollToBottomA11y: '一番下へ',
   offlineCannotSend: 'オフラインのため送信できません',
   realtimeSubscribeError: '接続できませんでした。タップして再接続',
@@ -1515,6 +1518,7 @@ const chatEn: ChatTabStrings = {
   messageInputA11y: 'Message input',
   sendA11y: 'Send',
   chatListA11y: 'Chat messages',
+  roomPickerA11y: 'Select chat room',
   scrollToBottomA11y: 'Scroll to bottom',
   offlineCannotSend: 'You are offline. Connect to send.',
   realtimeSubscribeError: 'Could not connect. Tap to reconnect.',
@@ -1603,6 +1607,7 @@ const chatZh: ChatTabStrings = {
   messageInputA11y: '输入消息',
   sendA11y: '发送',
   chatListA11y: '聊天消息列表',
+  roomPickerA11y: '选择聊天室',
   scrollToBottomA11y: '滚动到底部',
   offlineCannotSend: '离线无法发送',
   realtimeSubscribeError: '连接失败，点按重试',
@@ -1690,6 +1695,7 @@ const chatVi: ChatTabStrings = {
   messageInputA11y: 'Ô nhập tin',
   sendA11y: 'Gửi',
   chatListA11y: 'Danh sách tin nhắn',
+  roomPickerA11y: 'Chọn phòng chat',
   scrollToBottomA11y: 'Cuối danh sách',
   offlineCannotSend: 'Ngoại tuyến, không gửi được',
   realtimeSubscribeError: 'Không kết nối được. Chạm để thử lại.',
@@ -1777,6 +1783,7 @@ const chatEs: ChatTabStrings = {
   messageInputA11y: 'Campo de mensaje',
   sendA11y: 'Enviar',
   chatListA11y: 'Mensajes del chat',
+  roomPickerA11y: 'Elegir sala de chat',
   scrollToBottomA11y: 'Ir al final',
   offlineCannotSend: 'Sin conexión, no se puede enviar',
   realtimeSubscribeError: 'No se pudo conectar. Toca para reintentar.',
@@ -1864,6 +1871,7 @@ const chatId: ChatTabStrings = {
   messageInputA11y: 'Input pesan',
   sendA11y: 'Kirim',
   chatListA11y: 'Daftar pesan',
+  roomPickerA11y: 'Pilih ruang chat',
   scrollToBottomA11y: 'Ke bawah',
   offlineCannotSend: 'Offline, tidak bisa kirim',
   realtimeSubscribeError: 'Tidak terhubung. Ketuk untuk coba lagi.',
@@ -1951,6 +1959,7 @@ const chatTh: ChatTabStrings = {
   messageInputA11y: 'ช่องพิมพ์ข้อความ',
   sendA11y: 'ส่ง',
   chatListA11y: 'รายการข้อความ',
+  roomPickerA11y: 'เลือกห้องแชท',
   scrollToBottomA11y: 'เลื่อนลงล่าง',
   offlineCannotSend: 'ออฟไลน์ ส่งไม่ได้',
   realtimeSubscribeError: 'เชื่อมต่อไม่ได้ แตะเพื่อลองใหม่',
