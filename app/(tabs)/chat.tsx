@@ -81,10 +81,10 @@ const CHAT_TERMS_VERSION = '2026-03-26';
 const ALWAYS_SHOW_TERMS_GATE = true;
 const ROOM_DISPLAY_LABELS: Record<string, string> = {
   日本語: 'JP🇯🇵',
-  英語: 'EN',
-  中国語: 'CN',
-  韓国語: 'KR',
-  ベトナム語: 'VI',
+  英語: 'EN🇺🇸',
+  中国語: 'CN🇨🇳',
+  韓国語: 'KR🇰🇷',
+  ベトナム語: 'VI🇻🇳',
 };
 
 type GroupPos = 'single' | 'first' | 'middle' | 'last';
